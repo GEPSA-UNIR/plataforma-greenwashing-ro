@@ -1,0 +1,84 @@
+{
+ "sapl_id": 13397,
+ "analise": {
+  "sapl_id": 13397,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Susta os efeitos do Plano de Desocupação dos Semoventes em Unidades de Conservação, especificamente Estação Ecológica Soldado da Borracha no Estado de Rondônia e dá outras providências.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "A medida proposta possui caráter cautelar e visa garantir segurança jurídica, proteção ambiental e respeito aos direitos constitucionais à propriedade e ao devido processo legal",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 2º, parágrafo único",
+     "efeito": "Autoriza o tráfego de veículos em estradas vicinais dentro da Unidade de Conservação para escoamento de exploração florestal, o que não constava no projeto original.",
+     "citacao": "Fica ainda restabelecido o tráfego das estradas vicinais que operam dentro da unidade de conservação para escoamento dos produtos da exploração dos manejos florestais das áreas circunvizinhas que dependam de sua utilização.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 5º",
+     "efeito": "Permite a abertura de novos cadastros de produtores (Sefin/Idaron) dentro da área da Unidade de Conservação, o que contradiz a proibição expressa de novos cadastros presente no Art. 8º, I do projeto original.",
+     "citacao": "Durante a suspensão de que trata este Decreto Legislativo, fica autorizada a abertura de novos cadastros de produtores na Sefin e Idaron, desde que comprovada a propriedade do imóvel.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.9,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M3_revogacao_tacita",
+   "M4_insercao_heterogenea"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'segurança jurídica' e 'proteção ambiental' (Eixo R) para sustar um plano de desocupação de uma Estação Ecológica (Unidade de Conservação de Proteção Integral). Contudo, o efeito prático (Eixo E) é o esvaziamento da proteção da unidade. Entre o projeto e a lei, houve uma piora significativa: o projeto original proibia expressamente a criação de novos cadastros (Art. 8º, I), enquanto a lei promulgada autoriza explicitamente a abertura de novos cadastros de produtores (Art. 5º). Além disso, a lei introduziu a autorização para o tráfego de veículos para escoamento de exploração florestal dentro da unidade (Art. 2º, parágrafo único), dispositivo ausente no projeto original, configurando um claro retrocesso ambiental sob o disfarce de regularização administrativa.",
+  "lacunas": [
+   "Faltou a transcrição da sessão plenária para verificar se houve debate sobre as alterações entre o projeto e a lei."
+  ],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 29765,
+  "quando": "2026-07-30T15:49:53+00:00",
+  "uso": {
+   "prompt_tokens": 10818,
+   "completion_tokens": 831,
+   "total_tokens": 11649,
+   "cost": 0.00391149,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.003951,
+    "upstream_inference_prompt_cost": 0.0027045,
+    "upstream_inference_completions_cost": 0.0012465
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

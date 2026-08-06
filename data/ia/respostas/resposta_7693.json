@@ -1,0 +1,82 @@
+{
+ "sapl_id": 7693,
+ "analise": {
+  "sapl_id": 7693,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Estabelece medidas compensatórias florestais para empreendimentos minerários localizados em área de Reserva Legal e dá outras providências.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "a proposta ora apresentada objetiva possibilitar o desenvolvimento da atividade de mineração em áreas de Reserva Legal, porém, exigindo-se do empreendedor, o cumprimento de medidas compensatórias que proporcionem um ganho ambiental",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Autoriza a mineração em áreas de Reserva Legal, que são espaços territoriais especialmente protegidos, mediante licenciamento, criando uma exceção legal para a supressão de vegetação em áreas que, por definição, deveriam ser preservadas.",
+     "citacao": "O Orgão Ambiental Estadual somente poderá autorizar a extração de substâncias minerais em área de Reserva Legal mediante prévio Processo de Licenciamento Ambiental",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 2º, § 2º",
+     "efeito": "Isenta a atividade de pesquisa mineral das medidas compensatórias, permitindo a intervenção em Reserva Legal sem a contrapartida de proteção florestal adicional.",
+     "citacao": "As medidas de caráter compensatório de que trata este artigo não são exigíveis à atividade de pesquisa mineral em área de Reserva Legal.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.85,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'ganho ambiental' e 'medidas compensatórias' para legitimar a supressão de vegetação em áreas de Reserva Legal, que são espaços protegidos por lei federal. O mecanismo de dissimulação reside no 'reframing': a lei apresenta a autorização para minerar em áreas protegidas como uma forma de 'compatibilizar' o desenvolvimento, quando, na prática, cria uma permissão legal para a degradação de áreas que deveriam ser intocáveis. \n\nEmbora o projeto e a lei sejam praticamente idênticos, a estrutura da norma é um exemplo clássico de greenwashing legislativo, pois utiliza a exigência de compensação (20% superior) para mascarar o retrocesso ambiental que é a própria autorização de mineração em Reserva Legal. A justificativa do Executivo reforça essa retórica ao alegar que a mineração possui 'rigidez locacional', tentando justificar a supressão de vegetação protegida como uma necessidade econômica inevitável, sob o manto de uma suposta proteção compensatória.",
+  "lacunas": [
+   "Não há lacunas significativas, pois o texto do projeto e da lei são idênticos, permitindo a análise da intenção legislativa e do efeito prático."
+  ],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 11774,
+  "quando": "2026-07-30T15:44:45+00:00",
+  "uso": {
+   "prompt_tokens": 5284,
+   "completion_tokens": 731,
+   "total_tokens": 6015,
+   "cost": 0.002393325,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0024175,
+    "upstream_inference_prompt_cost": 0.001321,
+    "upstream_inference_completions_cost": 0.0010965
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

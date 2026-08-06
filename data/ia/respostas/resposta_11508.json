@@ -1,0 +1,84 @@
+{
+ "sapl_id": 11508,
+ "analise": {
+  "sapl_id": 11508,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "o Projeto de Lei em pauta visa atualizar e adequar a legislação estadual à realidade do crescimento constante do agronegócio rondoniense, o que exige um maior controle do Estado para evitar contaminações do meio ambiente",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "desenvolvimento sustentável, bem como promover a defesa do meio ambiente ecologicamente equilibrado, a qual compete ao Poder Público",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 41",
+     "efeito": "Criação de anistia para produtores rurais que não devolveram embalagens vazias até 2020, enfraquecendo a fiscalização e a responsabilidade ambiental.",
+     "citacao": "Art. 41. A IDARON poderá anistiar os produtores rurais que não devolverem as embalagens vazias de agrotóxicos até o dia 31 de janeiro de 2020.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 18, incisos I a V",
+     "efeito": "Redução das distâncias mínimas de segurança para aplicação de agrotóxicos em relação a áreas sensíveis (ex: 20 metros para aeronaves remotamente pilotadas), facilitando a contaminação por deriva.",
+     "citacao": "IV - para aplicação via aeronave remotamente pilotada - ARP deverá ser respeitada a distância mínima de 20 (vinte) metros de povoações, cidades, vilas, bairros, moradias isoladas",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.9,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M4_insercao_heterogenea"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'atualização' e 'controle' (Eixo R) para justificar a revogação da lei anterior, mas na prática (Eixo E) promove um retrocesso ambiental significativo. O principal indício de dissimulação é a inserção do Art. 41 na Lei, que não constava no projeto original, concedendo anistia a produtores inadimplentes com a logística reversa de embalagens, o que desestimula o cumprimento da norma ambiental. Além disso, o Art. 18 estabelece distâncias de segurança para aplicação de agrotóxicos (especialmente para aeronaves remotamente pilotadas) que são tecnicamente questionáveis e insuficientes para evitar a deriva, configurando um retrocesso sob o pretexto de modernização técnica.\n\nA comparação entre o projeto e a lei revela que, embora o governo alegue buscar 'segurança jurídica' e 'defesa do meio ambiente', a lei final flexibiliza regras de aplicação e perdoa passivos ambientais de produtores, evidenciando que o objetivo real foi a desregulamentação em favor do setor produtivo, mascarada por uma linguagem de gestão sanitária.",
+  "lacunas": [
+   "Faltam dados sobre o impacto ambiental da redução das distâncias de segurança para aplicação de agrotóxicos em Rondônia.",
+   "Não há justificativa técnica no dossiê para a anistia concedida no Art. 41."
+  ],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 189755,
+  "quando": "2026-07-30T15:48:53+00:00",
+  "uso": {
+   "prompt_tokens": 59549,
+   "completion_tokens": 898,
+   "total_tokens": 60447,
+   "cost": 0.0160719075,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.01623425,
+    "upstream_inference_prompt_cost": 0.01488725,
+    "upstream_inference_completions_cost": 0.001347
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

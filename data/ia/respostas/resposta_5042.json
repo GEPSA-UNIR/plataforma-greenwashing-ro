@@ -1,0 +1,70 @@
+{
+ "sapl_id": 5042,
+ "analise": {
+  "sapl_id": 5042,
+  "eixo_retorica": {
+   "nivel": "nenhuma",
+   "citacoes": [
+    {
+     "citacao": "Revoga o Decreto nº 4.568, de 23 de março de 1990, que dispõe sobre a criação, no Município de Cerejeiras, da Floresta Estadual Extrativista de Laranjeiras",
+     "secao": "## Ementa"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Extinção direta de uma Unidade de Conservação (Floresta Estadual Extrativista) com 30.688 hectares.",
+     "citacao": "Fica revogado o Decreto nº 4.568, de 23 de março de 1990, que dispõe sobre a criação , no Município de Cerejeiras, da Floresta Estadual Extrativista de Laranjeiras, com área aproximada de 30.688,00ha",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.1,
+  "mecanismos": [],
+  "justificativa": "A norma não apresenta características de greenwashing, pois não utiliza retórica de proteção ambiental para disfarçar o retrocesso. Pelo contrário, o Poder Executivo justifica a revogação da Unidade de Conservação (UC) de forma direta, baseando-se em estudos técnicos do Zoneamento Sócio Econômico e Ecológico que teriam concluído pela 'exclusão da unidade de conservação em baila'. A justificativa do projeto é clara ao admitir que o objetivo é a supressão da área protegida.\n\nO efeito prático é o retrocesso ambiental transparente: a extinção de uma Floresta Estadual Extrativista de mais de 30 mil hectares. Não houve alteração significativa entre o projeto original e a lei promulgada, mantendo-se a revogação integral do decreto de criação. A norma é um exemplo de desconstituição de proteção ambiental por via legislativa, sem o uso de dissimulação retórica.",
+  "lacunas": [
+   "Ausência de acesso aos estudos técnicos mencionados na justificativa do projeto que embasaram a exclusão da unidade de conservação."
+  ],
+  "confianca": 1.0
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9369,
+  "quando": "2026-07-30T15:41:58+00:00",
+  "uso": {
+   "prompt_tokens": 4946,
+   "completion_tokens": 611,
+   "total_tokens": 5557,
+   "cost": 0.00213147,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.002153,
+    "upstream_inference_prompt_cost": 0.0012365,
+    "upstream_inference_completions_cost": 0.0009165
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

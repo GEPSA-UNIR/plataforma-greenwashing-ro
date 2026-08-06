@@ -1,0 +1,72 @@
+{
+ "sapl_id": 11891,
+ "analise": {
+  "sapl_id": 11891,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Autoriza o Poder Executivo a realizar a renúncia de receitas de taxas e multas estaduais dos 766 veículos e sucatas, a serem alienados por meio de Licitação Pública na modalidade de Leilão de bens considerados inservíveis para o Serviço Público e de recuperação antieconômica.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 2º",
+     "efeito": "Isenta veículos e sucatas de taxas e multas estaduais até a data da venda, visando desonerar o patrimônio público para viabilizar o leilão de bens inservíveis.",
+     "citacao": "Todos os veículos e sucatas de que trata o art. 1° desta Lei ficam isentos do pagamento de taxas, multas estaduais, licenciamentos, seguro obrigatório e taxa de vistoria do Corpo de Bombeiros, até a data da venda dos respectivos bens",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "nao_ambiental",
+  "score_greenwashing": 0.1,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma possui natureza estritamente administrativa e patrimonial, tratando da alienação de bens móveis inservíveis da frota estadual. Embora a Secretaria de Estado do Desenvolvimento Ambiental (SEDAM) figure na lista de órgãos cujos veículos serão leiloados, a lei não estabelece diretrizes, políticas ou impactos ambientais, limitando-se a autorizar a renúncia de receitas de taxas e multas para facilitar a venda de sucatas e veículos antigos.\n\nO enquadramento como 'não_ambiental' justifica-se pelo fato de a norma ser um ato de gestão de frota pública. A menção à SEDAM é meramente incidental, decorrente da necessidade de incluir todos os órgãos estaduais na autorização de leilão. Não há elementos de greenwashing, pois a retórica da norma é transparente quanto ao seu objetivo de desburocratizar a alienação de bens inservíveis.",
+  "lacunas": [
+   "Faltou o texto do projeto original para comparar se houve alterações significativas na tramitação, embora a nota taquigráfica indique apenas ajustes de técnica legislativa."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 88008,
+  "quando": "2026-07-30T15:49:16+00:00",
+  "uso": {
+   "prompt_tokens": 55822,
+   "completion_tokens": 640,
+   "total_tokens": 56462,
+   "cost": 0.014766345,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0149155,
+    "upstream_inference_prompt_cost": 0.0139555,
+    "upstream_inference_completions_cost": 0.00096
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

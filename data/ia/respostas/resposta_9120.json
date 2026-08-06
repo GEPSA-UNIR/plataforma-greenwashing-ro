@@ -1,0 +1,77 @@
+{
+ "sapl_id": 9120,
+ "analise": {
+  "sapl_id": 9120,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Institui a Política Estadual de Educação Ambiental e dá outras providências.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "É salutar o cuidado com a política da educação ambiental, tendo em vista ser uma temática que alcança a todos e que se desenvolve de forma articulada, em todos os níveis e modalidades do processo educativo, em caráter formal e não formal.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 13 e Art. 14",
+     "efeito": "Atribui a coordenação da educação ambiental formal aos mantenedores das instituições de ensino e a não formal ao órgão gestor ambiental, sem prever orçamento próprio ou sanções.",
+     "citacao": "A coordenação da Política Estadual de Educação Ambiental Formal ficará a cargo dos mantenedores das Instituições Educacionais. [...] A coordenação da Política Estadual de Educação Ambiental Não Formal ficará a cargo do Órgão Gestor do desenvolvimento ambiental no Estado.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.3,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma possui forte retórica de proteção ambiental, apresentando-se como um marco para a educação ambiental no estado. Contudo, o efeito prático é limitado, pois a lei estabelece diretrizes e princípios sem criar mecanismos de execução, orçamento ou sanções para o descumprimento das metas. O uso de verbos como 'incentivará' (Art. 12) e a delegação da responsabilidade de coordenação para mantenedores de instituições de ensino e órgãos ambientais, sem dotação orçamentária específica, caracteriza a norma como programática e vazia.\n\nNão foram identificadas alterações significativas entre o projeto original e a lei promulgada que indiquem retrocesso ou contrabando legislativo (jabutis). A norma limita-se a replicar princípios da legislação federal (Lei 9.795/1999) sem inovar na proteção efetiva do meio ambiente em Rondônia, funcionando mais como uma declaração de intenções do que como um instrumento de gestão ambiental eficaz.",
+  "lacunas": [
+   "Ausência de previsão orçamentária específica para a implementação das ações previstas.",
+   "Ausência de metas quantitativas ou prazos para a execução das políticas de educação ambiental."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 34313,
+  "quando": "2026-07-30T15:47:14+00:00",
+  "uso": {
+   "prompt_tokens": 10418,
+   "completion_tokens": 678,
+   "total_tokens": 11096,
+   "cost": 0.003585285,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0036215,
+    "upstream_inference_prompt_cost": 0.0026045,
+    "upstream_inference_completions_cost": 0.001017
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

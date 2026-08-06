@@ -1,0 +1,68 @@
+{
+ "sapl_id": 7234,
+ "analise": {
+  "sapl_id": 7234,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "AUTORIZA O PODER EXECUTIVO A TRANSFERIR, MEDIANTE DOAÇÃO, IMÓVEL PERTENCENTE AO ESTADO DE RONDÔNIA PARA O INSTITUTO DE MEIO AMBIENTE E DOS RECURSOS NATURAIS - IBAMA.",
+     "secao": "## Ementa"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 2º",
+     "efeito": "Estabelece cláusula de reversão do bem ao patrimônio estadual caso a finalidade de abrigar a sede do IBAMA seja desvirtuada, garantindo a manutenção do uso institucional.",
+     "citacao": "O imóvel de que trata o artigo 1º desta Lei, destina-se, exclusivamente, para abrigar a sede da Superintendência Estadual do Instituto Brasileiro de Meio Ambiente e dos Recursos Naturais -IBAMA, não podendo ser vendido, nem desviada sua finalidade, sob pena de reversão do bem ao Patrimônio do Estado",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "nao_ambiental",
+  "score_greenwashing": 0.0,
+  "mecanismos": [],
+  "justificativa": "A norma trata exclusivamente de uma operação administrativa de transferência de patrimônio imobiliário do Estado de Rondônia para o IBAMA. Embora o donatário seja um órgão ambiental, a lei não institui políticas, programas ou regulações de proteção ambiental, limitando-se a regularizar a ocupação de um imóvel já utilizado pelo referido órgão.\n\nNão foram identificados mecanismos de dissimulação ou retrocesso. A comparação entre o projeto original e a lei promulgada não revela alterações substanciais, mantendo-se a cláusula de reversão que protege o interesse público sobre o bem doado. A norma é de natureza puramente administrativa/patrimonial, não possuindo impacto direto na proteção ou degradação do meio ambiente.",
+  "lacunas": [],
+  "confianca": 1.0
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 6287,
+  "quando": "2026-07-30T15:43:55+00:00",
+  "uso": {
+   "prompt_tokens": 3941,
+   "completion_tokens": 486,
+   "total_tokens": 4427,
+   "cost": 0.0016971075,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00171425,
+    "upstream_inference_prompt_cost": 0.00098525,
+    "upstream_inference_completions_cost": 0.000729
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

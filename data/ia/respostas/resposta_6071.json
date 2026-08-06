@@ -1,0 +1,83 @@
+{
+ "sapl_id": 6071,
+ "analise": {
+  "sapl_id": 6071,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Institui normas e procedimentos para a reciclagem e destinação final de eletrodomésticos e produtos eletroeletrônicos considerados como lixo tecnológico, no âmbito do Estado de Rondônia.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Dessa forma, com a finalidade de estabelecer norma específica no Estado de Rondônia para a destinação adequada daquilo que se caracteriza como lixo tecnológico, é que propomos o presente projeto de lei",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º, parágrafo único",
+     "efeito": "Estabelece responsabilidade solidária entre produtores, importadores e comerciantes, mantendo a lógica de logística reversa.",
+     "citacao": "A responsabilidade pela destinação final é solidária entre as empresas que produzem, importam e/ou comercializem produtos e componentes eletroeletrônicos.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 6º",
+     "efeito": "Delega a fiscalização e a aplicação de penalidades a legislações específicas preexistentes, sem criar mecanismos próprios de sanção ou orçamento.",
+     "citacao": "Compete ao Poder Público a fiscalização para o fiel cumprimento desta Lei e a aplicação, em caso de seu descumprimento, das penalidades previstas na legislação especifica de dano à saúde pública ou ao meio ambiente.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.4,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma apresenta uma retórica forte de proteção ambiental, justificando-se pela necessidade de evitar contaminação por metais pesados e resíduos tóxicos. Contudo, ao analisar o efeito prático, a lei é predominantemente simbólica. Ela não estabelece metas, prazos, orçamento ou um órgão específico responsável pela implementação da logística reversa, limitando-se a delegar a fiscalização e as sanções para 'legislação específica' (Art. 6º). \n\nNão houve alterações significativas entre o projeto original e a lei promulgada que indicassem retrocesso ou contrabando legislativo (jabutis). A norma funciona como uma declaração de intenções que repete princípios da Política Nacional de Resíduos Sólidos sem criar mecanismos estaduais autônomos de efetivação, enquadrando-se no mecanismo de norma programática vazia.",
+  "lacunas": [
+   "Ausência de dados sobre a existência de regulamentação infralegal posterior que tenha dado efetividade aos pontos de coleta.",
+   "Falta de informações sobre a estrutura orçamentária destinada à fiscalização mencionada no Art. 6º."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 15477,
+  "quando": "2026-07-30T15:43:06+00:00",
+  "uso": {
+   "prompt_tokens": 5998,
+   "completion_tokens": 772,
+   "total_tokens": 6770,
+   "cost": 0.002630925,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0026575,
+    "upstream_inference_prompt_cost": 0.0014995,
+    "upstream_inference_completions_cost": 0.001158
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

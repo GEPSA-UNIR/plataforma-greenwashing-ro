@@ -1,0 +1,72 @@
+{
+ "sapl_id": 8272,
+ "analise": {
+  "sapl_id": 8272,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Mais uma vez o Poder Executivo está extrapolando e mais uma vez esta Casa está sendo obrigada através deste Projeto de Decreto Legislativo, a sustar Decretos do Governador do Estado, por exorbitar do Poder Regulamentar.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Susta os efeitos do Decreto nº 22.683/2018, que criava a Reserva de Fauna Pau D'Óleo, extinguindo a proteção ambiental conferida pela unidade de conservação.",
+     "citacao": "Fica sustado, nos termos do inciso XIX do artigo 29 da Constituição Estadual, os efeitos do Decreto nº 22.683, de 20 de março de 2018, que \"Dispõe sobre a criação da Reserva de Fauna Pau D\" Óleo, no Município de São Francisco do Guaporé, no Estado de Rondônia, e dá outras providências\"",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "O Decreto Legislativo nº 800/2018 promove o retrocesso ambiental ao sustar a criação da Reserva de Fauna Pau D'Óleo. A justificativa apresentada pelos parlamentares utiliza o argumento de 'exorbitância do poder regulamentar' e a ausência de consulta pública para enquadrar a medida como uma defesa da legalidade e do papel do Legislativo (M2_reframing_de_regressao), ocultando o efeito prático de supressão de uma unidade de conservação recém-criada. \n\nA norma não apresenta dissimulação complexa, pois o efeito de revogação da proteção é explícito e imediato. O contexto da votação, que aprovou simultaneamente outros nove decretos legislativos com o mesmo teor de sustação de unidades de conservação, reforça que a medida faz parte de um movimento coordenado de desconstituição de áreas protegidas no estado de Rondônia, sob o pretexto de vício formal na criação das mesmas pelo Executivo.",
+  "lacunas": [
+   "Faltam informações sobre a efetividade dos estudos técnicos que embasaram os decretos originais do Executivo para verificar a veracidade da alegação de vício formal."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9101,
+  "quando": "2026-07-30T15:46:12+00:00",
+  "uso": {
+   "prompt_tokens": 5163,
+   "completion_tokens": 681,
+   "total_tokens": 5844,
+   "cost": 0.0022891275,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00231225,
+    "upstream_inference_prompt_cost": 0.00129075,
+    "upstream_inference_completions_cost": 0.0010215
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "sapl_id": 5424,
+ "analise": {
+  "sapl_id": 5424,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "ACRESCENTA PARÁGRAFOS AO ARTIGO 1° DA LEI N° 890, DE ABRIL DE 2000, QUE TRATA DOS PROCEDIMENTOS VINCULADOS À ELABORAÇÃO, ANÁLISE E APROVAÇÃO DE ESTUDO DE IMPACTO AMBIENTAL - EIA E RELATÓRIO DE IMPACTO AMBIENTAL - RIMA.",
+     "secao": "## Ementa"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "§ 4º do art. 1º",
+     "efeito": "Submete o licenciamento ambiental e atividades poluidoras à autorização legislativa, retirando a autonomia técnica do órgão ambiental.",
+     "citacao": "Além do Estudo de Impacto Ambiental EIA e do Relatório de Impacto Am biental -RIMA, as concessões dos licenciamentos de que trata o capuí deste artigo de pendem de préviaautorização legislativa",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "§ 6º do art. 1º",
+     "efeito": "Condiciona a desafetação de áreas à interveniência do Legislativo e reserva 50% das compensações ambientais para definição pelo Poder Legislativo, politizando a gestão de recursos de compensação.",
+     "citacao": "sendo que a aplicação de 50 % (cimquenta por cento) do montante das compensações será definido pelo Poder Legislativo",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de aprimoramento dos procedimentos de licenciamento ambiental (EIA/RIMA) para, na prática, instituir um mecanismo de controle político sobre o licenciamento técnico. Ao exigir 'prévia autorização legislativa' para atividades poluidoras (§ 4º) e determinar que 50% das compensações ambientais sejam definidas pelo Poder Legislativo (§ 6º), a lei retira a discricionariedade técnica do órgão ambiental e submete a proteção ambiental a interesses parlamentares, configurando um retrocesso institucional disfarçado de rigor procedimental.\n\nO dossiê não apresenta o texto original do projeto de lei, impossibilitando a comparação entre a proposta inicial e a lei promulgada. Contudo, a natureza dos dispositivos, que transferem competências de gestão ambiental para o Legislativo, sugere uma tentativa de captura política do processo de licenciamento, o que é corroborado pelo fato de a norma ter sido posteriormente suspensa pelo Decreto Legislativo nº 602/2015.",
+  "lacunas": [
+   "Ausência do texto original do Projeto de Lei (PL 144/2011) para comparação com a lei promulgada.",
+   "Ausência de justificativa do autor no dossiê para compreender a intenção declarada da norma."
+  ],
+  "confianca": 0.85
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 4416,
+  "quando": "2026-07-30T15:42:25+00:00",
+  "uso": {
+   "prompt_tokens": 3417,
+   "completion_tokens": 677,
+   "total_tokens": 4094,
+   "cost": 0.0018510525,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00186975,
+    "upstream_inference_prompt_cost": 0.00085425,
+    "upstream_inference_completions_cost": 0.0010155
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

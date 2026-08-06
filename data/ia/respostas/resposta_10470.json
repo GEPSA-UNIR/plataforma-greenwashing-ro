@@ -1,0 +1,84 @@
+{
+ "sapl_id": 10470,
+ "analise": {
+  "sapl_id": 10470,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Dispõe sobre os critérios a serem aplicados no manejo de passeriformes da fauna silvestre como animais de estimação, para todas as etapas de criação, manutenção, treinamento, transporte, transferência, exposição, aquisição, guarda, depósito, utilização e realização de torneios no Estado de Rondônia, vislumbrando a cultura manejo e criação e características peculiares da região norte.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "O presente Projeto de Lei pretende, usando a prerrogativa legal que esta Casa Legislativa possui para legislar sobre a matéria, disciplinar a criação amadorista e comercial dos passeriformes da fauna brasileira no Estado de Rondônia, mas principalmente como política de gestão das atividades de manejo e uso sustentável dessas espécies da fauna nativa de origem silvestre desenvolvidas por criadores amadores e criadores comerciais.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 54",
+     "efeito": "Permite que criadores amadores atuem como fiéis depositários de aves apreendidas, criando um conflito de interesses e risco de manutenção de animais em locais que já foram alvo de fiscalização.",
+     "citacao": "O órgão competente poderá cadastrar Criadores Amadores de Passeriformes interessados como fiéis depositários, para o depósito de pássaros apreendidos até a destinação final a ser realizada após todo o trâmite do processo.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 45, § 6º",
+     "efeito": "Autoriza a comercialização de aves durante torneios, o que facilita a venda de espécimes em ambientes de aglomeração, dificultando a fiscalização da origem legal dos animais.",
+     "citacao": "A critério dos organizadores, os criadores comerciais de passeriformes poderão expor à venda, no local dos eventos, o produto de sua respectiva criação acompanhados de respectiva nota fiscal original de saída ou trânsito.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'gestão' e 'uso sustentável' para legitimar a criação e comercialização de passeriformes, enquadrando a atividade como uma preservação cultural da região Norte. No entanto, o efeito prático é a facilitação da exploração comercial da fauna silvestre. A lei transfere responsabilidades de fiscalização e guarda para os próprios criadores (como no caso do fiel depositário, Art. 54), o que fragiliza o controle estatal sobre o tráfico e a manutenção irregular de aves.\n\nAlém disso, a norma institucionaliza a venda de animais em torneios (Art. 45, § 6º), um ambiente historicamente associado a riscos de tráfico e maus-tratos, sob o pretexto de 'organização' e 'modernização'. A comparação entre o projeto e a lei mostra que a estrutura foi mantida, consolidando um sistema que prioriza o interesse dos criadores e associações em detrimento da proteção efetiva da fauna silvestre, configurando um caso de greenwashing legislativo.",
+  "lacunas": [
+   "Faltam dados sobre o impacto real da fiscalização estadual após a promulgação da lei.",
+   "Não há informações sobre a capacidade técnica da SEDAM para gerir o volume de criadores mencionados na justificativa."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 126285,
+  "quando": "2026-07-30T15:48:23+00:00",
+  "uso": {
+   "prompt_tokens": 35203,
+   "completion_tokens": 940,
+   "total_tokens": 36143,
+   "cost": 0.0101086425,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.01021075,
+    "upstream_inference_prompt_cost": 0.00880075,
+    "upstream_inference_completions_cost": 0.00141
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

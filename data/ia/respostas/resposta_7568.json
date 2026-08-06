@@ -1,0 +1,83 @@
+{
+ "sapl_id": 7568,
+ "analise": {
+  "sapl_id": 7568,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "o presente Projeto de Lei Complementar tem por objetivo, tão somente, dar cumprimento ao Acórdão proferido pelo Tribunal de Justiça do Estado de Rondônia",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "a propositura em comento possibilitará que, havendo a necessidade extraordinária de serviço, os servidores possam ser designados, provisoriamente, para atuarem em qualquer setor da estrutura organizacional.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "misto",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 22-B",
+     "efeito": "Centraliza a competência de fiscalização ambiental em servidores designados por portaria do Secretário, retirando a exclusividade de servidores de carreira ou com atribuições específicas de fiscalização.",
+     "citacao": "São autoridades competentes para exercer atividades de fiscalização e lavrar autos de infração ambiental os servidores à disposição da Secretaria de Estado do Desenvolvimento Ambiental designados, por Portaria do Secretário de Estado, para desempenharem atividades de fiscalização.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 22-C",
+     "efeito": "Substitui a gestão técnica da Diretoria de Autos de Infração por Procuradores do Estado, alterando a natureza da condução dos processos administrativos sancionadores.",
+     "citacao": "As funções de Diretor e Subdiretor da Diretoria de Autos de Infração da Secretaria de Estado do Desenvolvimento Ambiental, ou as que vierem a substituí-las, serão exercidas por Procuradores do Estado, de carreira",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.4,
+  "mecanismos": [
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma apresenta-se como um ajuste administrativo para cumprimento de decisão judicial (Eixo R), mas introduz alterações estruturais na SEDAM que fragilizam a autonomia técnica da fiscalização. O Art. 22-B permite que qualquer servidor à disposição da Secretaria, independentemente de concurso ou especialização, seja designado por portaria para lavrar autos de infração, o que configura uma delegação desregulamentadora (M5) que pode comprometer a qualidade e a segurança jurídica dos atos de fiscalização ambiental.\n\nAdicionalmente, a norma altera a gestão da Diretoria de Autos de Infração, transferindo-a para Procuradores do Estado (Art. 22-C). Embora o governo alegue eficiência, a medida retira a gestão direta de técnicos ambientais da área sancionadora. Não foram identificadas alterações significativas entre o projeto original e a lei promulgada, indicando que a estrutura de 'jabutis' ou mudanças de última hora não ocorreu, mantendo-se a proposta original do Executivo.",
+  "lacunas": [
+   "Ausência de dados sobre o impacto prático da designação de servidores não especializados para a fiscalização ambiental.",
+   "Falta de informações sobre a eficácia da gestão por Procuradores do Estado na celeridade dos processos de infração ambiental."
+  ],
+  "confianca": 0.8
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 41207,
+  "quando": "2026-07-30T15:44:26+00:00",
+  "uso": {
+   "prompt_tokens": 15069,
+   "completion_tokens": 829,
+   "total_tokens": 15898,
+   "cost": 0.0049606425,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00501075,
+    "upstream_inference_prompt_cost": 0.00376725,
+    "upstream_inference_completions_cost": 0.0012435
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

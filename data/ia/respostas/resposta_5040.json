@@ -1,0 +1,78 @@
+{
+ "sapl_id": 5040,
+ "analise": {
+  "sapl_id": 5040,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Com os novos procedimentos relativos aos estudos ambientais levados a cabo por equipe de técnicos envolvidos, concluíram pela exclusão da unidade de conservação em baila.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Extinção direta de unidade de conservação (Parque Estadual de Candeias).",
+     "citacao": "Fica revogado o Decreto nº 4.572, de 23 de março de 1990, que dispõe sobre a criação, no Município de Porto Velho, do Parque Estadual do Candeias",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 2º",
+     "efeito": "Extinção de uma segunda unidade de conservação (Reserva Estadual do Rio Vermelho D) não prevista no projeto original.",
+     "citacao": "Fica revogado o Decreto nº 4.610, de 10 de abril de 1990, que dispõe sobre a criação da Reserva Estadual do Rio Vermelho D, com área aproximada de 173.843ha",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M4_insercao_heterogenea"
+  ],
+  "justificativa": "A norma configura um retrocesso ambiental direto ao extinguir unidades de conservação estaduais. O projeto original limitava-se à revogação do Parque Estadual de Candeias, sob a justificativa técnica de adequação ao Zoneamento Socioeconômico-Ecológico. Contudo, a Lei Complementar nº 587/2010, em sua versão final, incluiu o Art. 2º, que revogou também a Reserva Estadual do Rio Vermelho D, com uma área expressiva de 173.843 hectares, sem que essa medida constasse no projeto original apresentado pelo Executivo.\n\nO uso do mecanismo M4 (inserção heterogênea/jabuti) é evidente, pois a inclusão de uma segunda unidade de conservação no texto final da lei, sem tramitação prévia no projeto, amplia o impacto negativo da norma de forma opaca. Embora a justificativa do projeto tente enquadrar a medida como uma atualização técnica (reframing), a supressão de áreas protegidas sem a criação de compensações ou novas áreas equivalentes caracteriza um retrocesso transparente na proteção ambiental do estado.",
+  "lacunas": [
+   "Ausência de transcrição das discussões em plenário que expliquem a inclusão do Art. 2º durante a tramitação."
+  ],
+  "confianca": 1.0
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 14514,
+  "quando": "2026-07-30T15:41:48+00:00",
+  "uso": {
+   "prompt_tokens": 6869,
+   "completion_tokens": 721,
+   "total_tokens": 7590,
+   "cost": 0.0027707625,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00279875,
+    "upstream_inference_prompt_cost": 0.00171725,
+    "upstream_inference_completions_cost": 0.0010815
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

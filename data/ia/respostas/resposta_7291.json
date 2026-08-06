@@ -1,0 +1,84 @@
+{
+ "sapl_id": 7291,
+ "analise": {
+  "sapl_id": 7291,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Tendo como objetivo o desenvolvimento sustentável, esta Lei atenderá aos seguintes princípios: Constituição Federativa do Brasil de 1988, nos artigos que tratam sobre posse de imóveis rurais",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "O Plano de Manejo de que trata esta Lei, tem como finalidade implementar no Estado de Rondônia o desenvolvimento sustentável contemplando as pequenas propriedades e áreas de posses rurais.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 3º",
+     "efeito": "Flexibiliza a comprovação de direito sobre a terra para fins de manejo florestal, permitindo que a posse seja comprovada apenas por 'ocupação direta, mansa e pacifica', sem exigir documentação formal de regularização fundiária.",
+     "citacao": "no caso de posse rural, por meio da ocupação direta, mansa e pacifica.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 6º, VI",
+     "efeito": "Permite que o Plano de Manejo comunitário ultrapasse o limite de 240 hectares (4 módulos fiscais), criando uma exceção que pode facilitar a exploração florestal em áreas extensas sob o rótulo de manejo comunitário.",
+     "citacao": "nos casos de associação, cooperativas ou entidades similares, o Plano de Manejo comunitário, poderá ser na área total do projeto, ultrapassar o tamanho de área de pequena propriedade conforme definido no artigo 2º desta Lei",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.85,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'desenvolvimento sustentável' e proteção às pequenas propriedades para, na prática, flexibilizar exigências de regularidade fundiária para a exploração de planos de manejo florestal. Ao equiparar a simples alegação de 'ocupação mansa e pacífica' à comprovação documental de direito sobre a terra (Art. 3º), a lei reduz o rigor do controle estatal sobre quem pode explorar recursos florestais em áreas de posse.\n\nAdicionalmente, a lei utiliza o mecanismo de reframing ao apresentar a simplificação documental como um apoio ao pequeno produtor, enquanto abre brechas para que projetos comunitários superem os limites de área estabelecidos para pequenas propriedades (Art. 6º, VI). A norma se enquadra como greenwashing pois utiliza o discurso de sustentabilidade e apoio social para desburocratizar o acesso ao manejo florestal em áreas de posse, fragilizando o controle ambiental sobre a exploração madeireira.",
+  "lacunas": [
+   "Ausência de detalhamento sobre os procedimentos simplificados de análise e aprovação mencionados na justificativa do projeto.",
+   "Falta de clareza sobre como a SEDAM regulamentará as reservas extrativistas mencionadas no Art. 8º."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 12466,
+  "quando": "2026-07-30T15:44:07+00:00",
+  "uso": {
+   "prompt_tokens": 5769,
+   "completion_tokens": 769,
+   "total_tokens": 6538,
+   "cost": 0.0025697925,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00259575,
+    "upstream_inference_prompt_cost": 0.00144225,
+    "upstream_inference_completions_cost": 0.0011535
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

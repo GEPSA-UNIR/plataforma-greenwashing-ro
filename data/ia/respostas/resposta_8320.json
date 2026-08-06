@@ -1,0 +1,83 @@
+{
+ "sapl_id": 8320,
+ "analise": {
+  "sapl_id": 8320,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "para conformação do lago artificial da barragem da Usina Hidrelétrica de Santo Antônio e otimização da geração do potencial elétrico.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "o mesmo deve orientar-se pela harmonização da realização da atividade de interesse público, bem como a produção do menor impacto social e ambiental possíveis à consecução de suas finalidades, em preservação de recursos às gerações futuras.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º, 5º e 7º (alterações na LC 633/2011)",
+     "efeito": "Exclusão de áreas de Unidades de Conservação (Estação Ecológica Serra Três Irmãos, Floresta Estadual do Rio Vermelho e Reserva Extrativista Jacy-Paraná) para acomodar o remanso do reservatório da UHE Santo Antônio.",
+     "citacao": "Ficam excluídas da Estação Ecológica Estadual Serra Três Irmãos [...] três áreas no total de 853,6251 hectares",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 3º",
+     "efeito": "Declaração de utilidade pública para fins de desapropriação das áreas excluídas das UCs.",
+     "citacao": "As terras e benfeitorias localizadas dentro das áreas mencionadas nos Parágrafos dos artigos 1º, 5º e 7º, da Lei Complementar nº 633, de 2011, ficam declaradas de utilidade pública e são passíveis de desapropriação.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma é um exemplo claro de retrocesso ambiental transparente, onde o Estado de Rondônia formaliza a redução territorial de quatro Unidades de Conservação (UCs) para atender à expansão do reservatório da UHE Santo Antônio. A retórica utilizada pelo Poder Executivo na justificativa do projeto tenta enquadrar a medida como uma 'otimização' e 'conformação' técnica, alegando que os impactos seriam 'mínimos' e 'insignificantes' (M2_reframing_de_regressao). No entanto, o efeito prático é a supressão direta de áreas protegidas, consolidando a perda de território dessas UCs.\n\nNão se trata de greenwashing, pois a norma não dissimula o seu objetivo: a exclusão de áreas de proteção ambiental para fins de infraestrutura energética é declarada explicitamente na ementa e nos artigos. A comparação entre o projeto original e a lei promulgada não revela alterações substanciais nos dispositivos de exclusão, indicando que o texto foi aprovado conforme a intenção original do Executivo. A norma utiliza a linguagem de 'utilidade pública' para legitimar a desapropriação de terras dentro de espaços que deveriam ser preservados, priorizando a geração de energia sobre a integridade das UCs.",
+  "lacunas": [
+   "Ausência de estudos técnicos independentes que comprovem a 'insignificância' do impacto ambiental alegada na justificativa do projeto.",
+   "Falta de informações sobre as medidas compensatórias ambientais que deveriam acompanhar a redução das UCs."
+  ],
+  "confianca": 1.0
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 86809,
+  "quando": "2026-07-30T15:46:30+00:00",
+  "uso": {
+   "prompt_tokens": 35075,
+   "completion_tokens": 872,
+   "total_tokens": 35947,
+   "cost": 0.0099759825,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.01007675,
+    "upstream_inference_prompt_cost": 0.00876875,
+    "upstream_inference_completions_cost": 0.001308
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

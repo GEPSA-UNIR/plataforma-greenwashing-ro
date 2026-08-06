@@ -1,0 +1,87 @@
+{
+ "sapl_id": 9119,
+ "analise": {
+  "sapl_id": 9119,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Estabelece critérios para a exigência de estudo de impacto ambiental e respectivo relatório do impacto sobre o meio ambiente - EIA/RIMA e revoga a Lei no 890, de 24 de abril de 2000.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Ressalto, que o presente Projeto de Lei tem por objetivo tão somente dar concretude ao citado dispositivo constitucional, exigindo que o órgão ambiental verifique, caso a caso, se a atividade ou empreendimento é potencialmente causador de significativa degradação do meio ambiente",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "Isso simplifica a liberação do licenciamento ambiental muito rápido, acabando com a burocracia. É exatamente isso que tem que acontecer no Estado.",
+     "secao": "## Transcrição da sessão plenária"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 3º",
+     "efeito": "Permite ao órgão ambiental definir discricionariamente 'estudos ambientais pertinentes' em substituição ao EIA/RIMA, sem critérios técnicos objetivos definidos em lei, facilitando a dispensa do estudo mais rigoroso.",
+     "citacao": "O Órgão Ambiental Estadual, verificando que a atividade ou empreendimento não é potencialmente causador de significativa degradação do meio ambiente, definirá assim os estudos ambientais pertinentes ao respectivo processo de licenciamento ambiental.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 4º",
+     "efeito": "Revogação da Lei nº 890/2000, que estabelecia procedimentos específicos de licenciamento, sem que a nova norma apresente critérios técnicos ou parâmetros objetivos para a substituição do EIA/RIMA.",
+     "citacao": "Fica revogada a Lei nº 890, de 24 de abril de 2000.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.9,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'dar concretude' à Constituição e 'simplificar' o licenciamento para justificar a revogação da Lei nº 890/2000. O discurso parlamentar na transcrição da sessão plenária revela que o objetivo real é a desburocratização acelerada para viabilizar obras de infraestrutura (portos), enquadrando a redução de exigências ambientais como um avanço necessário. \n\nO efeito prático é a delegação de poder discricionário ao órgão ambiental (Art. 3º) para definir estudos ambientais sem balizas legais claras, o que, na prática, permite a substituição do EIA/RIMA por estudos menos rigorosos. Não houve alteração entre o projeto e a lei, indicando que a estratégia de desregulamentação foi mantida integralmente pelo Executivo e chancelada pelo Legislativo sob o pretexto de modernização.",
+  "lacunas": [
+   "Faltam detalhes sobre quais seriam os 'estudos ambientais pertinentes' mencionados no Art. 3º, uma vez que a lei não define critérios técnicos para essa substituição."
+  ],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 12403,
+  "quando": "2026-07-30T15:47:11+00:00",
+  "uso": {
+   "prompt_tokens": 5733,
+   "completion_tokens": 900,
+   "total_tokens": 6633,
+   "cost": 0.0027554175,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00278325,
+    "upstream_inference_prompt_cost": 0.00143325,
+    "upstream_inference_completions_cost": 0.00135
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

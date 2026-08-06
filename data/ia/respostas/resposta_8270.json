@@ -1,0 +1,72 @@
+{
+ "sapl_id": 8270,
+ "analise": {
+  "sapl_id": 8270,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Mais uma vez o Poder Executivo está extrapolando e mais uma vez esta Casa está sendo obrigada através deste Projeto de Decreto Legislativo, a sustar Decretos do Governador do Estado, por exorbitar do Poder Regulamentar.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Susta os efeitos do Decreto nº 22.684/2018, que criava o Parque Estadual Abaitará, extinguindo a proteção ambiental da área.",
+     "citacao": "Fica sustado, nos termos do inciso XIX do artigo 29 da Constituição Estadual, os efeitos do Decreto nº 22.684, de 20 de março de 2018, que \"Dispõe sobre a criação do Parque Estadual Abaitará, no Município de Pimenta Bueno, no Estado de Rondônia, e dá outras providências\"",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "O Decreto Legislativo nº 798/2018 promove um retrocesso ambiental direto ao sustar os efeitos de um decreto do Executivo que criava o Parque Estadual Abaitará. A justificativa apresentada pelos autores no projeto utiliza o argumento de 'exorbitância do poder regulamentar' e a necessidade de 'crivo do Poder Legislativo' (M2_reframing_de_regressao) para deslegitimar a criação da unidade de conservação. \n\nNão se trata de greenwashing, pois a norma não se apresenta como protetora do meio ambiente, mas sim como um ato de controle político sobre o Executivo. O impacto prático é a supressão imediata de uma área protegida. A análise é reforçada pelo fato de que este decreto faz parte de um conjunto de 10 normas aprovadas na mesma sessão, todas com o objetivo idêntico de sustar a criação de diversas unidades de conservação, evidenciando uma ação coordenada de desmonte da política estadual de áreas protegidas.",
+  "lacunas": [
+   "Faltam informações sobre os estudos técnicos que embasaram o decreto original do Executivo para verificar a veracidade da alegação de ausência de consulta pública."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 8139,
+  "quando": "2026-07-30T15:46:03+00:00",
+  "uso": {
+   "prompt_tokens": 4825,
+   "completion_tokens": 669,
+   "total_tokens": 5494,
+   "cost": 0.0021876525,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00220975,
+    "upstream_inference_prompt_cost": 0.00120625,
+    "upstream_inference_completions_cost": 0.0010035
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

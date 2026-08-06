@@ -1,0 +1,84 @@
+{
+ "sapl_id": 8294,
+ "analise": {
+  "sapl_id": 8294,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "O presente projeto não tem o condão de negligenciar as duas grandezas acima descritas. Pelo contrário, almeja conciliar o desenvolvimento econômico do perímetro urbano com o direito ao sossego",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "DISPÕE SOBRE SONS E RUÍDOS, FIXA NÍVEIS E HORÁRIOS EM QUE SERÁ PERMITIDA SUA EMISSÃO, E DÁ OUTRAS PROVIDÊNCIAS.",
+     "secao": "## Ementa"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 3º, §1º",
+     "efeito": "Cria uma margem de tolerância de 30% sobre os limites de decibéis, o que na prática eleva o teto permitido e dificulta a caracterização da infração.",
+     "citacao": "admite-se variação superior à máxima acima indicada de até 30% (trinta por cento), de modo a conferir fidedignidade à medição.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 7º",
+     "efeito": "Cria uma exceção ampla e subjetiva para festas e manifestações, retirando-as do controle de limites de ruído da lei.",
+     "citacao": "Às festas tradicionais, folclóricas e populares, bem como as manifestações culturais, religiosas, não será aplicado o limite desta Lei",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de proteção ao 'meio ambiente ecologicamente equilibrado' e 'direito ao sossego' para justificar a criação de um regime de controle de poluição sonora. Contudo, o efeito prático é o enfraquecimento da proteção ambiental através de mecanismos de dissimulação. O Art. 3º, §1º, introduz uma margem de tolerância de 30% sobre os limites de decibéis, o que desnatura o próprio conceito de limite máximo, permitindo níveis de ruído superiores aos tecnicamente estabelecidos sob o pretexto de 'fidedignidade'.\n\nAdicionalmente, o Art. 7º cria uma zona de exclusão ampla para festas e manifestações, retirando-as da fiscalização sem critérios objetivos de controle, o que configura um retrocesso na proteção do sossego público. A norma apresenta-se como um avanço na 'segurança jurídica' e 'conciliação econômica', mas na prática desregula a fiscalização ao permitir que a medição seja contestada por uma margem de erro elevada e ao abrir exceções que esvaziam a eficácia da norma em eventos de grande impacto sonoro.",
+  "lacunas": [
+   "Ausência de regulamentação técnica específica sobre como a margem de 30% será aplicada na prática pelos fiscais.",
+   "Falta de definição clara sobre o que constitui 'festas tradicionais' ou 'manifestações culturais' para fins de isenção no Art. 7º."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 22569,
+  "quando": "2026-07-30T15:46:21+00:00",
+  "uso": {
+   "prompt_tokens": 8205,
+   "completion_tokens": 880,
+   "total_tokens": 9085,
+   "cost": 0.0033375375,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00337125,
+    "upstream_inference_prompt_cost": 0.00205125,
+    "upstream_inference_completions_cost": 0.00132
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

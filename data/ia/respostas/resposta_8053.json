@@ -1,0 +1,85 @@
+{
+ "sapl_id": 8053,
+ "analise": {
+  "sapl_id": 8053,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "A atividade econômica agropecuária constitui na atualidade a mais importante fonte de riquezas para o Estado de Rondônia, tanto na geração de empregos, quanto na arrecadação de tributos.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "Ressalta-se ainda que a produção de grãos/Projeto Agrícola é de baixo Potencial Poluidor, e os confinamentos de bovinos, de médio potencial poluidor, na avaliação da Lei n. 3.686/15.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º, § 1º",
+     "efeito": "Concede moratória de 5 anos para a obtenção de licenciamento ambiental para atividades de alto impacto potencial, postergando a fiscalização e o controle estatal.",
+     "citacao": "Fica concedido o prazo de 5 (cinco) anos, a contar da data de publicação desta Lei, para que os produtores rurais de grãos [...] e para que os bovinocultores que tenham criação de bovinos confinados [...] atendam a exigência legal de providenciarem, na Secretaria de Estado do Desenvolvimento Ambiental -SEDAM, as respectivas Licenças Ambientais",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 1º, § 2º",
+     "efeito": "Valida licenças para empreendimentos de grande porte (acima de 1.000 hectares) e em zonas de amortecimento de Unidades de Conservação, áreas que exigem maior rigor, sob o mesmo regime de flexibilização.",
+     "citacao": "As Licenças Ambientais emitidas pela Secretaria de Estado do Desenvolvimento Ambiental -SEDAM [...] são aplicadas inclusive para os empreendimentos que possuam áreas superiores a 1.000 (mil) he tares e/ou que estejam situados em zona de amortecimento de áreas de Unidades d onservação.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.9,
+  "mecanismos": [
+   "M1_norma_programatica_vazia",
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'desburocratização' e 'apoio à economia' para justificar a suspensão da exigência de licenciamento ambiental por cinco anos para atividades de produção de grãos e confinamento bovino. O Eixo R (retórica) foca na importância econômica e na suposta baixa periculosidade das atividades, enquanto o Eixo E (efeito) concretiza um retrocesso ao desobrigar produtores de obterem licenças ambientais, inclusive em áreas sensíveis como zonas de amortecimento de Unidades de Conservação e grandes latifúndios (acima de 1.000 hectares).",
+  "lacunas": [
+   "Ausência de dados sobre a capacidade técnica da SEDAM para fiscalizar o cumprimento das normas durante o período de moratória.",
+   "Falta de estudos de impacto ambiental que fundamentem a dispensa de licenciamento para áreas de amortecimento de Unidades de Conservação."
+  ],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9239,
+  "quando": "2026-07-30T15:45:16+00:00",
+  "uso": {
+   "prompt_tokens": 5106,
+   "completion_tokens": 830,
+   "total_tokens": 5936,
+   "cost": 0.002496285,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0025215,
+    "upstream_inference_prompt_cost": 0.0012765,
+    "upstream_inference_completions_cost": 0.001245
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

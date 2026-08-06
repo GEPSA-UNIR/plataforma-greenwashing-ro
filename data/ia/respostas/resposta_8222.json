@@ -1,0 +1,72 @@
+{
+ "sapl_id": 8222,
+ "analise": {
+  "sapl_id": 8222,
+  "eixo_retorica": {
+   "nivel": "nenhuma",
+   "citacoes": [
+    {
+     "citacao": "Altera dispositivo da Lei nº 1.841, de 28 de dezembro de 2007, que \"Dispõe sobre produção, comercialização, transporte, armazenamento e uso de agrotóxicos, seus componentes e afins no Estado de Rondônia e revoga a Lei nº 1.017, de 20 de novembro de 2001, e dá outras providências.\"",
+     "secao": "## Ementa"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º, § 1º, incisos VIII e IX",
+     "efeito": "Supressão de taxas de fiscalização sobre a importação de agrotóxicos que constavam no projeto original.",
+     "citacao": "VIII -guia de autorização de importação de agrotóxicos -1 UPF/RO até 100 1 ou Kg -acima acrescentar 0,5m UPF/RO a cada 50L ou Kg até o limite de 10 UPF*s/RO; e IX -revalidação da Guia de Autorização de Importação de Agrotóxicos e Afins -1 UPF/RO por guia.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M3_revogacao_tacita"
+  ],
+  "justificativa": "A norma, embora apresentada como uma atualização de taxas, promove um retrocesso ao suprimir, no texto final da lei, as taxas de fiscalização para importação de agrotóxicos que estavam previstas no projeto original (incisos VIII e IX do § 1º do art. 19). A ausência dessas taxas na lei promulgada, comparada ao projeto, configura uma desoneração de atividades de controle ambiental sobre substâncias potencialmente perigosas. Não há retórica ambiental na ementa ou no projeto, tratando-se de uma alteração de natureza administrativa e tributária que, ao remover custos de fiscalização, enfraquece o controle estatal sobre a entrada de agrotóxicos no estado.",
+  "lacunas": [
+   "Ausência de justificativa técnica ou exposição de motivos detalhada para a exclusão dos incisos VIII e IX durante a tramitação legislativa."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 8673,
+  "quando": "2026-07-30T15:45:24+00:00",
+  "uso": {
+   "prompt_tokens": 5042,
+   "completion_tokens": 651,
+   "total_tokens": 5693,
+   "cost": 0.00221463,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.002237,
+    "upstream_inference_prompt_cost": 0.0012605,
+    "upstream_inference_completions_cost": 0.0009765
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

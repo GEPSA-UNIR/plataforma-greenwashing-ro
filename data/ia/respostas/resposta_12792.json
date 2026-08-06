@@ -1,0 +1,83 @@
+{
+ "sapl_id": 12792,
+ "analise": {
+  "sapl_id": 12792,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "com o objetivo de promover a regularização ambiental dos imóveis rurais com passivos ambientais relativos às Áreas de Preservação Permanente, de Reserva Legal e de Uso Restrito.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "A proposta busca reconhecer, com responsabilidade socioambiental, a realidade fundiária e produtiva do Estado de Rondônia, oferecendo segurança jurídica aos produtores rurais",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 73-A, inciso VII, alínea 'd'",
+     "efeito": "Amplia o conceito de uso consolidado para incluir áreas em regime de pousio, facilitando a regularização de supressões vegetais pretéritas.",
+     "citacao": "d) áreas com atividade agrossilvipastoril implantada até 22/07/2003 e em regime de pousio em 22/07/2008 será considerada consolidada.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 73-A, inciso X, alínea 'a'",
+     "efeito": "Permite a conversão de pastagem natural remanescente em uso agrícola, o que pode resultar em perda de biodiversidade em áreas que não foram efetivamente convertidas antes de 2008.",
+     "citacao": "a) conversão de pastagem natural remanescente em uso pecuário, com a finalidade de implantação de atividades agrícolas;",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'regularização ambiental' e 'segurança jurídica' para, na prática, flexibilizar o conceito de uso consolidado. Ao incluir áreas em regime de pousio (Art. 73-A, VII, 'd') e permitir a conversão de pastagens naturais remanescentes (Art. 73-A, X, 'a'), a lei cria brechas para a supressão de vegetação nativa que, sob a legislação federal estrita, não estaria necessariamente consolidada. O veto aos dispositivos do Art. 74-A, que tratavam da regeneração e limpeza de vegetação, sugere uma tentativa de evitar o controle estatal sobre áreas que deveriam estar em processo de recuperação, configurando um retrocesso disfarçado de adequação normativa.",
+  "lacunas": [
+   "Não há informações sobre o impacto ambiental quantitativo da conversão de pastagens naturais remanescentes em Rondônia.",
+   "O dossiê não detalha as razões técnicas dos vetos aos dispositivos do Art. 74-A."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 15486,
+  "quando": "2026-07-30T15:49:40+00:00",
+  "uso": {
+   "prompt_tokens": 6805,
+   "completion_tokens": 786,
+   "total_tokens": 7591,
+   "cost": 0.0028514475,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00288025,
+    "upstream_inference_prompt_cost": 0.00170125,
+    "upstream_inference_completions_cost": 0.001179
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

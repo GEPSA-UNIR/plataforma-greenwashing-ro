@@ -1,0 +1,84 @@
+{
+ "sapl_id": 5711,
+ "analise": {
+  "sapl_id": 5711,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Estabelece requisitos mínimos para a criação de estâncias no Estado de Rondônia.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "A estância deve oferecer condições para o lazer, dentro do seguinte padrão mínimo indispensável de atendimento e salubridade ambiental",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "misto",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 13",
+     "efeito": "Criação de uma estância específica por meio de lei, sem passar pelo processo de certificação técnica exigido para as demais.",
+     "citacao": "Fica transformado em estância turística o Município de Ouro Preto D'Oeste.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 11 e Art. 12",
+     "efeito": "Estabelece prazo de validade para a certificação e vincula o fomento à urbanização, conferindo maior operacionalidade à norma.",
+     "citacao": "O processo de certificação das estâncias será emitido pela SETUR com validade de 4 (quatro) anos. Art. 12. A SETUR promoverá o fomento de urbanização e melhoria das estâncias.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.4,
+  "mecanismos": [
+   "M1_norma_programatica_vazia",
+   "M4_insercao_heterogenea"
+  ],
+  "justificativa": "A norma apresenta uma retórica de proteção ambiental e ordenamento territorial ao exigir padrões de salubridade (Art. 4º) para a concessão do título de 'estância'. Contudo, a inclusão do Art. 13 na lei promulgada, que não constava no projeto original, configura um mecanismo de inserção heterogênea (jabuti), ao conceder o status de estância turística ao Município de Ouro Preto D'Oeste por decreto legislativo direto, contornando os requisitos técnicos e ambientais que a própria lei estabelece para os demais municípios. \n\nEmbora a lei tente criar um arcabouço de certificação, ela permanece em grande parte simbólica (M1), pois delega a definição dos processos preparatórios e normas técnicas a um regulamento futuro (Art. 10), sem estabelecer sanções claras para a perda da qualidade ambiental ou mecanismos de fiscalização contínua, limitando-se a prever um prazo de validade para a certificação (Art. 11).",
+  "lacunas": [
+   "Ausência de regulamentação específica sobre como a SETUR fiscalizará a manutenção dos padrões de salubridade ambiental após a concessão do título.",
+   "Falta de clareza sobre os critérios técnicos que justificaram a transformação direta do Município de Ouro Preto D'Oeste em estância turística sem o parecer técnico prévio."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 16561,
+  "quando": "2026-07-30T15:42:54+00:00",
+  "uso": {
+   "prompt_tokens": 6299,
+   "completion_tokens": 798,
+   "total_tokens": 7097,
+   "cost": 0.0027440325,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00277175,
+    "upstream_inference_prompt_cost": 0.00157475,
+    "upstream_inference_completions_cost": 0.001197
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

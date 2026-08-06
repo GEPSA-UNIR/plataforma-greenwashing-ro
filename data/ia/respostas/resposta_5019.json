@@ -1,0 +1,85 @@
+{
+ "sapl_id": 5019,
+ "analise": {
+  "sapl_id": 5019,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Cria Área de Proteção Ambiental do Rio Pardo – APA RIO PARDO e a Floresta Estadual Rio Pardo – FES- RIO PARDO",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "na necessidade de salvaguardar os atributos ambientais do Estado, bem como da eminente necessidade de solucionar-se os impasses sócio ambiental estabelecido na Floresta Nacional do Bom Futuro com o máximo de justiça social e conservação da biodiversidade.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 4º",
+     "efeito": "Revogação de quatro decretos anteriores que criavam unidades de conservação (Floresta de Rendimento Sustentado do Rio Madeira, Rio Vermelho A e B, e Estação Ecológica Antônio Mugica Nava), extinguindo proteções preexistentes.",
+     "citacao": "Ficam revogados os seguintes Decretos: I— Decretos nº 4574, de 23 de março de 1990... II — Decreto nº 4581, de 28 de março de 1990... III — Decreto nº 4582, de 28 de março de 1990... IV — Decreto nº 7635, de 7 de novembro de 1996",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 6º",
+     "efeito": "Exclusão de área do Parque Nacional Mapinguari para viabilizar a inundação por barragem de usina hidrelétrica, configurando retrocesso ambiental direto.",
+     "citacao": "Fica excluida do Parque Nacional Mapinguarí a área do poligno descrito no artigo 116, da Lei Federal nº 12.249, de 11 de junho de 2010, que será inundada pelo lago artificial a ser formado pela barragem da Usina Hidroeletrica de Jirau",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.9,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M3_revogacao_tacita",
+   "M4_insercao_heterogenea"
+  ],
+  "justificativa": "A norma utiliza uma retórica de criação de novas unidades de conservação (APA e Floresta Estadual do Rio Pardo) para dissimular um conjunto de medidas de desproteção ambiental. O projeto foi apresentado e aprovado em regime de urgência em apenas um dia, evidenciando a natureza de 'pacote' legislativo. O eixo de efeito é claramente de enfraquecimento, pois a lei revoga quatro decretos de proteção ambiental preexistentes (Art. 4º) e autoriza a supressão de área de um Parque Nacional (Art. 6º) para atender a interesses de infraestrutura (Usina de Jirau).\n\nA comparação entre o projeto original e a lei promulgada revela que o texto permaneceu praticamente idêntico, confirmando que o objetivo central da norma, desde a sua concepção pelo Executivo, era a reconfiguração territorial em detrimento da conservação. A menção à 'conservação da biodiversidade' na justificativa do projeto contrasta frontalmente com a supressão de áreas protegidas, caracterizando o greenwashing legislativo.",
+  "lacunas": [
+   "Ausência de registros de votação nominal ou pareceres técnicos que detalhem o impacto da revogação dos decretos de 1990 e 1996.",
+   "Falta de informações sobre a compensação ambiental efetiva para as áreas suprimidas do Parque Nacional Mapinguari."
+  ],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 30076,
+  "quando": "2026-07-30T15:41:40+00:00",
+  "uso": {
+   "prompt_tokens": 12782,
+   "completion_tokens": 909,
+   "total_tokens": 13691,
+   "cost": 0.00451341,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.004559,
+    "upstream_inference_prompt_cost": 0.0031955,
+    "upstream_inference_completions_cost": 0.0013635
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "sapl_id": 8268,
+ "analise": {
+  "sapl_id": 8268,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Susta os efeitos do Decreto nº 22.680, de 20 de março de 2018, que \"Dispõe sobre a área de Proteção Ambiental do Rio Pardo, criada pela Lei Complementar Estadual nº 581, de 30 de junho de 2010, e dá outras providências\"",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Mais uma vez o Poder Executivo está extrapolando e mais uma vez esta Casa está sendo obrigada através deste Projeto de Decreto Legislativo, a sustar Decretos do Governador do Estado, por exorbitar do Poder Regulamentar.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Susta os efeitos de decreto que regulamentava a Área de Proteção Ambiental (APA) do Rio Pardo, retirando a eficácia de normas de gestão e proteção da unidade.",
+     "citacao": "Fica sustado, nos termos do inciso XIX do artigo 29 da Constituição Estadual, os efeitos do Decreto nº 22.680, de 20 de março de 2018",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M3_revogacao_tacita"
+  ],
+  "justificativa": "A norma opera um retrocesso ambiental ao sustar os efeitos de um decreto do Poder Executivo que visava regulamentar a Área de Proteção Ambiental (APA) do Rio Pardo. A justificativa apresentada pelos parlamentares no projeto utiliza uma retórica de defesa da legalidade e do devido processo legislativo (alegando falta de consulta pública e estudos técnicos), mas o efeito prático é a desproteção imediata da unidade de conservação, ao anular as regras de gestão estabelecidas pelo Executivo. \n\nO Decreto Legislativo 796/2018 faz parte de um conjunto de 10 normas aprovadas na mesma sessão, todas com o objetivo de sustar decretos de criação ou regulamentação de diversas unidades de conservação no estado de Rondônia. Não houve alterações significativas entre o projeto e a lei promulgada, mantendo-se o objetivo de esvaziar a proteção ambiental das áreas mencionadas sob o argumento de competência legislativa.",
+  "lacunas": [
+   "Ausência de informações sobre o conteúdo técnico do Decreto nº 22.680/2018 sustado, o que permitiria avaliar se a sustação foi um ato de controle de legalidade ou um esvaziamento deliberado de proteção ambiental."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 8815,
+  "quando": "2026-07-30T15:45:55+00:00",
+  "uso": {
+   "prompt_tokens": 5080,
+   "completion_tokens": 634,
+   "total_tokens": 5714,
+   "cost": 0.00219879,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.002221,
+    "upstream_inference_prompt_cost": 0.00127,
+    "upstream_inference_completions_cost": 0.000951
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

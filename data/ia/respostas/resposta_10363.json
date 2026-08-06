@@ -1,0 +1,77 @@
+{
+ "sapl_id": 10363,
+ "analise": {
+  "sapl_id": 10363,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Institui a bacia hidrográfica como unidade territorial de planejamento do licenciamento ambiental, no Estado de Rondônia.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Assim a propositura em espeque faz com que os instrumentos de proteção ambiental sejam mais efetivos e coordenados.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "indeterminado",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Estabelece a bacia hidrográfica como unidade de planejamento para licenciamento, mas não define como essa integração ocorrerá na prática administrativa ou normativa.",
+     "citacao": "A bacia hidrográfica será adotada como unidade físico-territorial de planejamento para análise e decisão sobre os processos de licenciamento ambiental, em conformidade com o âmbito de atuação de comitês de bacia, no âmbito do estado de Rondônia.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.4,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma apresenta uma retórica de fortalecimento da gestão ambiental ao propor a bacia hidrográfica como unidade de planejamento. Contudo, o texto legal é extremamente genérico e carece de mecanismos operacionais, prazos, dotação orçamentária ou sanções, configurando-se como uma norma programática vazia (M1). Não há qualquer alteração entre o projeto original e a lei promulgada, o que reforça a ausência de um debate técnico sobre a implementação prática da medida.\n\nA justificativa do autor alega que a medida permitiria uma 'atuação mais qualificada dos conselheiros dos comitês de bacia', mas a lei não estabelece como essa articulação entre o licenciamento ambiental e os comitês de bacia será efetivada, nem altera as competências das Unidades Regionais Colegiadas. Por não criar obrigações concretas ou alterar o rito do licenciamento de forma verificável, a norma possui caráter predominantemente simbólico, servindo mais à retórica de gestão ambiental do que à alteração efetiva do nível de proteção.",
+  "lacunas": [
+   "Ausência de regulamentação ou decreto que defina como a bacia hidrográfica será integrada aos sistemas de licenciamento existentes.",
+   "Falta de clareza sobre a hierarquia decisória entre os comitês de bacia e os órgãos ambientais estaduais."
+  ],
+  "confianca": 0.8
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 5746,
+  "quando": "2026-07-30T15:48:13+00:00",
+  "uso": {
+   "prompt_tokens": 3833,
+   "completion_tokens": 608,
+   "total_tokens": 4441,
+   "cost": 0.0018515475,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00187025,
+    "upstream_inference_prompt_cost": 0.00095825,
+    "upstream_inference_completions_cost": 0.000912
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

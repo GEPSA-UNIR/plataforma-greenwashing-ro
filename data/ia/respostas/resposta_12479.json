@@ -1,0 +1,76 @@
+{
+ "sapl_id": 12479,
+ "analise": {
+  "sapl_id": 12479,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "A presente proposta de lei visa revogar integralmente os termos da Lei Ordinária nº 5.883, de 1º de outubro de 2024, a qual dispõe sobre sanções a serem aplicadas em virtude da reponsabilidade pela ocorrência de incêndios e queimadas e dá outras providências, vez que embora a nobre intenção de proteger o meio ambiente e a saúde pública, a norma enfrenta sérios obstáculos para sua efetiva implementação.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "A revogação deve ser vista como um passo para a construção de uma política pública inháda/ com as novas exigências do combate aos incêndios e queimadas, s\"do meio ambiente e promovendo o desenvolvimento sustentável.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Revogação integral de norma que estabelecia sanções para incêndios e queimadas, eliminando o arcabouço sancionatório estadual específico.",
+     "citacao": "Fica revogada a Lei nº 5.883, de 1º de outubro de 2024.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.3,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma configura um retrocesso transparente, pois revoga integralmente uma legislação sancionatória ambiental (Lei nº 5.883/2024) sob o argumento de que a norma anterior era ineficaz e que a revogação seria um 'passo para a construção de uma política pública' mais eficiente. Embora a justificativa do projeto utilize retórica de proteção ambiental e desenvolvimento sustentável, o efeito prático é a supressão de mecanismos de punição para incêndios e queimadas no estado.\n\nOs parlamentares, durante a sessão plenária, admitiram que a revogação atende a demandas de produtores rurais que se sentiam prejudicados pela norma anterior, conforme afirmou o Deputado Cirone Deiró: 'nós estamos aqui nesta tarde, propondo, de forma coletiva, todos os 24 deputados estaduais, em conjunto, a revogação dessa lei que prejudica os nossos produtores'. Não houve inserção de norma substitutiva ou medida compensatória, caracterizando a revogação como uma desregulamentação direta do controle de queimadas.",
+  "lacunas": [
+   "O dossiê não apresenta o conteúdo detalhado da Lei nº 5.883/2024 revogada, apenas sua ementa, o que limita a análise da extensão exata do retrocesso em termos de sanções perdidas."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 19943,
+  "quando": "2026-07-30T15:49:32+00:00",
+  "uso": {
+   "prompt_tokens": 8776,
+   "completion_tokens": 774,
+   "total_tokens": 9550,
+   "cost": 0.00332145,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.003355,
+    "upstream_inference_prompt_cost": 0.002194,
+    "upstream_inference_completions_cost": 0.001161
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

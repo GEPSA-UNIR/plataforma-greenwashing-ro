@@ -1,0 +1,109 @@
+{
+ "_meta": {
+  "gerado_em": "2026-07-27T11:34:16+00:00",
+  "gerador": "gerar_ficha_norma.py v1.2",
+  "banco": "PostgreSQL gwashing (espelho da coleta do SAPL-ALERO)",
+  "legendas_vinculo": "dicionário oficial via API",
+  "verificacao_api": "não executada (use --verificar-api)"
+ },
+ "identificacao": {
+  "sapl_id": 13318,
+  "tipo": "Lei ordinária",
+  "numero": "6269",
+  "ano": 2025,
+  "data": "2025-11-24",
+  "data_publicacao": "2025-11-24",
+  "data_vigencia": null,
+  "veiculo_publicacao": "D.O.E. nº 221",
+  "esfera_federacao": "Estadual",
+  "ementa": "Dispõe sobre a não caracterização de Áreas de Preservação Permanentes – APPs em determinadas situações envolvendo corpos d’água artificiais e naturais no âmbito do Estado de Rondônia, e dá outras providências.",
+  "indexacao": null,
+  "observacao": null,
+  "url_sapl": "https://sapl.al.ro.leg.br/norma/13318",
+  "_fonte": "tabela normas (coleta SAPL)"
+ },
+ "origem": {
+  "tem_materia": true,
+  "materia_sapl_id": 49315,
+  "descricao": "Projeto de Lei Ordinária nº 1019 de 2025",
+  "numero": 1019,
+  "ano": 2025,
+  "data_apresentacao": "2025-08-19",
+  "texto_original_url": "http://sapl.al.ro.leg.br/media/sapl/public/materialegislativa/2025/49315/pl_1019-25.pdf",
+  "url_sapl": "https://sapl.al.ro.leg.br/materia/49315",
+  "autores": [],
+  "_fonte": "tabelas materias + autorias (coleta SAPL)",
+  "aviso": "matéria sem autoria registrada no banco (~10% dos casos)"
+ },
+ "relacoes": {
+  "ativas": [],
+  "passivas": [],
+  "correlatas": [],
+  "_definicao": "1 salto, como a página da norma no SAPL; rótulos oficiais da API de tipos de vínculo; normalizações do build_grafo_vinculos",
+  "ativas_inferidas": [],
+  "passivas_inferidas": []
+ },
+ "constitucionalidade": {
+  "declarada_inconstitucional": false,
+  "abrangencia": null,
+  "registro": null,
+  "_fonte": "vinculos_norma tipos 12/13 (self-loop normalizado)",
+  "anexos_adi": []
+ },
+ "situacao_derivada": {
+  "valor": "vigente (presumida)",
+  "regra": "derivada dos vínculos passivos (revogação 2/3, suspensão 10/11) e da inconstitucionalidade (12/13); 'vigente (presumida)' = ausência desses sinais, NÃO verificação positiva de vigência",
+  "_fonte": "derivado (não é campo do SAPL)"
+ },
+ "linha_do_tempo": [
+  {
+   "data": "2025-08-19",
+   "evento": "apresentação do PL",
+   "detalhe": "Projeto de Lei Ordinária nº 1019 de 2025",
+   "_fonte": "materias.data_apresentacao"
+  },
+  {
+   "data": "2025-11-24",
+   "evento": "promulgação/publicação",
+   "detalhe": "Lei ordinária nº 6269, de 2025",
+   "nota": null,
+   "_fonte": "normas.data"
+  }
+ ],
+ "anexos": [],
+ "acessorios_da_materia": {
+  "disponivel": true,
+  "itens": [
+   {
+    "nome": "em Plenário",
+    "categoria": "transcricao_plenario",
+    "data": "2025-11-05",
+    "autor": "Deputado Laerte Gomes",
+    "ementa": null,
+    "arquivo_url": "http://sapl.al.ro.leg.br/media/sapl/public/documentoacessorio/2025/6884/pl_1019.2025.docx"
+   }
+  ],
+  "_fonte": "documentos_acessorios (via matéria; nomes livres do SAPL)"
+ },
+ "textos": {
+  "lei": {
+   "url": null,
+   "documento": null,
+   "_fonte": "normas.texto_integral_url + tabela documentos",
+   "aviso": "texto da lei ainda não extraído"
+  },
+  "pl": {
+   "documento": null,
+   "_fonte": "tabela documentos (fonte=texto_original)",
+   "aviso": "texto do PL ainda não extraído (só a URL na matéria)"
+  }
+ },
+ "alertas": [],
+ "lacunas_desta_versao": [
+  "votação nominal: não incluída nesta versão",
+  "data da decisão da ADI: não existe no dado estruturado do SAPL (apenas no PDF do anexo)",
+  "vigência: `data_vigencia` é vazia no SAPL — situação é DERIVADA dos vínculos, não verificada",
+  "vínculos INFERIDOS são heurísticos (citações com ano na ementa; aspas aninhadas ignoradas) — conferir no texto antes de afirmar",
+  "caminhada transitiva (vínculos dos vínculos): não incluída — a ficha é 1 salto"
+ ]
+}

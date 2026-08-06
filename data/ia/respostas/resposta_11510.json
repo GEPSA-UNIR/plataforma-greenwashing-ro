@@ -1,0 +1,84 @@
+{
+ "sapl_id": 11510,
+ "analise": {
+  "sapl_id": 11510,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Implanta no Estado de Rondônia, o Programa Permanente de Regularização Ambiental – PPRA, com o objetivo de promover a regularização ambiental dos imóveis rurais com passivos ambientais relativos às Áreas de Preservação Permanente, de Reserva Legal e de Uso Restrito.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "O presente PLC — Projeto de Lei Complementar, visa basicamente, atualizar o Decreto nº 20.627/2016 do Governo do Estado de Rondônia, atendendo a inúmeras reivindicações de entidades de produtores rurais. O PLC foi concebido, considerando a necessidade de regularização ambiental dos imóveis rurais do Estado de Rondônia.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 78",
+     "efeito": "Revogação de norma anterior que tratava do Zoneamento Socioeconômico Ecológico (ZSEE), esvaziando o arcabouço de planejamento territorial.",
+     "citacao": "Fica revogada a Lei Complementar nº 892, de 4 de julho de 2016, que inseriu o artigo 31-A, à Lei Complementar nº 233, de 6 de junho de 2000, que dispõe sobre o Zoneamento Socioeconômico Ecológico do Estado de Rondônia - ZSEE.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 73 a 76 (VETADOS)",
+     "efeito": "A lei promulgada vetou dispositivos que facilitavam a regularização fundiária e a dispensa de responsabilidade técnica (RT) para invasores, mas a manutenção da estrutura do PPRA mantém a lógica de desregulamentação.",
+     "citacao": "Art. 76. VETADO. Parágrafo único. VETADO.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M1_norma_programatica_vazia",
+   "M2_reframing_de_regressao",
+   "M3_revogacao_tacita"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'regularização ambiental' (Eixo R) para instituir um programa que, na prática, serve como instrumento de flexibilização do cumprimento de obrigações ambientais. O uso do termo 'permanente' na ementa mascara o fato de que a lei cria um regime de exceção para passivos ambientais, alinhando-se a interesses de produtores rurais citados na justificativa do projeto. \n\nO efeito prático (Eixo E) é o enfraquecimento da proteção, notadamente pela revogação de dispositivos do Zoneamento Socioeconômico Ecológico (Art. 78), o que fragiliza o ordenamento territorial do estado. Embora o Poder Executivo tenha vetado artigos que explicitamente dispensavam Responsabilidade Técnica para invasores (Art. 76), a estrutura da lei permanece focada em facilitar a adesão ao CAR e ao Termo de Compromisso como forma de suspender sanções, sem garantir a efetiva restauração ecológica, configurando um mecanismo de dissimulação (M2 e M3).",
+  "lacunas": [
+   "Faltam dados sobre o impacto orçamentário e a capacidade operacional da SEDAM para fiscalizar os Termos de Compromisso firmados sob a nova lei."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 81373,
+  "quando": "2026-07-30T15:48:59+00:00",
+  "uso": {
+   "prompt_tokens": 25027,
+   "completion_tokens": 938,
+   "total_tokens": 25965,
+   "cost": 0.0075871125,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00766375,
+    "upstream_inference_prompt_cost": 0.00625675,
+    "upstream_inference_completions_cost": 0.001407
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

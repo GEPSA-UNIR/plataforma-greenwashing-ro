@@ -1,0 +1,84 @@
+{
+ "sapl_id": 8567,
+ "analise": {
+  "sapl_id": 8567,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "DISPÕE SOBRE OS CRITÉRIOS A SEREM APLICADOS NO MANEJO DE PASSERIFORMES DA FAUNA SILVESTRE, COMO ANIMAIS DE ESTIMAÇÃO... EM RESPEITO À CULTURA DE MANEJO E CRIAÇÃO DA REGIÃO NORTE.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "A Constituição Federal trata, em seu artigo 225, inciso VII, da obrigatoriedade de proteção e preservação das espécies da fauna brasileira, vedando qualquer prática que provoque extinção de espécies ou que submeta os animais à crueldade de qualquer forma.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º, § 3º",
+     "efeito": "Estabelece a prevalência da norma estadual sobre as normas federais do IBAMA, criando um regime de controle paralelo e potencialmente menos rigoroso.",
+     "citacao": "Os sistemas de controle adotados pelo IBAMA em todo o País serão apenas os que não entrarem em conflito com a presente lei, sendo a presente Lei de controle especifico e abrangência no Estado de Rondônia",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 5º, § 6º",
+     "efeito": "Exclui aves com anilhas abertas da contabilização do limite de plantel, permitindo a manutenção de estoques de aves de origem duvidosa sem restrição quantitativa.",
+     "citacao": "As aves indicadas no § 5º não serão consideradas na contabilização do limite do plantel, bem como as aves de anilhas abertas.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.85,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de proteção ambiental e respeito à cultura regional para, na prática, criar um sistema de controle estadual (SEDAM) que se sobrepõe às diretrizes federais do IBAMA. O Art. 1º, § 3º, ao determinar que apenas as normas federais que não conflitem com a lei estadual serão aplicadas, fragiliza a unidade da política nacional de fauna. Além disso, a lei institucionaliza a manutenção de aves com 'anilhas abertas' (geralmente associadas a estoques antigos de origem não comprovada) ao excluí-las do limite de plantel (Art. 5º, § 6º), o que incentiva a permanência de espécimes sem rastreabilidade legal.\n\nO projeto original e a lei promulgada são praticamente idênticos, indicando que a estratégia de desregulamentação foi desenhada desde a proposição. A norma se enquadra como greenwashing pois, sob o pretexto de 'manejo' e 'criação', ela cria um ambiente jurídico favorável à manutenção de plantéis de origem incerta e transfere a fiscalização para um órgão estadual que, pela própria estrutura da lei, é instado a priorizar a 'viabilidade do empreendimento' em detrimento da proteção estrita da fauna silvestre.",
+  "lacunas": [
+   "Ausência de dados sobre a capacidade técnica e orçamentária da SEDAM para assumir as competências delegadas pelo IBAMA.",
+   "Falta de clareza sobre como a 'prevalência' da lei estadual será operacionalizada frente ao poder de polícia do IBAMA."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 128904,
+  "quando": "2026-07-30T15:46:53+00:00",
+  "uso": {
+   "prompt_tokens": 36350,
+   "completion_tokens": 949,
+   "total_tokens": 37299,
+   "cost": 0.01040589,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.010511,
+    "upstream_inference_prompt_cost": 0.0090875,
+    "upstream_inference_completions_cost": 0.0014235
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

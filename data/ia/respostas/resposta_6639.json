@@ -1,0 +1,77 @@
+{
+ "sapl_id": 6639,
+ "analise": {
+  "sapl_id": 6639,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "estabelecer normas para garantir a proteção das unidades de conservação localizadas em áreas estratégicas e que estão sujeitas a abertura e instalação de vias automotivas denominadas estrada-parque, e que visam a redução dos impactos ambientais",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "citacao": "a presente propositura pressupõe a defesa dos direitos dos cidadãos em usufruir meio ambiente ecologicamente equilibrado",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 3º, § 1º, I",
+     "efeito": "Permite a instalação de estradas em Unidades de Conservação de Proteção Integral (exceto Reservas Biológicas) sob o pretexto de 'relevante interesse estratégico', o que flexibiliza a restrição de uso indireto típica dessas áreas.",
+     "citacao": "nas Unidades de Conservação de Proteção Integral, exceto em Reservas Biológicas, a estradaparque somente poderá ser instalada para atender situações de relevante interesse estratégico para o Estado",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M4_insercao_heterogenea"
+  ],
+  "justificativa": "A norma utiliza uma retórica de proteção ambiental e desenvolvimento sustentável para legitimar a abertura de vias automotivas dentro de Unidades de Conservação (UCs). O mecanismo de dissimulação é evidente ao enquadrar a construção de estradas como 'estrada-parque', um conceito que sugere conservação, mas que na prática autoriza a intervenção humana em áreas de proteção integral sob a justificativa vaga de 'relevante interesse estratégico'. \n\nA análise do processo legislativo revela um indício crítico de M4 (inserção heterogênea/jabuti): a Lei Complementar 762/2014 foi aprovada no mesmo dia que a Lei Ordinária 3317/2014, que autoriza especificamente a abertura de estrada no Parque Guajará-Mirim. A LC 762 serve, portanto, como o arcabouço legal genérico para dar aparência de legalidade e planejamento a uma intervenção específica e possivelmente danosa, utilizando o 'reframing' de que a estrada visa a 'integração do homem à natureza'.",
+  "lacunas": [
+   "Faltam dados sobre o impacto ambiental específico da estrada autorizada pela Lei Ordinária 3317/2014, aprovada na mesma sessão, que permitiria avaliar se a LC 762 foi desenhada para viabilizar essa obra específica."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 30148,
+  "quando": "2026-07-30T15:43:30+00:00",
+  "uso": {
+   "prompt_tokens": 9408,
+   "completion_tokens": 754,
+   "total_tokens": 10162,
+   "cost": 0.00344817,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.003483,
+    "upstream_inference_prompt_cost": 0.002352,
+    "upstream_inference_completions_cost": 0.001131
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

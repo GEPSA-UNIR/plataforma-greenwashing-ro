@@ -1,0 +1,74 @@
+{
+ "sapl_id": 9301,
+ "analise": {
+  "sapl_id": 9301,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Institui a Semana do Lixo Zero no Estado de Rondônia",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "A destinação inadequada dos resíduos sólidos é um dos maiores desafios para as cidades atualmente. Os problemas decorrentes dessa destinação inadequada podem desequilibrar o meio ambiente",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º e Art. 2º",
+     "efeito": "Institui data comemorativa e objetivos de conscientização sem estabelecer metas, orçamento, sanções ou obrigações concretas para o Poder Público.",
+     "citacao": "A Semana Estadual do Lixo Zero será realizada com o objetivo de: I - proporcionar discussão e conscientização sobre a temática dos resíduos sólidos",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma possui caráter estritamente simbólico e pedagógico, enquadrando-se como uma norma programática vazia (M1). Embora a ementa e a justificativa do projeto apresentem uma retórica de preocupação com o meio ambiente e a gestão de resíduos sólidos, o texto da lei limita-se a instituir uma data no calendário oficial e listar objetivos genéricos de conscientização, sem prever mecanismos de execução, dotação orçamentária ou metas mensuráveis. Não há indícios de dissimulação (greenwashing) no sentido de ocultar retrocessos, pois a norma não altera o regime jurídico de proteção ambiental vigente, apenas cria um evento de sensibilização.",
+  "lacunas": [],
+  "confianca": 1.0
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 6655,
+  "quando": "2026-07-30T15:47:36+00:00",
+  "uso": {
+   "prompt_tokens": 4122,
+   "completion_tokens": 521,
+   "total_tokens": 4643,
+   "cost": 0.00179388,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001812,
+    "upstream_inference_prompt_cost": 0.0010305,
+    "upstream_inference_completions_cost": 0.0007815
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

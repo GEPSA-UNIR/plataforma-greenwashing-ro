@@ -1,0 +1,77 @@
+{
+ "sapl_id": 7759,
+ "analise": {
+  "sapl_id": 7759,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "ALTERA E ACRESCENTA DISPOSITIVOS À LEI Nº 3.686, DE 8 DE DEZEMBRO DE 2015, QUE \"DISPÕE SOBRE O SISTEMA DE LICENCIAMENTO AMBIENTAL DO ESTADO DE RONDÔNIA E DÁ OUTRAS PROVIDÊNCIAS\".",
+     "secao": "## Ementa"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "indeterminado",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Altera a redação do art. 31 da Lei 3.686/2015, vinculando os valores das taxas de licenciamento ambiental ao custo do serviço prestado pelo órgão ambiental.",
+     "citacao": "\"Art. 31. Os valores correspondentes às Taxas de Licenciamento Ambiental são aqueles fixados nos Anexos II a LIII desta Lei, expressos em Unidade Padrão Fiscal do Estado de Rondônia -UPF-RO, os quais representam o custo despendido ou estimado do serviço a ser prestado pelo Órgão Ambiental ao contribuinte.\"",
+     "secao": "## Texto integral da norma"
+    },
+    {
+     "dispositivo": "Art. 2º e Art. 3º",
+     "efeito": "Atualiza e amplia os anexos que definem as atividades sujeitas ao licenciamento e, presumivelmente, os valores das taxas associadas.",
+     "citacao": "Ficam acrescidos à Lei nº 3.686, de 2015, os Anexos XL, XLI, XLII XLII, XLIV, XLV. XLVI, XLVII XLVII, XLIX, L, LI, Lie LI desta Lei.",
+     "secao": "## Texto integral da norma"
+    }
+   ]
+  },
+  "veredito": "nao_ambiental",
+  "score_greenwashing": 0.1,
+  "mecanismos": [],
+  "justificativa": "A norma possui natureza eminentemente administrativa e tributária, focada na atualização de taxas e anexos de licenciamento ambiental. Embora a ementa mencione o 'Sistema de Licenciamento Ambiental', o conteúdo da lei limita-se a ajustar a base de cálculo e a estrutura dos anexos de taxas (UPF-RO), sem alterar os critérios de proteção ambiental, exigências de licenciamento ou competências dos órgãos. \n\nNão há evidências de dissimulação (greenwashing) ou retrocesso ambiental explícito, pois a norma atua na esfera da gestão financeira do sistema. A ausência de um projeto de lei original completo para comparação impede uma análise mais profunda sobre possíveis alterações de mérito que poderiam ter sido introduzidas durante a tramitação.",
+  "lacunas": [
+   "Ausência do texto do PROJETO original para comparação (o dossiê fornece apenas a lei).",
+   "O texto integral da norma está truncado, omitindo a maior parte dos anexos, o que impede a verificação de possíveis alterações nas exigências de licenciamento para atividades específicas."
+  ],
+  "confianca": 0.7
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 122726,
+  "quando": "2026-07-30T15:45:07+00:00",
+  "uso": {
+   "prompt_tokens": 54624,
+   "completion_tokens": 703,
+   "total_tokens": 55327,
+   "cost": 0.014563395,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0147105,
+    "upstream_inference_prompt_cost": 0.013656,
+    "upstream_inference_completions_cost": 0.0010545
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

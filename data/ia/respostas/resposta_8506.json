@@ -1,0 +1,76 @@
+{
+ "sapl_id": 8506,
+ "analise": {
+  "sapl_id": 8506,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Cria a Semana da Reciclagem e Meio Ambiente nas escolas públicas e dá outras providências.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Assim, é preciso que sejam implantadas políticas de conscientização para que a sociedade contribua no seu dia a dia com a preservação ambiental.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Cria uma obrigação de realização de evento escolar sem definir orçamento, metas de impacto ou sanções pelo descumprimento.",
+     "citacao": "Todas as escolas da Rede Pública no Estado realizarão, anualmente, na data determinada pela Secretaria Estadual de Educação, atividade denominada Semana da Reciclagem e Meio Ambiente.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma possui caráter estritamente simbólico e pedagógico, enquadrando-se como uma norma programática vazia (M1). Embora a retórica apresentada na justificativa do projeto mencione a importância da Política Nacional de Resíduos Sólidos e a preservação ambiental, o texto legal não estabelece mecanismos de efetivação, como dotação orçamentária, metas de redução de resíduos ou indicadores de desempenho para as escolas. A norma limita-se a instituir uma semana temática no calendário escolar, delegando a execução e os critérios à Secretaria Estadual de Educação, sem garantir a perenidade ou a qualidade das ações.\n\nNão foram identificadas alterações substanciais entre o projeto original e a lei promulgada que indiquem a inserção de 'jabutis' ou retrocessos cirúrgicos. A comparação entre os textos revela apenas ajustes gramaticais menores (ex: 'a critério' vs 'a critérios'), mantendo a estrutura original. A norma não altera o nível de proteção ambiental vigente, servindo apenas como um instrumento de conscientização sem impacto prático direto na gestão de resíduos ou na proteção de ecossistemas.",
+  "lacunas": [
+   "Ausência de previsão orçamentária ou vinculação com programas estaduais de gestão de resíduos sólidos."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 7143,
+  "quando": "2026-07-30T15:46:47+00:00",
+  "uso": {
+   "prompt_tokens": 4078,
+   "completion_tokens": 642,
+   "total_tokens": 4720,
+   "cost": 0.001962675,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0019825,
+    "upstream_inference_prompt_cost": 0.0010195,
+    "upstream_inference_completions_cost": 0.000963
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

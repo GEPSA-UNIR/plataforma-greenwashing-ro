@@ -1,0 +1,73 @@
+{
+ "sapl_id": 9000,
+ "analise": {
+  "sapl_id": 9000,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Esta emenda vem de encontro aos anseios dos agricultores, pecuaristas, piscicultores e da população em geral, para que haja maior celeridade na hora de fazer uma operação tapa buracos e também a manutenção das referidas linhas, visto que a burocracia atual dificulta em muito a restauração e manutenção das estradas.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º (inciso I ao § 2º do Art. 2º da Lei 3.686/2015)",
+     "efeito": "Institui dispensa de licenciamento ambiental para extração de cascalho, transferindo a responsabilidade de controle para o particular e reduzindo a fiscalização prévia sobre a atividade minerária.",
+     "citacao": "O Poder Executivo Estadual dispensa a necessidade de Licenciamento Ambiental para extração de cascalho de todas as linhas vicinais e coletoras do Estado de Rondônia, das propriedades e dos proprietários que não estejam em Área de Preservação Permanente -APP ou em Reserva Legal, desde que não seja para uso comercial, e sim para recuperação de estradas.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.3,
+  "mecanismos": [
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma promove um retrocesso ambiental ao desobrigar o licenciamento para a extração de cascalho, atividade que, por natureza, possui potencial poluidor e degradador. O texto utiliza a justificativa de 'celeridade' e 'manutenção de estradas' para contornar o controle estatal, delegando ao particular a responsabilidade pelo nivelamento do solo e controle erosivo sem a devida fiscalização prévia. \n\nEmbora o projeto original utilizasse o termo 'autorizado a dispensar' (facultativo), a lei promulgada alterou a redação para 'dispensa' (imperativo), tornando a desregulamentação uma regra automática. A ausência de critérios técnicos claros para a dispensa e a dependência de autodeclaração do proprietário sobre a inexistência de APP ou Reserva Legal configuram um enfraquecimento direto da proteção ambiental, enquadrando-se como retrocesso transparente, uma vez que a norma não se disfarça de política de preservação, mas sim de medida de desburocratização para infraestrutura.",
+  "lacunas": [
+   "Ausência de transcrição de plenário para verificar se houve debate sobre os riscos ambientais da extração de cascalho.",
+   "Falta de dados sobre a eficácia do controle erosivo autodeclarado após a dispensa do licenciamento."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 6599,
+  "quando": "2026-07-30T15:47:06+00:00",
+  "uso": {
+   "prompt_tokens": 4155,
+   "completion_tokens": 742,
+   "total_tokens": 4897,
+   "cost": 0.0021302325,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00215175,
+    "upstream_inference_prompt_cost": 0.00103875,
+    "upstream_inference_completions_cost": 0.001113
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

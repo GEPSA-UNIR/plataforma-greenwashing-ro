@@ -1,0 +1,83 @@
+{
+ "sapl_id": 7303,
+ "analise": {
+  "sapl_id": 7303,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "DISPÕE SOBRE O SISTEMA DE LICENCIAMENTO AMBIENTAL DO ESTADO DE RONDÔNIA E DÁ OUTRAS PROVIDÊNCIAS.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Licenças Ambientais são atos administrativos mediante os quais o Órgão Ambiental estabelece as condições, restrições e medidas de controle ambiental que devem ser atendidas para a localização, instalação, ampliação e operação de empreendimentos ou atividades considerados efetiva ou potencialmente poluidores",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 2º, § 2º",
+     "efeito": "Permite a dispensa de licenciamento ambiental para empreendimentos de pequeno porte e baixo potencial poluidor por meio de regulamento, sem critérios rígidos na lei.",
+     "citacao": "O Órgão Ambiental poderá dispensar do Licenciamento Ambiental os empreendimentos e atividades de mínimo e pequeno porte considerados de baixo potencial poluidor. que atendam aos critérios previstos em regulamento",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 28, § 4º",
+     "efeito": "Permite a continuidade de funcionamento de empreendimentos irregulares mediante Termo de Compromisso Ambiental, criando uma via de regularização precária para atividades que operam sem licença.",
+     "citacao": "O Termo de Compromisso Ambiental poderá permitir a continuidade, em caráter precário, do funcionamento de empreendimento ou atividade irregular que se encontre em operação na data de sua celebração",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de estruturação do sistema de licenciamento ambiental (Eixo R), apresentando-se como um instrumento de controle e proteção. Contudo, o Eixo E revela mecanismos de desregulamentação. O Art. 2º, § 2º, delega ao Poder Executivo (via regulamento) a definição de critérios para dispensa de licenciamento, o que fragiliza o controle preventivo sobre atividades potencialmente poluidoras. \n\nAdicionalmente, o Art. 28, § 4º, institucionaliza a continuidade de atividades irregulares sob a figura do Termo de Compromisso Ambiental, permitindo que empreendimentos operem sem a devida licença prévia, o que contradiz a finalidade preventiva do licenciamento ambiental. A norma, portanto, mascara a flexibilização do controle ambiental sob a roupagem de um sistema de licenciamento organizado.",
+  "lacunas": [
+   "O texto integral da lei está truncado, impossibilitando a análise completa dos anexos e de eventuais dispositivos finais que poderiam mitigar ou agravar os efeitos observados.",
+   "Ausência do Projeto de Lei original para comparação e identificação de possíveis emendas jabuti."
+  ],
+  "confianca": 0.85
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 124393,
+  "quando": "2026-07-30T15:44:13+00:00",
+  "uso": {
+   "prompt_tokens": 45553,
+   "completion_tokens": 816,
+   "total_tokens": 46369,
+   "cost": 0.0124861275,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.01261225,
+    "upstream_inference_prompt_cost": 0.01138825,
+    "upstream_inference_completions_cost": 0.001224
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

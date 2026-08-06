@@ -1,0 +1,74 @@
+{
+ "sapl_id": 12891,
+ "analise": {
+  "sapl_id": 12891,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "O Projeto de Lei apresentado tem por finalidade aperfeiçoar o rol de representantes do Conselho Estadual de Política Ambiental — CONSEPA com o objetivo de incluir a Federação dos Pescadores e Aquicultores do Estado de Rondônia, a Comissão de Meio Ambiente da Assembleia Legislativa do Estado de Rondônia, bem como da Ordem dos Advogados do Brasil — Seccional Rondônia com o objetivo de ampliar as discussões de políticas públicas ambientais.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "Sendo assim, a inclusão de novos representantes junto ao Conselho Estadual de Política Ambiental — CONSEPA consagrará maior representatividade entre o Poder Público e a Sociedade Civil Organizada.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "misto",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º (inclusão do inciso VI ao art. 4º da Lei 3.945/2016)",
+     "efeito": "Amplia a composição do conselho com atores que podem tanto qualificar o debate técnico quanto atuar como contrapeso político em decisões sobre licenciamento e fiscalização.",
+     "citacao": "VI - 1 (um) representante da Federação de Pescadores e Aquicultores de Rondônia FEPARO, 1 (um) representante da Ordem dos Advogados do Brasil — OAB/RO e 1 (um representante da Comissão de Meio Ambiente da Assembleia Legislativa do Estado de Rondônia.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "protecao_genuina",
+  "score_greenwashing": 0.2,
+  "mecanismos": [],
+  "justificativa": "A norma altera a composição do Conselho Estadual de Política Ambiental (CONSEPA) para incluir representantes da OAB/RO, da FEPARO e da Comissão de Meio Ambiente da ALE/RO. A justificativa apresentada pela autora, Deputada Gislaine Lebrinha, vincula a medida à necessidade de 'evitar futuras ações de inconstitucionalidade' e 'insegurança jurídica' em processos de criação de Reservas Ambientais, sugerindo que a ampliação do conselho visa conferir maior legitimidade e equilíbrio técnico às decisões do órgão. \n\nNão há evidências de dissimulação (greenwashing) ou esvaziamento de competências. A inclusão de órgãos de controle (OAB) e de representação setorial (pescadores) em conselhos deliberativos é, em regra, um mecanismo de fortalecimento da governança ambiental e do controle social, e não de enfraquecimento. O texto da lei promulgada é idêntico ao projeto original, não havendo indícios de inserção de 'jabutis' ou alterações que desvirtuem o propósito declarado de ampliar a representatividade no conselho.",
+  "lacunas": [
+   "O dossiê não fornece a composição anterior do CONSEPA, o que impede avaliar se a nova composição altera o equilíbrio de forças (ex: se a inclusão de novos membros dilui o poder de voto de órgãos técnicos ou da sociedade civil organizada)."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9161,
+  "quando": "2026-07-30T15:49:44+00:00",
+  "uso": {
+   "prompt_tokens": 4906,
+   "completion_tokens": 809,
+   "total_tokens": 5715,
+   "cost": 0.0024156,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00244,
+    "upstream_inference_prompt_cost": 0.0012265,
+    "upstream_inference_completions_cost": 0.0012135
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

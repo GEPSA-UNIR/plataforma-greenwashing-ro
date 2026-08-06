@@ -1,0 +1,83 @@
+{
+ "sapl_id": 10919,
+ "analise": {
+  "sapl_id": 10919,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Institui programa de reciclagem de resíduos sólidos nos comércios no âmbito do Estado de Rondônia.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Esta proposição visa sensibilizar a população do Estado de Rondônia sobre a importância da reciclagem e a conscientização sobre os impactos ambientais através da relação destrutiva que o homem tem com o Planeta.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º, Parágrafo único",
+     "efeito": "Estabelece diretrizes para a separação de resíduos em estabelecimentos comerciais, mas utiliza termos facultativos e genéricos que limitam a obrigatoriedade.",
+     "citacao": "O Programa de Reciclagem de Resíduos Sólidos deve atender às seguintes diretrizes: [...] III - descarte de resíduos sólidos em recipientes próprios, se possível, de acordo com as seguintes categorias e cores",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 2º",
+     "efeito": "Delega a efetividade da norma ao Poder Executivo, sem prever sanções ou mecanismos de fiscalização direta.",
+     "citacao": "O Poder Executivo regulamentará esta Lei no prazo de 90 (noventa) dias.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.4,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma apresenta uma retórica ambiental forte, focada na conscientização e na gestão de resíduos sólidos, conforme exposto na justificativa do autor. Contudo, o efeito prático é limitado pela natureza programática da lei. O uso da expressão 'se possível' no inciso III do Art. 1º retira o caráter impositivo da norma, tornando a separação de resíduos uma recomendação e não uma obrigação efetiva. Além disso, a lei não estabelece sanções para o descumprimento, nem define órgãos responsáveis pela fiscalização, dependendo inteiramente de uma regulamentação futura pelo Poder Executivo (Art. 2º), o que caracteriza a norma como simbólica.",
+  "lacunas": [
+   "Ausência de previsão de sanções ou mecanismos de fiscalização que garantam a execução do programa.",
+   "Falta de definição de orçamento ou dotação específica para a implementação das diretrizes propostas."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9128,
+  "quando": "2026-07-30T15:48:31+00:00",
+  "uso": {
+   "prompt_tokens": 4724,
+   "completion_tokens": 695,
+   "total_tokens": 5419,
+   "cost": 0.002201265,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0022235,
+    "upstream_inference_prompt_cost": 0.001181,
+    "upstream_inference_completions_cost": 0.0010425
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

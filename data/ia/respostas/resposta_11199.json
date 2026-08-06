@@ -1,0 +1,84 @@
+{
+ "sapl_id": 11199,
+ "analise": {
+  "sapl_id": 11199,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "O objetivo desta propositura é acrescentar dispositivo à Lei nº 3.686, de 08 de dezembro de 2015, que “Dispõe sobre o Licenciamento Ambiental do Estado de Rondônia.”",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "minimizar os obstáculos que os pequenos e médios produtores enfrentam para realizar obras de curral pequeno em suas propriedades, reduzindo custos e tendo em vista os existentes, para garantir a economia e a segurança jurídica",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º, inciso II (acrescentado à Lei 3.686/2015)",
+     "efeito": "Dispensa o licenciamento ambiental para abertura de estradas, aceiros, limpeza e implantação de currais em propriedades particulares, inclusive em propriedades vizinhas mediante acordo.",
+     "citacao": "fica dispensado pelo Poder Executivo Estadual a necessidade de Licenciamento Ambiental para abertura de estradas e de aceiros, bem como para a limpeza e a implantação de curral nas propriedades particulares, podendo se estender a outras propriedades próximas",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 1º, inciso III (acrescentado à Lei 3.686/2015)",
+     "efeito": "Estabelece um limite de largura para estradas dispensadas de licenciamento, mas não impõe critérios técnicos de impacto ambiental ou georreferenciamento.",
+     "citacao": "a largura da estrada a ser aberta não poderá ser superior a 7 (sete) metros.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.9,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'segurança jurídica' e apoio ao 'pequeno produtor' para justificar a desregulamentação de atividades com potencial impacto ambiental. O efeito prático é a dispensa de licenciamento ambiental para abertura de estradas e aceiros, atividades que, sem controle, podem resultar em desmatamento e fragmentação de ecossistemas. A inclusão dos incisos II e III via emendas parlamentares durante a tramitação (M4) consolida a desregulamentação, transferindo a responsabilidade de controle para a autodeclaração ou acordo entre particulares, esvaziando a função fiscalizatória do órgão ambiental (M5).",
+  "lacunas": [
+   "Faltam dados sobre o impacto ambiental acumulado da dispensa de licenciamento para estradas rurais no estado de Rondônia.",
+   "Não há menção a critérios técnicos de monitoramento para as atividades dispensadas."
+  ],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9465,
+  "quando": "2026-07-30T15:48:39+00:00",
+  "uso": {
+   "prompt_tokens": 5482,
+   "completion_tokens": 793,
+   "total_tokens": 6275,
+   "cost": 0.0025344,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00256,
+    "upstream_inference_prompt_cost": 0.0013705,
+    "upstream_inference_completions_cost": 0.0011895
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

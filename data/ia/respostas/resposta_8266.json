@@ -1,0 +1,74 @@
+{
+ "sapl_id": 8266,
+ "analise": {
+  "sapl_id": 8266,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "SUSTA OS EFEITOS DO DECRETO Nº 22.686, DE 20 DE MARÇO DE 2018, QUE \"DISPÕE SOBRE A CRIAÇÃO DA RESERVA DE DESENVOLVIMENTO SUSTENTÁVEL LIMOEIRO, NO MUNICÍPIO DE SÃO FRANCISCO DO GUAPORÉ, NO ESTADO DE RONDÔNIA, E DÁ OUTRAS PROVIDÊNCIAS\"",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Mais uma vez o Poder Executivo está extrapolando e mais uma vez esta Casa está sendo obrigada através deste Projeto de Decreto Legislativo, a sustar Decretos do Governador do Estado, por exorbitar do Poder Regulamentar.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Anula a criação de uma Unidade de Conservação (Reserva de Desenvolvimento Sustentável Limoeiro), retirando a proteção ambiental conferida pelo decreto do Executivo.",
+     "citacao": "Fica sustado, nos termos do inciso XIX do artigo 29 da Constituição Estadual, os efeitos do Decreto nº 22.686, de 20 de março de 2018, que \"Dispõe sobre a criação da Reserva de Desenvolvimento Sustentável Limoeiro\"",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "O Decreto Legislativo nº 794/2018 promove um retrocesso ambiental direto ao sustar os efeitos de um decreto anterior que criava a Reserva de Desenvolvimento Sustentável Limoeiro. A justificativa apresentada pelos autores no projeto utiliza o argumento de 'exorbitância do poder regulamentar' e a necessidade de 'crivo do Poder Legislativo' (M2_reframing_de_regressao) para deslegitimar a criação da unidade de conservação, alegando falta de consulta pública e estudos técnicos. \n\nÉ importante notar que esta norma faz parte de um conjunto de 11 decretos legislativos aprovados na mesma sessão (Decretos 790 a 800), que, de forma coordenada, sustaram a criação de diversas unidades de conservação no estado de Rondônia. O efeito prático é a supressão imediata de proteção ambiental sobre vastas áreas, sob o pretexto de defesa da competência legislativa, configurando um retrocesso transparente, uma vez que a norma não dissimula seu objetivo de anular a criação das áreas protegidas.",
+  "lacunas": [],
+  "confianca": 1.0
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 8199,
+  "quando": "2026-07-30T15:45:47+00:00",
+  "uso": {
+   "prompt_tokens": 4853,
+   "completion_tokens": 751,
+   "total_tokens": 5604,
+   "cost": 0.0023163525,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00233975,
+    "upstream_inference_prompt_cost": 0.00121325,
+    "upstream_inference_completions_cost": 0.0011265
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

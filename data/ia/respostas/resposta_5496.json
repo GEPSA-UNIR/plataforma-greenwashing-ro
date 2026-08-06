@@ -1,0 +1,85 @@
+{
+ "sapl_id": 5496,
+ "analise": {
+  "sapl_id": 5496,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "O Programa de Reflorestamento de Espécies Florestais no Estado de Rondônia tem por objetivo garantir a perpetuação das essências, promovendo sua conservação.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "citacao": "As vantagens tanto econômicas quanto ambientais do presente projeto são evidentes e certamente, além de incrementar a economia regional, fará com que o Estado de Rondônia inicie o processo de recomposição de áreas desmatadas",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 2º, inciso III",
+     "efeito": "Cria uma zona de desregulamentação ao permitir a exploração econômica sem licença, sob o pretexto de reflorestamento.",
+     "citacao": "quando as espécies atingir sua condição de desbaste e ou corte parcial, o proprietário ou seu responsável legal pela área poderá fazer sua utilização econômica, respeitando a legislação em vigência sobre a matéria",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 3º",
+     "efeito": "Permite a contabilização de áreas de reflorestamento para fins de Reserva Legal, o que pode facilitar a supressão de vegetação nativa em outras áreas do imóvel.",
+     "citacao": "Poderá ocorrer utilização futura da área de plantio, cuja área georreferenciada deverá ficar gravada à margem da matrícula da área ou do imóvel, podendo ser contabilizada para a reserva legal.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.85,
+  "mecanismos": [
+   "M1_norma_programatica_vazia",
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de conservação e recomposição florestal para instituir um programa que, na prática, desonera o proprietário de terras de licenciamento ambiental para exploração madeireira (Art. 2º, III). O projeto original previa a isenção de licença e tributos de forma explícita, enquanto a lei promulgada manteve a isenção de licença, apenas adicionando a ressalva genérica de 'respeitando a legislação em vigência', o que não altera o efeito de desregulamentação da atividade de corte.\n\nO mecanismo de greenwashing é evidenciado pela promessa de 'garantir a perpetuação das essências' (Art. 1º, parágrafo único) enquanto o Art. 3º permite que áreas de plantio comercial sejam contabilizadas como Reserva Legal. Isso enfraquece a proteção ambiental ao permitir que o proprietário substitua a obrigação de manter vegetação nativa por plantios de interesse econômico, desvirtuando o conceito de Reserva Legal e facilitando a conversão de uso do solo sob o disfarce de reflorestamento.",
+  "lacunas": [
+   "Ausência de registros de votação ou debates em plenário que esclareçam a intenção dos parlamentares sobre a flexibilização do licenciamento.",
+   "Falta de regulamentação técnica sobre quais espécies e métodos de plantio seriam aceitos para fins de Reserva Legal."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 7776,
+  "quando": "2026-07-30T15:42:49+00:00",
+  "uso": {
+   "prompt_tokens": 4075,
+   "completion_tokens": 802,
+   "total_tokens": 4877,
+   "cost": 0.0021995325,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00222175,
+    "upstream_inference_prompt_cost": 0.00101875,
+    "upstream_inference_completions_cost": 0.001203
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 3
+ }
+}

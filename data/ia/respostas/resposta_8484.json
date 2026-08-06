@@ -1,0 +1,77 @@
+{
+ "sapl_id": 8484,
+ "analise": {
+  "sapl_id": 8484,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "O setor pesqueiro extrativista na modalidade de pesca profissional e artesanal do Estado tem promovido discussões para apresentar medidas ao controle da superpopulação do peixe pirarucu.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "A Secretaria de Estado do Desenvolvimento Ambiental -SEDAM disciplinará, em ato normativo a ser editado, os locais, o período, as restrições e a forma de pesca do pirarucu (Arapaima gigas), observada a legislação de regência.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º (Parágrafo único do art. 27 da Lei 1.038/2002)",
+     "efeito": "Delega a competência de regulação da pesca de uma espécie específica (pirarucu) para ato infralegal da SEDAM, sob a justificativa de controle de espécie invasora, sem estabelecer critérios técnicos mínimos ou salvaguardas ambientais na lei.",
+     "citacao": "A Secretaria de Estado do Desenvolvimento Ambiental -SEDAM disciplinará, em ato normativo a ser editado, os locais, o período, as restrições e a forma de pesca do pirarucu (Arapaima gigas), observada a legislação de regência.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.7,
+  "mecanismos": [
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'controle de superpopulação' e 'equilíbrio da ictiofauna' para justificar a flexibilização da pesca do pirarucu. O mecanismo central é a delegação desregulamentadora (M5), onde a Assembleia Legislativa se exime de definir os parâmetros técnicos, prazos ou limites para a exploração da espécie, transferindo essa responsabilidade para um ato normativo da SEDAM. Embora o texto apresente a medida como uma resposta a demandas de pescadores e técnicos, a ausência de critérios na lei abre margem para que a regulação da pesca seja feita de forma discricionária pelo órgão executivo, enfraquecendo a proteção ambiental ao permitir a exploração de uma espécie nativa da bacia amazônica sob o rótulo de 'invasora' em rios rondonienses.",
+  "lacunas": [
+   "Ausência de dados técnicos ou estudos de impacto ambiental que comprovem a necessidade de flexibilização da pesca do pirarucu no dossiê.",
+   "Falta de definição sobre quais seriam os critérios de 'legislação de regência' mencionados no texto."
+  ],
+  "confianca": 0.85
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 6555,
+  "quando": "2026-07-30T15:46:43+00:00",
+  "uso": {
+   "prompt_tokens": 4091,
+   "completion_tokens": 664,
+   "total_tokens": 4755,
+   "cost": 0.0019985625,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00201875,
+    "upstream_inference_prompt_cost": 0.00102275,
+    "upstream_inference_completions_cost": 0.000996
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

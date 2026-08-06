@@ -1,0 +1,73 @@
+{
+ "sapl_id": 7092,
+ "analise": {
+  "sapl_id": 7092,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "a presente propositura tem por escopo a alteração da.estrutura organizacional da Secretaria de Estado do Desenvolvimento Ambiental, com a redução de Cargos de Direção Superior, e se dá, exclusivamente, para que se possa iniciar a nomeação dos candidatos aprovados no Concurso Público para cargos efetivos daquela Secretaria",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "indeterminado",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º e Anexo Único",
+     "efeito": "Extinção de cargos em comissão e reestruturação da SEDAM",
+     "citacao": "Ficam extintos no Anexo II, da Lei Complementar n. 733, de 10 de outubro de 2013, na Tabela de Cargos de Direção Superior da Administração Direta e Indireta do Poder Executivo -Secretaria de Estado do Desenvolvimento Ambiental -SEDAM, os cargos abaixo relacionados",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma possui caráter estritamente administrativo, visando a reestruturação de cargos em comissão da Secretaria de Estado do Desenvolvimento Ambiental (SEDAM) para viabilizar a nomeação de servidores concursados. A retórica do Executivo, presente na justificativa do projeto, enquadra a medida como uma adequação necessária para o funcionamento da pasta, sem apresentar, contudo, qualquer impacto direto na política ambiental ou na capacidade de fiscalização do órgão.\n\nEmbora a norma altere a estrutura de cargos, a comparação entre o projeto original e a lei promulgada revela uma alta complexidade na leitura dos anexos, que apresentam ruídos de extração e formatação que impedem uma análise precisa sobre a supressão ou criação de cargos específicos de fiscalização ou licenciamento. A ausência de dados claros sobre o impacto prático na estrutura de proteção ambiental torna a norma, sob a ótica ambiental, uma peça de natureza administrativa e simbólica, sem evidências de retrocesso ou fortalecimento ambiental.",
+  "lacunas": [
+   "A formatação dos anexos (tabelas) tanto no projeto quanto na lei está severamente prejudicada por ruídos de extração (OCR), impossibilitando a contagem precisa e a comparação nominal dos cargos extintos versus os mantidos ou criados.",
+   "Ausência de informações sobre o impacto orçamentário detalhado ou sobre a efetiva nomeação dos concursados após a extinção dos cargos em comissão."
+  ],
+  "confianca": 0.6
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 42796,
+  "quando": "2026-07-30T15:43:43+00:00",
+  "uso": {
+   "prompt_tokens": 15944,
+   "completion_tokens": 673,
+   "total_tokens": 16617,
+   "cost": 0.004945545,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0049955,
+    "upstream_inference_prompt_cost": 0.003986,
+    "upstream_inference_completions_cost": 0.0010095
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

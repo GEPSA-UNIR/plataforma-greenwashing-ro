@@ -1,0 +1,82 @@
+{
+ "sapl_id": 6481,
+ "analise": {
+  "sapl_id": 6481,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Esta propositura tem por finalidade propiciar a possibilidade de que a classe garimpeira do nosso Estado, devidamente organizada em cooperativa, que conta, atualmente, com 622 associados, tenha a possibilidade de exercer sua atividade devidamente legalizada.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "visando assim, assegurar via legal, no âmbito do Estado de Rondônia, que a licença para a exploração garimpeira seja concedida a essa força trabalhadora",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Determina prioridade de licenciamento para a Companhia de Mineração de Rondônia (CMR) dentro de uma Área de Proteção Ambiental (APA), sobrepondo interesses minerários à proteção da unidade.",
+     "citacao": "Fica estabelecido que o processo n\" 881.178/1983, devidamente protocolizado pela Companhia de Mineração de Rondônia -CMR, junto ao Departamento Nacional de Produção MineralDNPM, cuja área está inserida no remanescente da Área de Proteção Ambiental APA, criada pelo decreto n° 5.124, de 06 de junho de 1991, terá prioridade dentro da nova poligonal da APA.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "dispositivo": "Art. 4º, parágrafo único",
+     "efeito": "Fixa taxa de licenciamento ambiental em valor irrisório (R$ 1,00 por hectare), descaracterizando o poder de polícia e a função arrecadatória/regulatória do licenciamento ambiental.",
+     "citacao": "A taxa a ser cobrada, por hectare, para as licenças do. setor minerário e garimpeiro, previstas no. artigo. 8°, incisos e parágrafo. da Resolução 237/97 do. CONAMA, será no. valor de R$ 1,00 (um) real, por ocasião da expedição. da respectiva licença ou renovação.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.3,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma apresenta um retrocesso transparente ao priorizar a exploração minerária dentro de uma Área de Proteção Ambiental (APA) e ao estabelecer uma taxa de licenciamento ambiental irrisória (R$ 1,00 por hectare), o que esvazia a capacidade de regulação e controle do Estado sobre a atividade. A retórica utilizada pelo autor na justificativa enquadra a medida como uma ação de 'justiça social' e 'legalização' para trabalhadores, utilizando o argumento da dignidade humana para justificar a flexibilização de normas ambientais restritivas.\n\nEmbora a norma utilize a retórica de 'legalização' e 'organização' (Eixo R), o efeito prático é a facilitação da exploração garimpeira em áreas sensíveis e a desvalorização econômica do licenciamento ambiental (Eixo E). Não se configura como greenwashing clássico, pois o retrocesso é explícito no texto do projeto, tratando-se de uma norma que prioriza a atividade econômica em detrimento da proteção ambiental de forma direta.",
+  "lacunas": [
+   "O dossiê não contém o texto final da LEI promulgada, apenas o texto do PROJETO original, impossibilitando a verificação de emendas ou alterações ocorridas durante a tramitação."
+  ],
+  "confianca": 0.8
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 6618,
+  "quando": "2026-07-30T15:43:22+00:00",
+  "uso": {
+   "prompt_tokens": 4142,
+   "completion_tokens": 964,
+   "total_tokens": 5106,
+   "cost": 0.002456685,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0024815,
+    "upstream_inference_prompt_cost": 0.0010355,
+    "upstream_inference_completions_cost": 0.001446
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

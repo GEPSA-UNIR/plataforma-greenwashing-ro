@@ -1,0 +1,76 @@
+{
+ "sapl_id": 7718,
+ "analise": {
+  "sapl_id": 7718,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "O município de São Francisco do Guaporé está localizado no Vale do Guaporé, um lugar de rica biodiversidade, no encontro de dois biomas: Floresta Amazônica e Pantanal Mato-grossense",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "Transforma em Estância Turística o Município de São Francisco do Guaporé.",
+     "secao": "## Ementa"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Atribui o título de 'Estância Turística' ao município, sem estabelecer obrigações, metas de conservação ou restrições ao uso do solo.",
+     "citacao": "Fica transformado em Estância Turística o Município de São Francisco do Guaporé.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma possui caráter estritamente simbólico e administrativo. O projeto original utiliza uma retórica ambientalista ao descrever a biodiversidade do Vale do Guaporé e a importância dos corredores ecológicos, justificando a criação da 'Estância Turística' como forma de fomentar o ecoturismo. No entanto, a lei promulgada limita-se a conferir o título ao município, sem instituir qualquer mecanismo de proteção, plano de manejo, orçamento ou diretriz ambiental vinculante que justifique a retórica de preservação apresentada na justificativa do projeto.\n\nNão houve alteração substancial entre o projeto e a lei que indicasse a inserção de 'jabutis' ou revogações tácitas. A norma enquadra-se como M1 (norma programática vazia), pois a transformação em estância turística não gera, por si só, efeitos práticos de conservação ambiental, servindo apenas como um rótulo político para o município.",
+  "lacunas": [
+   "Ausência de regulamentação sobre o que implica, na prática, o título de 'Estância Turística' em termos de gestão ambiental ou restrições de uso do solo no município."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 10647,
+  "quando": "2026-07-30T15:44:48+00:00",
+  "uso": {
+   "prompt_tokens": 5312,
+   "completion_tokens": 623,
+   "total_tokens": 5935,
+   "cost": 0.002239875,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0022625,
+    "upstream_inference_prompt_cost": 0.001328,
+    "upstream_inference_completions_cost": 0.0009345
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

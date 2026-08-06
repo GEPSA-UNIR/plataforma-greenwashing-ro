@@ -1,0 +1,71 @@
+{
+ "sapl_id": 11263,
+ "analise": {
+  "sapl_id": 11263,
+  "eixo_retorica": {
+   "nivel": "nenhuma",
+   "citacoes": [
+    {
+     "citacao": "Suspende a execução da Lei nº 4.564, de 23 de agosto de 2019, que “Acrescenta dispositivo da Lei nº 3.686, de 08 de dezembro de 2015, que “Dispõe sobre o Licenciamento Ambiental do Estado de Rondônia”.",
+     "secao": "## Ementa"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "indeterminado",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Suspende a eficácia de norma anterior que alterava o licenciamento ambiental estadual.",
+     "citacao": "Fica suspensa, nos termos do inciso XX do artigo 29 da Constituição Estadual, a execução da Lei nº 4.564, de 23 de agosto de 2019",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "nao_ambiental",
+  "score_greenwashing": 0.0,
+  "mecanismos": [],
+  "justificativa": "O Decreto Legislativo nº 2104/2023 possui natureza estritamente processual e de controle de constitucionalidade/legalidade, limitando-se a suspender a execução de uma norma anterior (Lei nº 4.564/2019). Não há, no texto do decreto ou na transcrição da sessão plenária, qualquer retórica ambiental ou justificativa de mérito sobre o impacto ecológico da suspensão.\n\nA análise do efeito ambiental é indeterminada porque o dossiê não fornece o conteúdo da Lei nº 4.564/2019, que foi suspensa. Sem conhecer o que a norma suspensa alterava no licenciamento ambiental original (Lei nº 3.686/2015), não é possível aferir se a suspensão representa um fortalecimento, um enfraquecimento ou uma neutralidade em relação à proteção ambiental. O decreto é um instrumento de controle legislativo sobre a validade de outra norma, não possuindo, por si só, caráter de política pública ambiental.",
+  "lacunas": [
+   "Ausência do texto da Lei nº 4.564/2019, o que impede a análise do impacto ambiental da suspensão.",
+   "Ausência de justificativa ou exposição de motivos que esclareça o fundamento da suspensão (ex: inconstitucionalidade formal ou material)."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 5379,
+  "quando": "2026-07-30T15:48:47+00:00",
+  "uso": {
+   "prompt_tokens": 3813,
+   "completion_tokens": 573,
+   "total_tokens": 4386,
+   "cost": 0.0017946225,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00181275,
+    "upstream_inference_prompt_cost": 0.00095325,
+    "upstream_inference_completions_cost": 0.0008595
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

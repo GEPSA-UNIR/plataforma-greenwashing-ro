@@ -1,0 +1,75 @@
+{
+ "sapl_id": 8137,
+ "analise": {
+  "sapl_id": 8137,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "DISPÕE SOBRE A PROIBIÇÃO DO ARMAZENAMENTO, INDUSTRIALIZAÇÃO E COMERCIALIZAÇÃO DE PRODUTOS QUE CONTENHAM O AMIANTO OU ASBESTO EM SUA COMPOSIÇÃO NO ESTADO DE RONDÔNIA.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Vários estudos mostram que o amianto é uma fibra comprovadamente cancerígena, a respiração da poeira de suas fibras causa a inflamação das células dos alvéolos, evoluindo para uma série de doenças incuráveis e progressivas.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 4º e Art. 5º",
+     "efeito": "O veto integral dos dispositivos que estabeleciam sanções pecuniárias e a competência regulamentar esvaziou a eficácia coercitiva da norma, tornando a proibição desprovida de mecanismos de fiscalização e punição.",
+     "citacao": "Art. 4º, VETADO. [...] Art. 5º. VETADO.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.85,
+  "mecanismos": [
+   "M1_norma_programatica_vazia",
+   "M3_revogacao_tacita"
+  ],
+  "justificativa": "A norma apresenta um forte componente retórico ao proibir o amianto com base em evidências de saúde pública, mas o efeito prático foi severamente comprometido pelo veto do Poder Executivo aos artigos 4º e 5º. Ao remover as sanções (multas) e a previsão de regulamentação, a lei tornou-se uma norma programática vazia, sem meios de garantir o cumprimento da proibição estabelecida no Art. 1º.\n\nO processo legislativo resultou em uma lei que mantém a aparência de proteção ambiental e sanitária (Eixo R), mas que, na prática, carece de força coercitiva (Eixo E). A ausência de penalidades específicas e de um órgão responsável pela fiscalização, decorrente do veto, configura um esvaziamento da proteção que inicialmente se propunha a implementar, caracterizando o fenômeno de dissimulação legislativa.",
+  "lacunas": [],
+  "confianca": 1.0
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 11161,
+  "quando": "2026-07-30T15:45:19+00:00",
+  "uso": {
+   "prompt_tokens": 5224,
+   "completion_tokens": 592,
+   "total_tokens": 5816,
+   "cost": 0.00217206,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.002194,
+    "upstream_inference_prompt_cost": 0.001306,
+    "upstream_inference_completions_cost": 0.000888
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

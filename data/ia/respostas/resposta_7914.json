@@ -1,0 +1,70 @@
+{
+ "sapl_id": 7914,
+ "analise": {
+  "sapl_id": 7914,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Estamos apresentando esta propositura, com a finalidade de revogar o artigo 5° da Lei 3.925, de 17 de outubro de 2016, considerando que o respectivo dispositivo disciplina que o Poder Executivo editará normas complementares necessárias ao fiel cumprimento desta Lei.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Revoga dispositivo que obrigava o Poder Executivo a regulamentar medidas compensatórias florestais, eliminando a necessidade de normas complementares para a aplicação da lei original.",
+     "citacao": "Fica revogado o artigo 5º da Lei nº 3.925, de 17 de outubro de 2016, que \"Estabelece medidas compensatórias florestais para empreendimentos minerários localizados em área de Reserva Legal e dá outras providências\", renumerando-se o artigo 6º para artigo 5º.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M3_revogacao_tacita"
+  ],
+  "justificativa": "A norma opera um retrocesso transparente ao revogar o artigo 5º da Lei nº 3.925/2016, que exigia a regulamentação pelo Poder Executivo para a implementação de medidas compensatórias florestais em áreas de mineração. A justificativa apresentada pelo autor alega que a revogação visa destravar a aplicação da lei, sob o argumento de que ela seria 'autoaplicável'. Contudo, ao remover a obrigatoriedade de normas complementares, a lei retira a segurança jurídica e a clareza técnica necessárias para a fiscalização e execução das compensações ambientais, enfraquecendo o rigor do controle sobre empreendimentos minerários em áreas de Reserva Legal.\n\nNão se configura como greenwashing, pois a norma não utiliza retórica de proteção ambiental para disfarçar o enfraquecimento; ela admite explicitamente que o objetivo é remover o que o autor chama de 'entrave' (a necessidade de regulamentação). O efeito prático é a desregulamentação de um mecanismo de compensação florestal, configurando um retrocesso na proteção ambiental ao eliminar a etapa de detalhamento normativo que garantiria a eficácia das medidas compensatórias.",
+  "lacunas": [],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 5993,
+  "quando": "2026-07-30T15:45:12+00:00",
+  "uso": {
+   "prompt_tokens": 4045,
+   "completion_tokens": 677,
+   "total_tokens": 4722,
+   "cost": 0.0020064825,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00202675,
+    "upstream_inference_prompt_cost": 0.00101125,
+    "upstream_inference_completions_cost": 0.0010155
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

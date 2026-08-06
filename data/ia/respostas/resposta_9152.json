@@ -1,0 +1,76 @@
+{
+ "sapl_id": 9152,
+ "analise": {
+  "sapl_id": 9152,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Proíbe a queima de pneus e outros objetos correlatos que causem prejuízos à saúde e ao meio ambiente, inclusive, em manifestações públicas e dá outras providências.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "A queima de pneus e objetos correlatos devem ser vedados, pois o que está em jogo é a destruição da Camada de Ozônio, o agravamento do Aquecimento Global e a qualidade do ar que prejudica a saúde do ser humano e de animais",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 2º",
+     "efeito": "Remete a sanções já existentes na legislação federal (Lei 9.605/1998), não criando mecanismos estaduais de fiscalização ou punição administrativa própria.",
+     "citacao": "Os atos praticados referidos no artigo 1º serão punidos com base nas sanções previstas no artigo 54 da Lei nº 9.605, de 12 de fevereiro de 1998.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.3,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma possui um forte componente retórico de proteção ambiental, utilizando justificativas que apelam para a preservação da camada de ozônio e saúde pública. Contudo, o efeito prático é limitado, pois a lei não cria órgãos de fiscalização, metas, orçamentos ou procedimentos administrativos estaduais específicos para coibir a queima de pneus. O Art. 2º limita-se a remeter a punição ao Art. 54 da Lei Federal nº 9.605/1998 (Lei de Crimes Ambientais), que já tipifica a poluição como crime, tornando a norma estadual um reforço simbólico de uma proibição que já vigora no ordenamento jurídico nacional.\n\nNão houve alterações significativas entre o projeto e a lei que indicassem retrocesso ou jabutis. A norma parece integrar um conjunto de proposições legislativas aprovadas na mesma sessão, possivelmente visando a produção legislativa em temas ambientais sem, contudo, instituir mecanismos de execução efetiva pelo Estado de Rondônia.",
+  "lacunas": [
+   "Ausência de previsão orçamentária ou designação de órgão estadual responsável pela fiscalização da proibição."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9967,
+  "quando": "2026-07-30T15:47:18+00:00",
+  "uso": {
+   "prompt_tokens": 5021,
+   "completion_tokens": 638,
+   "total_tokens": 5659,
+   "cost": 0.0021901275,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00221225,
+    "upstream_inference_prompt_cost": 0.00125525,
+    "upstream_inference_completions_cost": 0.000957
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

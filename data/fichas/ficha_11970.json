@@ -1,0 +1,317 @@
+{
+ "_meta": {
+  "gerado_em": "2026-07-27T11:34:16+00:00",
+  "gerador": "gerar_ficha_norma.py v1.2",
+  "banco": "PostgreSQL gwashing (espelho da coleta do SAPL-ALERO)",
+  "legendas_vinculo": "dicionário oficial via API",
+  "verificacao_api": "não executada (use --verificar-api)"
+ },
+ "identificacao": {
+  "sapl_id": 11970,
+  "tipo": "Lei Complementar",
+  "numero": "1220",
+  "ano": 2024,
+  "data": "2024-03-25",
+  "data_publicacao": "2024-04-02",
+  "data_vigencia": null,
+  "veiculo_publicacao": "D.O.E nº 55",
+  "esfera_federacao": "Estadual",
+  "ementa": "Altera dispositivos da Lei Complementar nº 775, de 2 de junho de 2014, altera, acresce e revoga dispositivos da Lei Complementar nº 965, de 20 de dezembro de 2017, altera dispositivos das Leis nº 2.745, de 18 de maio de 2012, nº 2.746, de 18 de maio de 2012 e nº 2.747, de 18 de maio de 2012, revoga dispositivos das Leis Complementares nº 468, de 21 de julho de 2008, nº 622, de 11 de julho de 2011, nº 741, de 21 de novembro de 2013, nº 828, de 15 de julho de 2015, nº 846, de 8 de dezembro de 2015, revoga as Leis Complementares nº 1.008, de 20 de dezembro de 2018 e nº 1.078, de 22 de dezembro de 2020, e revoga dispositivos das Leis nº 2.528, de 25 de julho de 2011 e nº 3.122, de 1º de julho de 2013.",
+  "indexacao": null,
+  "observacao": null,
+  "url_sapl": "https://sapl.al.ro.leg.br/norma/11970",
+  "_fonte": "tabela normas (coleta SAPL)"
+ },
+ "origem": {
+  "tem_materia": true,
+  "materia_sapl_id": 32984,
+  "descricao": "Projeto de Lei Complementar nº 26 de 2023",
+  "numero": 26,
+  "ano": 2023,
+  "data_apresentacao": "2023-06-27",
+  "texto_original_url": "http://sapl.al.ro.leg.br/media/sapl/public/materialegislativa/2023/32984/plc_26-23_..pdf",
+  "url_sapl": "https://sapl.al.ro.leg.br/materia/32984",
+  "autores": [
+   {
+    "nome": "Poder Executivo",
+    "primeiro_autor": true,
+    "partido_aviso": "autor sem cadastro de parlamentar no banco (ex.: Poder Executivo, comissão)"
+   }
+  ],
+  "_fonte": "tabelas materias + autorias (coleta SAPL)"
+ },
+ "relacoes": {
+  "ativas": [
+   {
+    "rotulo": "Revoga parcialmente",
+    "outra": {
+     "sapl_id": 4227,
+     "tipo": "Lei Complementar",
+     "numero": "468",
+     "ano": 2008,
+     "data": "2008-07-21",
+     "ementa_curta": "CRIA, NO ÂMBITO DO PODER EXECUTIVO ESTADUAL, A SECRETARIA DE ESTADO DA AGRICULTURA, PECUÁRIA E REGULARIZAÇÃO FUNDIÁRIA – SEAGRI, E DÁ OUTRAS PROVIDÊNCIAS.",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/4227"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=3"
+   },
+   {
+    "rotulo": "Revoga parcialmente",
+    "outra": {
+     "sapl_id": 5381,
+     "tipo": "Lei Complementar",
+     "numero": "622",
+     "ano": 2011,
+     "data": "2011-07-11",
+     "ementa_curta": "ESTABELECE NORMAS PARA CONSIGNAÇÕES EM FOLHA DE PAGAMENTO DOS SERVIDORES PÚBLICOS ATIVOS, INATIVOS, PENSIONISTAS E EMPREGADOS PÚBLICOS DA ADMINISTRAÇÃO DIRETA, ",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/5381"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=3"
+   },
+   {
+    "rotulo": "Altera",
+    "outra": {
+     "sapl_id": 5384,
+     "tipo": "Lei ordinária",
+     "numero": "2528",
+     "ano": 2011,
+     "data": "2011-07-25",
+     "ementa_curta": "CRIA A FUNDAÇÃO RONDÔNIA DE AMPARO AO DESENVOLVIMENTO DAS AÇÕES CIENTÍFICAS E TECNOLÓGICAS E A PESQUISA DO ESTADO DE RONDÔNIA, NOS TERMOS DO ARTIGO 201 DA CONST",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/5384"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=1"
+   },
+   {
+    "rotulo": "Altera",
+    "outra": {
+     "sapl_id": 5726,
+     "tipo": "Lei ordinária",
+     "numero": "2747",
+     "ano": 2012,
+     "data": "2012-05-18",
+     "ementa_curta": "CRIA O FUNDO ESTADUAL DE DESENVOLVIMENO DA CULTURA - FEDEC/RO, INTEGRANTE DO SISTEMA ESTADUAL DE FINANCIAMENTO À CULTURA - SEFIC.",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/5726"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=1"
+   },
+   {
+    "rotulo": "Altera",
+    "outra": {
+     "sapl_id": 5725,
+     "tipo": "Lei ordinária",
+     "numero": "2746",
+     "ano": 2012,
+     "data": "2012-05-18",
+     "ementa_curta": "INSTITUI O SISTEMA ESTADUAL DE CULTURA - SEC E DISPÕE SOBRE SUA COMPOSIÇÃO.",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/5725"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=1"
+   },
+   {
+    "rotulo": "Altera",
+    "outra": {
+     "sapl_id": 5724,
+     "tipo": "Lei ordinária",
+     "numero": "2745",
+     "ano": 2012,
+     "data": "2012-05-18",
+     "ementa_curta": "INSTITUI O SISTEMA ESTADUAL DE FINANCIAMENTO À CULTURA - SEFIC DISPÕE SOBRE SEU FUNCIONAMENTO E DÁ OUTRAS PROVIDÊNCIAS.",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/5724"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=1"
+   },
+   {
+    "rotulo": "Altera",
+    "outra": {
+     "sapl_id": 6330,
+     "tipo": "Lei ordinária",
+     "numero": "3122",
+     "ano": 2013,
+     "data": "2013-07-01",
+     "ementa_curta": "DISPÕE SOBRE A QUALIFICAÇÃO, CONCESSÃO, MANUTENÇÃO E CANCELAMENTO DAS TITULAÇÕES DE UTILIDADE PÚBLICA - UP, DE ORGANIZAÇÃO SOCIAL - OS E DE ORGANIZAÇÃO DA SOCIE",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/6330"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=1"
+   },
+   {
+    "rotulo": "Revoga parcialmente",
+    "outra": {
+     "sapl_id": 6544,
+     "tipo": "Lei Complementar",
+     "numero": "741",
+     "ano": 2013,
+     "data": "2013-11-21",
+     "ementa_curta": "ALTERA, ACRESCENTA E REVOGA DISPOSITIVOS DA LEI COMPLEMENTAR N. 369, DE 22 DE FEVEREIRO DE 2007 E DA LEI COMPLEMENTAR N. 381, DE 29 DE JUNHO DE 2007, PROMOVENDO",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/6544"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=3"
+   },
+   {
+    "rotulo": "Altera",
+    "outra": {
+     "sapl_id": 6768,
+     "tipo": "Lei Complementar",
+     "numero": "775",
+     "ano": 2014,
+     "data": "2014-06-02",
+     "ementa_curta": "CRIA, NO ÂMBITO DO ESTADO DE RONDÔNIA, O SISTEMA ESTADUAL DO DESPORTO E LAZER, INSTITUI NORMAS GERAIS SOBRE O DESPORTO E DÁ OUTRAS PROVIDÊNCIAS.",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/6768"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=1"
+   },
+   {
+    "rotulo": "Revoga parcialmente",
+    "outra": {
+     "sapl_id": 7127,
+     "tipo": "Lei Complementar",
+     "numero": "828",
+     "ano": 2015,
+     "data": "2015-07-15",
+     "ementa_curta": "DISPÕE SOBE A CRIAÇÃO DA SUPERINTENDÊNCIA DE POLICIA TÉCNICO-CIENTIFICA-POLITEC.",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/7127"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=3"
+   },
+   {
+    "rotulo": "Revoga parcialmente",
+    "outra": {
+     "sapl_id": 7294,
+     "tipo": "Lei Complementar",
+     "numero": "846",
+     "ano": 2015,
+     "data": "2015-12-08",
+     "ementa_curta": "DÁ NOVA REDAÇÃO, ALTERA, ACRESCENTA ARTIGOS E REORGANIZA UNIDADES ADMINISTRATIVAS DA LEI COMPLEMENTAR Nº 369, DE 22 DE FEVEREIRO DE 2007, DEFINE COMPETÊNCIAS DE",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/7294"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=3"
+   },
+   {
+    "rotulo": "Altera",
+    "outra": {
+     "sapl_id": 8225,
+     "tipo": "Lei Complementar",
+     "numero": "965",
+     "ano": 2017,
+     "data": "2017-12-20",
+     "ementa_curta": "DISPÕE SOBRE A ORGANIZAÇÃO E ESTRUTURA DO PODER EXECUTIVO DO ESTADO DE RONDÔNIA, E DÁ OUTRAS PROVIDÊNCIAS.",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/8225"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=1"
+   },
+   {
+    "rotulo": "Revoga integralmente",
+    "outra": {
+     "sapl_id": 8780,
+     "tipo": "Lei Complementar",
+     "numero": "1008",
+     "ano": 2018,
+     "data": "2018-12-21",
+     "ementa_curta": "Dispõe sobre nomeações em Cargos de Direção Superior e Funções Gratificadas vinculadas ao Sistema Penitenciário do Estado de Rondônia.",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/8780"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=2"
+   },
+   {
+    "rotulo": "Revoga integralmente",
+    "outra": {
+     "sapl_id": 9613,
+     "tipo": "Lei Complementar",
+     "numero": "1078",
+     "ano": 2020,
+     "data": "2020-12-22",
+     "ementa_curta": "Dá nova redação à Lei Complementar nº 1.008, de 20 de dezembro de 2018.",
+     "url_sapl": "https://sapl.al.ro.leg.br/norma/9613"
+    },
+    "_fonte": "vinculos_norma.tipo_vinculo=2"
+   }
+  ],
+  "passivas": [],
+  "correlatas": [],
+  "_definicao": "1 salto, como a página da norma no SAPL; rótulos oficiais da API de tipos de vínculo; normalizações do build_grafo_vinculos",
+  "ativas_inferidas": [],
+  "passivas_inferidas": []
+ },
+ "constitucionalidade": {
+  "declarada_inconstitucional": false,
+  "abrangencia": null,
+  "registro": null,
+  "_fonte": "vinculos_norma tipos 12/13 (self-loop normalizado)",
+  "anexos_adi": []
+ },
+ "situacao_derivada": {
+  "valor": "vigente (presumida)",
+  "regra": "derivada dos vínculos passivos (revogação 2/3, suspensão 10/11) e da inconstitucionalidade (12/13); 'vigente (presumida)' = ausência desses sinais, NÃO verificação positiva de vigência",
+  "_fonte": "derivado (não é campo do SAPL)"
+ },
+ "linha_do_tempo": [
+  {
+   "data": "2023-06-27",
+   "evento": "apresentação do PL",
+   "detalhe": "Projeto de Lei Complementar nº 26 de 2023 — autoria: Poder Executivo",
+   "_fonte": "materias.data_apresentacao"
+  },
+  {
+   "data": "2024-03-25",
+   "evento": "promulgação/publicação",
+   "detalhe": "Lei Complementar nº 1220, de 2024 — atos desta norma: Revoga parcialmente Lei Complementar 468/2008; Revoga parcialmente Lei Complementar 622/2011; Altera Lei ordinária 2528/2011; Altera Lei ordinária 2747/2012; Altera Lei ordinária 2746/2012; Altera Lei ordinária 2745/2012; Altera Lei ordinária 3122/2013; Revoga parcialmente Lei Complementar 741/2013; Altera Lei Complementar 775/2014; Revoga parcialmente Lei Complementar 828/2015; Revoga parcialmente Lei Complementar 846/2015; Altera Lei Complementar 965/2017; Revoga integralmente Lei Complementar 1008/2018; Revoga integralmente Lei Complementar 1078/2020",
+   "nota": null,
+   "_fonte": "normas.data"
+  }
+ ],
+ "anexos": [],
+ "acessorios_da_materia": {
+  "disponivel": true,
+  "itens": [
+   {
+    "nome": "Mensagem 25/2024 - 08/02/2024",
+    "categoria": "outro",
+    "data": "2024-03-04",
+    "autor": "Poder Executivo",
+    "ementa": "Substitutivo ao Projeto de Lei Complementar nº 26/23 que “Altera dispositivos da Lei Complementar nº 775, de 2 de junho de 2014, altera, acresce e revoga dispos",
+    "arquivo_url": "http://sapl.al.ro.leg.br/media/sapl/public/documentoacessorio/2023/2924/substitutivo_ao_plc_26-2023.pdf"
+   },
+   {
+    "nome": "CCJR",
+    "categoria": "parecer",
+    "data": "2024-03-19",
+    "autor": "Parlamentar",
+    "ementa": null,
+    "arquivo_url": "http://sapl.al.ro.leg.br/media/sapl/public/documentoacessorio/2023/3091/parecer_251-2024_do_plc_23-2023_ccjr.pdf"
+   },
+   {
+    "nome": "Em Plenário",
+    "categoria": "transcricao_plenario",
+    "data": "2024-03-19",
+    "autor": "Deputado Luizinho Goebel",
+    "ementa": null,
+    "arquivo_url": "http://sapl.al.ro.leg.br/media/sapl/public/documentoacessorio/2023/3233/plc_26.2023.docx"
+   }
+  ],
+  "_fonte": "documentos_acessorios (via matéria; nomes livres do SAPL)"
+ },
+ "textos": {
+  "lei": {
+   "url": "http://sapl.al.ro.leg.br/media/sapl/public/normajuridica/2024/11970/lc1220.pdf",
+   "documento": {
+    "extraido": true,
+    "chars": 12788,
+    "numero_conferido_no_texto": true,
+    "extraido_em": "2026-03-15T06:56:18.207282"
+   },
+   "_fonte": "normas.texto_integral_url + tabela documentos"
+  },
+  "pl": {
+   "documento": null,
+   "_fonte": "tabela documentos (fonte=texto_original)",
+   "aviso": "texto do PL ainda não extraído (só a URL na matéria)"
+  }
+ },
+ "alertas": [],
+ "lacunas_desta_versao": [
+  "votação nominal: não incluída nesta versão",
+  "data da decisão da ADI: não existe no dado estruturado do SAPL (apenas no PDF do anexo)",
+  "vigência: `data_vigencia` é vazia no SAPL — situação é DERIVADA dos vínculos, não verificada",
+  "vínculos INFERIDOS são heurísticos (citações com ano na ementa; aspas aninhadas ignoradas) — conferir no texto antes de afirmar",
+  "caminhada transitiva (vínculos dos vínculos): não incluída — a ficha é 1 salto"
+ ]
+}

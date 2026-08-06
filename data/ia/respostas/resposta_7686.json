@@ -1,0 +1,80 @@
+{
+ "sapl_id": 7686,
+ "analise": {
+  "sapl_id": 7686,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "INSTITUI O PROJETO \"PLANTANDO O VERDE\" NAS ESCOLAS DA REDE PÚBLICA DE ENSINO NO ÂMBITO DO ESTADO DE RONDÔNIA\".",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "O Projeto estimulará cada aluno a plantar uma àrvore uma àrvore, no Dia da Árvore, comemorado anualmente em 21 de setembro, uma espécie da flora nativa do Estado na sede de suas respectivas escolas ou em outros locais por estas indicadas.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "Entendemos que a escola é um importante espaço para incentivar o jovem a ser sensibilizado na defesa e preservação da Natureza.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º e Art. 2º",
+     "efeito": "Criação de projeto educacional sem obrigatoriedade de orçamento, metas ou sanções, configurando norma programática.",
+     "citacao": "Fica instituído o Projeto \"Plantando o Verde\" a ser implementado nas escolas de ensino no âmbito do Estado de Rondônia, visando à conscientização da importância da preservação do Meio Ambiente.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma possui caráter estritamente simbólico e pedagógico. O projeto de lei original e a lei promulgada são praticamente idênticos em seu conteúdo normativo, limitando-se a instituir um projeto de conscientização ambiental nas escolas sem estabelecer dotação orçamentária, metas quantitativas de plantio ou mecanismos de fiscalização e acompanhamento. A retórica é voltada para a educação ambiental, mas a ausência de obrigatoriedade ou estrutura de implementação efetiva enquadra a norma como M1 (norma programática vazia).\n\nNão foram identificados dispositivos que tenham sido inseridos ou removidos entre o projeto e a lei que caracterizem retrocesso ou 'jabutis' (M3 ou M4). A norma não altera o regime de proteção ambiental do estado, apenas cria uma diretriz de incentivo escolar, o que a afasta de uma estratégia de greenwashing, pois não há dissimulação de um impacto negativo sob uma roupagem verde; trata-se apenas de uma norma de baixo impacto prático.",
+  "lacunas": [
+   "Ausência de dados sobre a execução orçamentária ou relatórios de implementação do projeto nas escolas após a promulgação."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 13189,
+  "quando": "2026-07-30T15:44:41+00:00",
+  "uso": {
+   "prompt_tokens": 7224,
+   "completion_tokens": 741,
+   "total_tokens": 7965,
+   "cost": 0.002888325,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0029175,
+    "upstream_inference_prompt_cost": 0.001806,
+    "upstream_inference_completions_cost": 0.0011115
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

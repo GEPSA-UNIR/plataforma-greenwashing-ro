@@ -1,0 +1,76 @@
+{
+ "sapl_id": 12004,
+ "analise": {
+  "sapl_id": 12004,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Institui a Política Estadual de Incentivo à Geração de Energia Renovável para os Pequenos Produtores Rurais",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "A geração renovável de forma distribuída também trará ganhos financeiros para o consumidor de energia elétrica, pois contribuirá para reduzir o uso demasiado de termelétricas movidas a combustíveis fósseis, poluidoras e de elevado custo de geração.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 5º e Art. 6º",
+     "efeito": "Esvaziamento dos instrumentos práticos da política através de vetos totais.",
+     "citacao": "Art. 5° VETADO. I - VETADO. II - VETADO. III - VETADO. Art. 6° VETADO.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.6,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma apresenta uma retórica ambiental forte, focada na transição energética e na redução da dependência de combustíveis fósseis. Contudo, a análise comparativa entre o projeto original e a lei sancionada revela um esvaziamento prático significativo. O projeto original previa instrumentos concretos, como a 'disponibilização de linhas de financiamento' (Art. 4º do PL) e a 'oferta de incentivos tributários' (Art. 5º do PL), além de dotação orçamentária (Art. 6º do PL). Na lei promulgada, todos esses dispositivos foram vetados (Art. 5º e 6º da Lei), restando apenas diretrizes genéricas e programáticas sem mecanismos de execução, orçamento ou sanção.\n\nO resultado é uma norma que se apresenta como política pública de incentivo, mas que, na prática, carece de qualquer meio efetivo para fomentar a geração de energia renovável, configurando uma norma programática vazia. A ausência de instrumentos financeiros e tributários, que eram o núcleo da proposta, reduz a lei a um caráter meramente simbólico.",
+  "lacunas": [
+   "Ausência de informações sobre as razões específicas dos vetos no dossiê, o que permitiria avaliar se houve uma desarticulação deliberada da política ou apenas uma questão orçamentária."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 14090,
+  "quando": "2026-07-30T15:49:19+00:00",
+  "uso": {
+   "prompt_tokens": 5919,
+   "completion_tokens": 611,
+   "total_tokens": 6530,
+   "cost": 0.0023722875,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00239625,
+    "upstream_inference_prompt_cost": 0.00147975,
+    "upstream_inference_completions_cost": 0.0009165
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

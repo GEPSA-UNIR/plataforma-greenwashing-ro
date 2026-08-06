@@ -1,0 +1,77 @@
+{
+ "sapl_id": 8271,
+ "analise": {
+  "sapl_id": 8271,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Mais uma vez o Poder Executivo está extrapolando e mais uma vez esta Casa está sendo obrigada através deste Projeto de Decreto Legislativo, a sustar Decretos do Governador do Estado, por exorbitar do Poder Regulamentar.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "A Lei Federal nº 9.985, de 18 de julho de 2000, que instituiu o Sistema Nacional de Unidades de Conservação da Natureza — SNUC determina, para a criação de uma Unidade de Conservação, a necessidade de estudos técnicos e de consulta pública",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Susta os efeitos de decreto que regulamentava a Floresta Estadual do Rio Pardo, resultando na desconstituição de atos administrativos de proteção ambiental.",
+     "citacao": "Fica sustado, nos termos do inciso XIX do artigo 29 da Constituição Estadual, os efeitos do Decreto nº 22.681, de 20 de março de 2018",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M3_revogacao_tacita"
+  ],
+  "justificativa": "O Decreto Legislativo nº 799/2018 opera um retrocesso ambiental ao sustar os efeitos de um decreto do Poder Executivo que dispunha sobre a Floresta Estadual do Rio Pardo. Embora a justificativa do projeto alegue a defesa da legalidade e do devido processo legislativo (citando a necessidade de consulta pública e estudos técnicos conforme o SNUC), o efeito prático da norma é a anulação de atos de criação ou regulamentação de unidades de conservação. \n\nA norma não apresenta características de greenwashing, pois não utiliza retórica de proteção ambiental para esconder um retrocesso; pelo contrário, a retórica é focada na disputa de competência entre os poderes. O retrocesso é transparente, pois a Assembleia Legislativa utiliza seu poder de sustação para desconstituir a proteção ambiental estabelecida pelo Executivo. O fato de esta norma ter sido aprovada em conjunto com outros nove decretos legislativos de teor idêntico (sustando a criação de diversas outras unidades de conservação) reforça que se trata de uma ação coordenada de desmonte de áreas protegidas sob o pretexto de vício formal na criação das mesmas.",
+  "lacunas": [
+   "Faltam informações sobre o conteúdo técnico do Decreto nº 22.681/2018 sustado, o que permitiria avaliar se a sustação foi motivada por falhas técnicas reais ou apenas por oposição política à criação das áreas.",
+   "Não há transcrição das falas em plenário, o que limita a compreensão da motivação política declarada pelos parlamentares além do texto da justificativa."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9210,
+  "quando": "2026-07-30T15:46:08+00:00",
+  "uso": {
+   "prompt_tokens": 5245,
+   "completion_tokens": 796,
+   "total_tokens": 6041,
+   "cost": 0.0024801975,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00250525,
+    "upstream_inference_prompt_cost": 0.00131125,
+    "upstream_inference_completions_cost": 0.001194
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

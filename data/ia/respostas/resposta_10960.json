@@ -1,0 +1,74 @@
+{
+ "sapl_id": 10960,
+ "analise": {
+  "sapl_id": 10960,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Dispõe sobre o exercício da profissão de gestor ambiental, no âmbito do Estado de Rondônia.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "O gestor ambiental, sem dúvida, está preparado para contribuir com o desenvolvimento sustentável, sinônimo também de soberania do País sobre os recursos naturais, de desenvolvimento científico e tecnológico, com a igualdade social.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 3º",
+     "efeito": "Define competências profissionais sem restringir a atuação de outros profissionais já habilitados, mantendo o status quo de multidisciplinaridade.",
+     "citacao": "Sem prejuízo do exercício das mesmas atividades por outros profissionais igualmente habilitados na forma de legislação específica, compete ao Gestor Ambiental a realização de atividades de gestão e de planejamento",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma possui caráter predominantemente simbólico e corporativo. Embora apresente uma retórica voltada à valorização do profissional de gestão ambiental e ao desenvolvimento sustentável, o efeito prático é limitado pela ressalva expressa no Art. 3º, que garante que a lei não exclui outros profissionais já habilitados de exercerem as mesmas funções. Não há, portanto, um impacto direto na proteção ambiental, mas sim uma organização de atribuições profissionais que já ocorriam no mercado.\n\nNão foram identificados mecanismos de dissimulação (greenwashing) ou retrocesso, pois a norma não altera as exigências técnicas de licenciamento ou fiscalização ambiental, apenas formaliza o escopo de atuação de uma categoria específica. A comparação entre o projeto e a lei não revelou alterações substanciais que indicassem a inserção de 'jabutis' ou esvaziamento de proteções, tratando-se de uma norma de regulamentação profissional sem impacto negativo no nível de proteção ambiental do estado.",
+  "lacunas": [],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 18442,
+  "quando": "2026-07-30T15:48:35+00:00",
+  "uso": {
+   "prompt_tokens": 7068,
+   "completion_tokens": 593,
+   "total_tokens": 7661,
+   "cost": 0.002629935,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0026565,
+    "upstream_inference_prompt_cost": 0.001767,
+    "upstream_inference_completions_cost": 0.0008895
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

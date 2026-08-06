@@ -1,0 +1,76 @@
+{
+ "sapl_id": 12580,
+ "analise": {
+  "sapl_id": 12580,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Aprova o relatório circunstanciado e as conclusões da Comissão Parlamentar de Inquérito instituída pelo ATO Nº P 008/2023-LEG/ALE, que “Constitui e nomeia membro da Comissão Parlamentar de Inquérito destinada a investigar e apurar possíveis irregularidades nos processos de criação de 11 (onze) unidades de conservação no Estado de Rondônia",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "A CPI desempenhou um papel fundamental na apuração dos fatos, conduzindo um trabalho técnico e comprometido, realizando, ao longo de sua atuação, um processo de investigação com a colheita criteriosa de informações",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "indeterminado",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º e Art. 2º",
+     "efeito": "A norma aprova um relatório de CPI, mas não torna público o conteúdo das conclusões ou recomendações, tornando o efeito prático sobre a proteção das unidades de conservação inavaliável sem acesso ao relatório citado.",
+     "citacao": "Fica aprovado o relatório circunstanciado e as conclusões da Comissão Parlamentar de Inquérito, instituída pelo ATO Nº P 008/2023-LEG/ALE",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "indeterminado",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A Resolução nº 626/2025 limita-se a aprovar formalmente o relatório de uma CPI que investigou irregularidades na criação de 11 unidades de conservação e contratos de carbono. Embora a retórica parlamentar, conforme transcrição da sessão, mencione a importância do tema para os rondonienses, o texto da norma é puramente procedimental. Não há, no dossiê, acesso ao conteúdo do relatório aprovado, o que impede qualquer conclusão sobre se a norma visa proteger as unidades de conservação ou se, sob o pretexto de 'investigar irregularidades', promove o esvaziamento jurídico dessas áreas protegidas. A ausência de transparência sobre as recomendações aprovadas torna o efeito prático indeterminado.",
+  "lacunas": [
+   "O dossiê não contém o relatório circunstanciado da CPI, documento essencial para avaliar se a norma protege ou enfraquece as unidades de conservação mencionadas."
+  ],
+  "confianca": 0.8
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 8221,
+  "quando": "2026-07-30T15:49:36+00:00",
+  "uso": {
+   "prompt_tokens": 4404,
+   "completion_tokens": 685,
+   "total_tokens": 5089,
+   "cost": 0.002107215,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0021285,
+    "upstream_inference_prompt_cost": 0.001101,
+    "upstream_inference_completions_cost": 0.0010275
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

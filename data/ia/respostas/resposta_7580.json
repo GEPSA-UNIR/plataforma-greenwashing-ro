@@ -1,0 +1,82 @@
+{
+ "sapl_id": 7580,
+ "analise": {
+  "sapl_id": 7580,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "o presente Projeto de Lei Complementar tem por objetivo tão somente fixar percentuais mínimos de Reserva Legal a serem observados pelos imóveis rurais que, em 22 de julho de 2008, possuíam percentuais inferiores aos previstos no artigo 12 do Código Florestal.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "o presente Projeto de Lei Complementar tem por finalidade eliminar a insegurança jurídica hoje existente no campo, adequando a legislação estadual aos preceitos do novo Código Florestal.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 31-A, incisos I, II e III",
+     "efeito": "Estabelece percentuais reduzidos de Reserva Legal (10%, 20% e 50%) para imóveis rurais, permitindo a regularização com cobertura vegetal inferior à regra geral de 80% prevista para a Amazônia Legal.",
+     "citacao": "I - 10% (dez por cento) da área total do imóvel, para imóveis rurais com área de até 2 (dois) módulos fiscais; II - 20% (vinte por cento) da área total do imóvel, para imóveis rurais com área superior a 2 (dois) e de até 4 (quatro) módulos fiscais; e III 50% (cinquenta por cento) da área total do imóvel, para imóveis rurais com área superior a 4 (quatro) módulos fiscais situados na Zona 1.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 31-A, parágrafo único",
+     "efeito": "Permite o cômputo de Áreas de Preservação Permanente (APP) no cálculo da Reserva Legal, reduzindo a área efetiva de vegetação nativa a ser preservada ou recomposta.",
+     "citacao": "Parágrafo único. Será admitido o cômputo das áreas de Preservação Permanente no cálculo do percentual da Reserva Legal, nos termos do artigo 15, da Lei Federal n\" 12.651, de 25 de maio de 2012.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.9,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'segurança jurídica' e 'adequação ao Código Florestal' para implementar uma redução drástica na exigência de Reserva Legal em Rondônia. Ao fixar percentuais de 10%, 20% e 50% para diferentes categorias de imóveis, a lei desobriga proprietários rurais de atingirem o patamar de 80% de cobertura florestal, padrão para a Amazônia Legal. O uso do termo 'regularização' mascara o efeito de anistia e redução permanente da proteção ambiental.\n\nAdicionalmente, a norma permite o cômputo de Áreas de Preservação Permanente (APP) dentro da Reserva Legal, o que, na prática, diminui a área total de vegetação nativa protegida no imóvel. A justificativa do Executivo, ao alegar que a medida evita 'ônus adicional aos proprietários', confirma que o objetivo central é a desoneração econômica em detrimento da conservação ambiental, configurando um claro caso de greenwashing legislativo onde a retórica de conformidade legal encobre o retrocesso ambiental.",
+  "lacunas": [
+   "Não há lacunas significativas, pois o dossiê contém o projeto original e a lei promulgada, permitindo a análise da intenção e do resultado."
+  ],
+  "confianca": 1.0
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 11190,
+  "quando": "2026-07-30T15:44:32+00:00",
+  "uso": {
+   "prompt_tokens": 5689,
+   "completion_tokens": 984,
+   "total_tokens": 6673,
+   "cost": 0.0028692675,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00289825,
+    "upstream_inference_prompt_cost": 0.00142225,
+    "upstream_inference_completions_cost": 0.001476
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

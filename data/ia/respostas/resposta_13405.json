@@ -1,0 +1,84 @@
+{
+ "sapl_id": 13405,
+ "analise": {
+  "sapl_id": 13405,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "O presente Projeto de Lei Complementar tem por finalidade conferir segurança jurídica, equilíbrio social e observância aos princípios constitucionais do direito de propriedade",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "A proposta também preserva a tutela ambiental, ao deixar expresso que a suspensão não implica autorização para novos desmatamentos, ampliações de atividades produtivas ou convalidação de infrações ambientais",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 4º",
+     "efeito": "Suspende embargos ambientais e planos de desocupação de área protegida (Estação Ecológica), permitindo a continuidade de atividades econômicas em área de conservação.",
+     "citacao": "A adesão ao PERT implicará na suspensão do embargo ambiental, e de seus efeitos, eventualmente incidentes sobre a área, bem como do plano de desocupação dos semoventes da área denominada Soldado da Borracha",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 3º, § 7º",
+     "efeito": "Garante o uso permanente de 20% da área da unidade de conservação para cultivo, criando um direito de exploração incompatível com a categoria de Estação Ecológica.",
+     "citacao": "assegurando-lhes, de forma permanente, uma área de cultivo não inferior a 20% (vinte por cento) da totalidade do imóvel para fins de subsistência.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.9,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'segurança jurídica' e 'consequencialismo' para justificar a suspensão de embargos ambientais e planos de desocupação em uma Estação Ecológica (Unidade de Conservação de Proteção Integral). Embora o texto afirme que não autoriza novos desmatamentos, o efeito prático é a legitimação da ocupação irregular e a garantia de exploração econômica (20% da área) dentro de uma área protegida, esvaziando a eficácia da unidade de conservação.\n\nEntre o projeto e a lei, houve a inclusão do Art. 11, que afirma que a lei não convalida o Decreto nº 22.690/2018, mas isso não altera o impacto negativo dos dispositivos que suspendem a fiscalização e os embargos. A norma opera um 'reframing' ao tratar a ocupação de uma área protegida como uma questão de 'regularização transitória' (PERT), transferindo para a SEDAM a responsabilidade de emitir licenças em áreas que deveriam estar sob regime de proteção estrita.",
+  "lacunas": [
+   "Ausência de dados sobre a extensão total da área afetada e o número de propriedades envolvidas.",
+   "Falta de informações sobre o impacto ambiental acumulado das atividades agrossilvopastoris na Estação Ecológica."
+  ],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 21535,
+  "quando": "2026-07-30T15:49:57+00:00",
+  "uso": {
+   "prompt_tokens": 7698,
+   "completion_tokens": 862,
+   "total_tokens": 8560,
+   "cost": 0.003185325,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0032175,
+    "upstream_inference_prompt_cost": 0.0019245,
+    "upstream_inference_completions_cost": 0.001293
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

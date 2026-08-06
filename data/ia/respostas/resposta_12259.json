@@ -1,0 +1,77 @@
+{
+ "sapl_id": 12259,
+ "analise": {
+  "sapl_id": 12259,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "A presente Proposição tem por objetivo ampliar as punições e assim contribuir para a defesa do meio ambiente com a diminuição dos focos, também defender a saúde da população rondoniense",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "Dispõe sobre as sanções aplicáveis em virtude da responsabilidade por incêndios e queimadas, e dá outras providências.",
+     "secao": "## Ementa"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 2º, § 1º e § 2º",
+     "efeito": "Estabelece sanções administrativas (multas, impedimento de licitar, perda de função pública) para responsáveis por incêndios, mantendo a estrutura proposta no projeto original.",
+     "citacao": "I - multa de 100 (cem) Unidade Padrão Fiscal de Rondônia - UPF/RO para cada 1.000 m2 (um mil metros quadrados) de área impactada pelo incêndio ou queimada",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.3,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma apresenta um caráter predominantemente simbólico. Embora o autor justifique a proposta como uma forma de 'ampliar as punições' e 'inibir a frequência dos incêndios', a lei não cria mecanismos operacionais de fiscalização, não destina orçamento específico para o combate aos incêndios e não estabelece prazos ou metas para a aplicação das sanções previstas. A redação final da lei é praticamente idêntica ao projeto original, não havendo alterações significativas que indiquem contrabando legislativo ou retrocesso deliberado. \n\nO efeito prático é limitado, pois a norma apenas repete a lógica de sanções administrativas já previstas em legislações federais e estaduais preexistentes, sem conferir maior eficácia à atuação dos órgãos ambientais. A ausência de previsão de estrutura para a aplicação das multas e a falta de integração efetiva com os órgãos de controle tornam a lei uma peça de retórica política, enquadrando-se no mecanismo de norma programática vazia, que busca responder à pressão social por ações contra as queimadas sem alterar a capacidade estatal de fiscalização.",
+  "lacunas": [
+   "Ausência de dados sobre a capacidade orçamentária e de pessoal dos órgãos ambientais para aplicar as sanções previstas.",
+   "Falta de informações sobre a eficácia da aplicação de multas por UPF/RO em casos anteriores de incêndios no estado."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 18565,
+  "quando": "2026-07-30T15:49:27+00:00",
+  "uso": {
+   "prompt_tokens": 8357,
+   "completion_tokens": 718,
+   "total_tokens": 9075,
+   "cost": 0.0031345875,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00316625,
+    "upstream_inference_prompt_cost": 0.00208925,
+    "upstream_inference_completions_cost": 0.001077
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "sapl_id": 6870,
+ "analise": {
+  "sapl_id": 6870,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Esta administração iniciou, pela primeira vez, políticas públicas de apoio à economia local, com destaque para a produção familiar agrícola, pesqueira, extrativista entre outras formas de subsistência.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "O Governo do Estado de Rondônia, os órgãos públicos e autarquias Federais, Estaduais e a Sociedade Civil organizada unir-se-ão em esforços para [...] garantir a sustentabilidade social, ambiental e econômica.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 5º, caput",
+     "efeito": "Autoriza a instalação de aquicultura em Áreas de Preservação Permanente (APP) já antropizadas, flexibilizando a proteção de ecossistemas sensíveis sob o pretexto de interesse social.",
+     "citacao": "É declarada de interesse social e econômico a atividade de aquicultura para fins de implantação em aproveitamento de Área de Preservação Permanente - APP já antropizada",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 10, caput",
+     "efeito": "Desburocratiza o licenciamento ambiental ao instituir cadastro simplificado e dispensar o relatório de controle ambiental para atividades de baixo impacto, delegando a fiscalização a municípios sem garantir critérios técnicos rigorosos.",
+     "citacao": "Fica instituído o cadastro simplificado, a ser disciplinado pelo órgão ambiental estadual, dispensando-se o relatório de controle ambiental para atividade de baixo impacto ambiental",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 22",
+     "efeito": "Isenta a aquicultura de restrições fundamentais de proteção à fauna aquática, como período de defeso e limites de captura, o que pode facilitar a pressão sobre estoques naturais.",
+     "citacao": "Todos os produtos de aquicultura, conforme descrito no Capítulo II, não estão incluídos nas limitações legais pertinentes à pesca turística ou comercial, quais sejam: [...] V - período do Defeso.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.85,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'sustentabilidade' e 'desenvolvimento econômico' para justificar a flexibilização de normas ambientais rígidas. O Eixo R é evidente na justificativa do projeto, que enquadra a aquicultura como uma atividade de interesse social para promover a economia local. Contudo, o Eixo E revela um enfraquecimento da proteção ambiental ao permitir a ocupação de APPs (Art. 5º) e ao dispensar o licenciamento ambiental rigoroso para atividades classificadas como de 'baixo impacto' (Art. 10), que na prática podem gerar impactos cumulativos significativos.\n\nAlém disso, a norma cria um regime de exceção para a aquicultura, desobrigando-a de cumprir períodos de defeso e limites de captura (Art. 22), o que contradiz a retórica de proteção à fauna aquática. A criação do Conselho Estadual de Desenvolvimento Sustentável da Aquicultura (Art. 40) atua como um mecanismo de M1 (norma programática), conferindo uma aparência de governança participativa, enquanto dispositivos de desregulamentação (M5) transferem a responsabilidade de fiscalização para municípios, sem a devida contrapartida de capacidade técnica.",
+  "lacunas": [
+   "Ausência de dados sobre a capacidade técnica real dos municípios para assumir o licenciamento ambiental delegado pelo Art. 10.",
+   "Falta de informações sobre o impacto cumulativo das atividades de aquicultura em APPs no estado de Rondônia após a vigência da lei."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 72370,
+  "quando": "2026-07-30T15:43:39+00:00",
+  "uso": {
+   "prompt_tokens": 21030,
+   "completion_tokens": 954,
+   "total_tokens": 21984,
+   "cost": 0.006621615,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0066885,
+    "upstream_inference_prompt_cost": 0.0052575,
+    "upstream_inference_completions_cost": 0.001431
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

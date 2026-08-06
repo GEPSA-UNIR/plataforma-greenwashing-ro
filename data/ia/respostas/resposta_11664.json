@@ -1,0 +1,74 @@
+{
+ "sapl_id": 11664,
+ "analise": {
+  "sapl_id": 11664,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Dispõe sobre a proibição do uso de fogos de artifício e artefatos pirotécnicos com estampido, no âmbito do Estado de Rondônia e dá outras providências.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "O projeto em análise acompanha uma tendência já implementada em vários estados da federação [...] que propõe melhorar a qualidade de vida principalmente das crianças com transtorno do espectro autista — TEA, alcançando ainda aquelas pessoas que se encontram em hospitais. asilos bem como afetam também negativamente os animais.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "misto",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º, § 3º",
+     "efeito": "Cria uma exceção ampla e subjetiva à proibição, permitindo o uso de fogos com estampido em festividades tradicionais, o que enfraquece a proteção pretendida pelo projeto original.",
+     "citacao": "§ 3º As festividades tradicionais, reconhecidas como patrimônio histórico, cultural e imaterial de Rondônia estão excetuadas das proibições contidas no caput deste artigo.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M4_insercao_heterogenea"
+  ],
+  "justificativa": "A norma apresenta uma retórica forte de proteção à saúde pública e bem-estar animal, utilizando argumentos sobre o Transtorno do Espectro Autista (TEA) e a sensibilidade auditiva de animais. Contudo, a inclusão do § 3º no Art. 1º, que não constava no projeto original, introduz uma exceção ampla para 'festividades tradicionais'. \n\nEste dispositivo, inserido via emenda durante a tramitação, esvazia o efeito prático da proibição ao permitir que a fonte principal de ruído (fogos com estampido) continue ocorrendo em eventos de grande porte, sob o pretexto de preservação cultural. A mudança configura um mecanismo de dissimulação, onde a norma se apresenta como uma proibição geral, mas garante, na prática, a continuidade da prática poluidora em contextos de alta visibilidade.",
+  "lacunas": [],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 11151,
+  "quando": "2026-07-30T15:49:10+00:00",
+  "uso": {
+   "prompt_tokens": 5455,
+   "completion_tokens": 635,
+   "total_tokens": 6090,
+   "cost": 0.0022930875,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00231625,
+    "upstream_inference_prompt_cost": 0.00136375,
+    "upstream_inference_completions_cost": 0.0009525
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

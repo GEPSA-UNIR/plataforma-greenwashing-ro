@@ -1,0 +1,76 @@
+{
+ "sapl_id": 8909,
+ "analise": {
+  "sapl_id": 8909,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Institui dia 22 de setembro o \"Dia Estadual Sem Carro\", no âmbito do Estado de Rondônia.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Fica instituído o \"Dia Estadual sem Carro\" para conscientizar o cidadão sobre os danos da emissão de gases do efeito estufa e ressaltando a importância do uso sustentável dos meios de transporte.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º e Art. 2º",
+     "efeito": "Criação de data comemorativa sem obrigações orçamentárias, metas de redução de emissões ou planos de mobilidade urbana vinculantes.",
+     "citacao": "Fica instituído o \"Dia Estadual sem Carro\" para conscientizar o cidadão sobre os danos da emissão de gases do efeito estufa e ressaltando a importância do uso sustentável dos meios de transporte.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma possui caráter estritamente simbólico, limitando-se a instituir uma data comemorativa no calendário oficial do Estado. Não há previsão de orçamento, metas, sanções ou obrigações concretas para o Poder Executivo que resultem em alteração na política de mobilidade urbana ou redução efetiva de emissões de gases de efeito estufa. O texto da lei é idêntico ao projeto original, não havendo alterações que indiquem contrabando legislativo ou retrocesso, mas também não há qualquer avanço prático na proteção ambiental.\n\nEmbora a justificativa do autor mencione benefícios à saúde e ao meio ambiente, a norma enquadra-se como M1 (norma programática vazia), pois não estabelece mecanismos de efetivação. A transcrição da sessão plenária fornecida no dossiê refere-se a um projeto de lei distinto (PLC 009/19), tratando de estrutura administrativa e investimentos em saneamento, o que confirma que a presente lei (4513/2019) não foi objeto de debate substantivo sobre seu impacto ambiental durante a tramitação.",
+  "lacunas": [
+   "Ausência de debate específico sobre a norma na transcrição plenária (o texto refere-se a outro projeto)."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 18173,
+  "quando": "2026-07-30T15:47:02+00:00",
+  "uso": {
+   "prompt_tokens": 7167,
+   "completion_tokens": 679,
+   "total_tokens": 7846,
+   "cost": 0.0027821475,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00281025,
+    "upstream_inference_prompt_cost": 0.00179175,
+    "upstream_inference_completions_cost": 0.0010185
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

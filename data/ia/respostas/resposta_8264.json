@@ -1,0 +1,74 @@
+{
+ "sapl_id": 8264,
+ "analise": {
+  "sapl_id": 8264,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Mais uma vez o Poder Executivo está extrapolando e mais uma vez esta Casa está sendo obrigada através deste Projeto de Decreto Legislativo, a sustar Decretos do Governador do Estado, por exorbitar do Poder Regulamentar.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "A Lei Federal nº 9.985, de 18 de julho de 2000, que instituiu o Sistema Nacional de Unidades de Conservação da Natureza — SNUC determina, para a criação de uma Unidade de Conservação, a necessidade de estudos técnicos e de consulta pública",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Anula a criação da Reserva de Desenvolvimento Sustentável Bom Jardim, eliminando a proteção ambiental conferida pelo decreto estadual sustado.",
+     "citacao": "Fica sustado, nos termos do inciso XIX do artigo 29 da Constituição Estadual, os efeitos do Decreto nº 22.689, de 20 de março de 2018, que \"Dispõe sobre a criação da Reserva de Desenvolvimento Sustentável Bom Jardim\"",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma opera um retrocesso ambiental direto ao sustar os efeitos de um decreto que criava uma Unidade de Conservação (Reserva de Desenvolvimento Sustentável Bom Jardim). Embora a justificativa do projeto utilize uma retórica de defesa da legalidade e do devido processo legislativo (alegando que o Executivo 'exorbitou do Poder Regulamentar' e ignorou a necessidade de 'estudos técnicos e de consulta pública'), o efeito prático é a supressão imediata de uma área protegida. \n\nEste decreto faz parte de um conjunto de 11 normas aprovadas simultaneamente na mesma sessão, todas com o objetivo de sustar a criação de diversas unidades de conservação no estado. A estratégia de apresentar a supressão de áreas protegidas como uma correção de 'excesso' do Executivo configura um reframing de regressão, onde a desproteção ambiental é apresentada como um ato de zelo institucional e respeito à competência legislativa.",
+  "lacunas": [],
+  "confianca": 1.0
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 8028,
+  "quando": "2026-07-30T15:45:39+00:00",
+  "uso": {
+   "prompt_tokens": 4774,
+   "completion_tokens": 652,
+   "total_tokens": 5426,
+   "cost": 0.002149785,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0021715,
+    "upstream_inference_prompt_cost": 0.0011935,
+    "upstream_inference_completions_cost": 0.000978
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

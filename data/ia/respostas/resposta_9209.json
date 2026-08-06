@@ -1,0 +1,83 @@
+{
+ "sapl_id": 9209,
+ "analise": {
+  "sapl_id": 9209,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Ressalto ainda, que o presente Projeto de Lei tem por escopo tão somente alterar a composição do plenário do CONSEPA, de modo a tornar o seu funcionamento mais dinâmico e ágil.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "o presente Projeto de Lei objetiva, em síntese, apenas fornecer o arcabouço normativo necessário para o funcionamento mais eficiente do CONSEPA, contribuindo, assim, para o desenvolvimento ambiental do Estado de Rondônia.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 4º, inciso V (VETADO)",
+     "efeito": "A exclusão de um inciso (V) que não constava no projeto original, mas que foi inserido e posteriormente vetado na lei, sugere uma tentativa de alteração na composição do conselho que não foi consolidada, mantendo a estrutura de representação sob controle do Executivo e entidades setoriais específicas.",
+     "citacao": "V -VETADO.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 7º, Parágrafo único",
+     "efeito": "Permite a delegação de competências deliberativas do Plenário para Câmaras Técnicas, facilitando a fragmentação do controle ambiental e a tomada de decisões por grupos menores e menos representativos.",
+     "citacao": "As Câmaras Técnicas são Órgãos encarregados de exercer as atribuições que lhe forem delegadas pelo Plenário.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'dinamismo' e 'eficiência' para justificar a reestruturação do Conselho Estadual de Política Ambiental (CONSEPA). Contudo, o efeito prático é a delegação de competências deliberativas do Plenário para Câmaras Técnicas (Art. 7º), o que configura o mecanismo de delegação desregulamentadora (M5), ao transferir o poder de decisão para instâncias mais restritas e menos transparentes. O projeto original apresentava a mudança como um avanço técnico, mas a estrutura final, com a inclusão e veto de um inciso no Art. 4º, demonstra uma tentativa de manipulação da composição do conselho que, embora não tenha se concretizado plenamente, aponta para a fragilização da governança ambiental colegiada em favor de uma gestão mais centralizada e suscetível a pressões setoriais.",
+  "lacunas": [
+   "Falta a justificativa do veto ao inciso V do Art. 4º, o que permitiria compreender a intenção original da alteração na composição do conselho."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 11021,
+  "quando": "2026-07-30T15:47:27+00:00",
+  "uso": {
+   "prompt_tokens": 5542,
+   "completion_tokens": 800,
+   "total_tokens": 6342,
+   "cost": 0.002559645,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0025855,
+    "upstream_inference_prompt_cost": 0.0013855,
+    "upstream_inference_completions_cost": 0.0012
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

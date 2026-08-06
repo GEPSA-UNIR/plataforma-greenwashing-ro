@@ -1,0 +1,78 @@
+{
+ "sapl_id": 8238,
+ "analise": {
+  "sapl_id": 8238,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "DISPÕE SOBRE A CRIAÇÃO DE RESERVA FLORESTAL PELO PODER EXECUTIVO DO ESTADO DE RONDÔNIA, E DÁ OUTRAS PROVIDÊNCIAS.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "A nossa proposta é no sentido de que a criação de reserva, ao invés de ser feita por meio de decreto do Poder Executivo, como tem ocorrido ao longo do tempo, seja por meio legal passando assim necessariamente pelo crivo deste Poder Legislativo.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Submete a criação de reservas florestais exclusivamente ao processo legislativo, retirando a prerrogativa do Poder Executivo de criar unidades de conservação por decreto, o que impõe um entrave político e burocrático à proteção ambiental.",
+     "citacao": "A criação de reserva florestal no âmbito do Estado de Rondônia [...] deve ser feita por meio de Lei devidamente deliberada pela Assembleia Legislativa.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'ampla discussão' e 'compensação justa' para justificar a retirada da competência do Poder Executivo de criar reservas florestais via decreto. Ao exigir que toda nova reserva seja criada por lei, a norma impõe um obstáculo político significativo à expansão de áreas protegidas, subordinando a conservação ambiental ao crivo parlamentar, que é historicamente mais suscetível a pressões de grupos econômicos locais. A justificativa do projeto explicita o objetivo de impedir a criação de reservas que não passem pelo crivo da Assembleia, revelando que o 'avanço' na participação democrática é, na verdade, um mecanismo de controle para dificultar a proteção de novas áreas.\n\nO texto da lei promulgada é idêntico ao projeto original no que tange ao seu efeito restritivo. A norma se enquadra como greenwashing pois se apresenta sob o título de 'criação de reserva florestal' (retórica de proteção), mas seu efeito prático é a criação de uma barreira institucional que enfraquece a capacidade do Estado de implementar políticas de conservação de forma ágil e técnica, transferindo o poder de decisão para um ambiente de maior influência política.",
+  "lacunas": [
+   "Ausência de dados sobre o impacto orçamentário ou técnico da mudança de competência.",
+   "Ausência de registros de votação que permitam identificar a motivação política dos parlamentares durante a tramitação."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 4773,
+  "quando": "2026-07-30T15:45:28+00:00",
+  "uso": {
+   "prompt_tokens": 3422,
+   "completion_tokens": 691,
+   "total_tokens": 4113,
+   "cost": 0.00187308,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001892,
+    "upstream_inference_prompt_cost": 0.0008555,
+    "upstream_inference_completions_cost": 0.0010365
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

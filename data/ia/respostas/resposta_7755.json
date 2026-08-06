@@ -1,0 +1,82 @@
+{
+ "sapl_id": 7755,
+ "analise": {
+  "sapl_id": 7755,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "O Conselho Estadual de Política Ambiental -CONSEPA consiste em um importante órgão para o desenvolvimento ambiental do Estado, tendo por finalidade opinar e assessorar o Poder Executivo nas questões afetas.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "Em consonância com os demais Conselhos Estaduais de Meio Ambiente existentes no país, a hodierna proposta de Lei, por sua vez, assegura uma composição paritária, ou seja, com igualdade numérica de representantes do Poder Público e da sociedade civil organizada.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "misto",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 6º, § 3º (inserido na Lei)",
+     "efeito": "Fortalece o controle social e a transparência ao obrigar o envio de relatórios e atas à Assembleia Legislativa.",
+     "citacao": "$ 3º. No prazo máximo de 10 (dez) dias, após a realização de cada reunião, o Conselho encaminhará a Assembleia Legislativa relatório completo da reunião, acompanhado de cópia da respectiva ata.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 4º, inciso VII",
+     "efeito": "Mantém a estrutura de representação, mas a eficácia depende da regulamentação do Regimento Interno e da atuação da SEDAM.",
+     "citacao": "VII - 4 (quatro) representantes eleitos por entidades não governamentais com atuação na área ambiental e sede em Rondônia.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "protecao_genuina",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma institui o Conselho Estadual de Política Ambiental (CONSEPA) com uma estrutura que, no papel, busca paridade entre governo e sociedade civil. A análise comparativa entre o projeto e a lei revela que, durante a tramitação, foi incluído o § 3º ao Art. 6º, que impõe o dever de transparência ao encaminhar relatórios e atas à Assembleia Legislativa, o que constitui um reforço de controle institucional não previsto originalmente. \n\nEmbora a norma apresente características de M1 (dependência de Regimento Interno para definir competências detalhadas e funcionamento), ela não apresenta indícios claros de dissimulação ou esvaziamento de proteção ambiental. A estrutura de competências é ampla e o acréscimo de transparência na lei sancionada sugere um fortalecimento do colegiado em relação ao projeto inicial. A proximidade da aprovação com outras normas ambientais (Lei 3941/2016 e 3943/2016) indica um esforço de organização do sistema estadual de meio ambiente, e não uma manobra de desregulamentação.",
+  "lacunas": [
+   "Ausência de informações sobre o Regimento Interno, que é o instrumento que efetivamente detalha o funcionamento do conselho."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 19877,
+  "quando": "2026-07-30T15:44:57+00:00",
+  "uso": {
+   "prompt_tokens": 7571,
+   "completion_tokens": 803,
+   "total_tokens": 8374,
+   "cost": 0.0030662775,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00309725,
+    "upstream_inference_prompt_cost": 0.00189275,
+    "upstream_inference_completions_cost": 0.0012045
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

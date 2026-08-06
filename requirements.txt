@@ -1,0 +1,14 @@
+# Dependências da PLATAFORMA (o que o deploy no Streamlit Cloud instala).
+#
+# Por que existe além do plataforma/pyproject.toml: o Streamlit Community Cloud
+# lê requirements.txt na raiz do repositório. O pyproject continua sendo a fonte
+# para o desenvolvimento local com uv.
+#
+# Versões fixadas nas testadas em 30/07/2026 — "a mais recente" é justamente o
+# que quebra demonstração no dia da apresentação.
+#
+# pandas vem transitivo do streamlit, mas fontes.py o importa direto: declarar
+# explicitamente o que se usa.
+streamlit==1.59.2
+plotly==6.9.0
+pandas==3.0.3

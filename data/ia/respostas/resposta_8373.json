@@ -1,0 +1,83 @@
+{
+ "sapl_id": 8373,
+ "analise": {
+  "sapl_id": 8373,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "A redação estabelecida pela Lei 4.131 de 05 de setembro de 2017, estabeleceu benefícios a uma parcela de produtores do Estado de Rondônia, concedendo a estes o prazo de 5 anos para adequarem as exigências ambientais previstas na Lei 3.686 de 2015",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "Assim se faz necessária a concessão do prazo de 5 (cinco) anos também para os agricultores familiares, pecuaristas, ovinocultores, apicultores, suinocultores, e avicultores com empreendimentos para aves de abate",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º, § 1º",
+     "efeito": "Concede anistia de fato ao prorrogar por 5 anos a exigência de licenciamento ambiental para diversas atividades rurais, incluindo empreendimentos com áreas superiores a 1.000 hectares e situados em zonas de amortecimento de Unidades de Conservação.",
+     "citacao": "Fica concedido o prazo de 5 (cinco) anos, a contar da data de publicação desta Lei, para que os produtores rurais [...] inclusive para os empreendimentos que possuam áreas superiores a 1.000 (mil) hectares e/ou que estejam situados em zona de amortecimento de áreas de Unidades de Conservação",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 1º, § 2º",
+     "efeito": "Desobriga o licenciamento ambiental para atividades de baixo potencial poluidor, delegando a definição dos critérios ao CONSEPA, o que retira a previsibilidade e o controle direto da norma legal.",
+     "citacao": "Fica dispensado de Licenciamento Ambiental os empreendimentos e atividades de mínimo e pequeno porte considerados de baixo potencial poluidor, que atendam aos critérios previstos em regulamento a ser estabelecido pelo Conselho Estadual de Política Ambiental do Estado de Rondônia — CONSEPA",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.9,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'adequação' e 'celeridade' para justificar a prorrogação de prazos para o licenciamento ambiental, enquadrando o retrocesso como uma medida de apoio ao setor produtivo e ao crédito rural. O Eixo R é forte ao apresentar a medida como uma necessidade de organização administrativa, enquanto o Eixo E revela um enfraquecimento claro da proteção ambiental ao conceder uma moratória de 5 anos para atividades de alto impacto, inclusive em áreas sensíveis como zonas de amortecimento de Unidades de Conservação.\n\nA dissimulação ocorre ao apresentar a dispensa de licenciamento (Art. 1º, § 2º) como uma simplificação técnica, quando na prática retira a obrigatoriedade de controle prévio, delegando a definição de critérios ao CONSEPA (M5). A justificativa do projeto admite que a medida visa evitar que o setor produtivo seja 'travado', evidenciando que o objetivo central é a desregulamentação em detrimento da fiscalização ambiental, configurando o greenwashing legislativo.",
+  "lacunas": [
+   "Não há informações detalhadas sobre a composição do CONSEPA para avaliar o grau de influência do setor produtivo na definição dos critérios de dispensa de licenciamento."
+  ],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 13906,
+  "quando": "2026-07-30T15:46:39+00:00",
+  "uso": {
+   "prompt_tokens": 6290,
+   "completion_tokens": 967,
+   "total_tokens": 7257,
+   "cost": 0.00299277,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.003023,
+    "upstream_inference_prompt_cost": 0.0015725,
+    "upstream_inference_completions_cost": 0.0014505
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

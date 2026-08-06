@@ -1,0 +1,73 @@
+{
+ "sapl_id": 5039,
+ "analise": {
+  "sapl_id": 5039,
+  "eixo_retorica": {
+   "nivel": "nenhuma",
+   "citacoes": [
+    {
+     "citacao": "Revoga o Decreto nº 4.573 de 23 de março de 1990, que dispõe sobre a criação, nos municípios de Cerejeiras, Colorado do Oeste e Alta Floresta D'Oeste, a Floresta Estadual de Rendimento Sustentado do Rio Mequéns",
+     "secao": "## Ementa"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Extinção direta de uma Unidade de Conservação (Floresta Estadual) com área de aproximadamente 425.844 hectares.",
+     "citacao": "Fica revogado o Decreto nº 4.573, de 23 de março de 1990, que dispõe sobre a criação [...] a Floresta Estadual de Rendimento Sustentado do Rio Mequéns, com área aproximada de 425.844,00há",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.1,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma é um exemplo claro de retrocesso ambiental transparente, não se enquadrando em greenwashing por não utilizar retórica de proteção para disfarçar o impacto. O Poder Executivo justifica a revogação da Floresta Estadual de Rendimento Sustentado do Rio Mequéns alegando que 'técnicos envolvidos, concluíram pela exclusão da unidade de conservação em baila' após a aprovação da Segunda Aproximação do Zoneamento Sócio Econômico e Ecológico do Estado de Rondônia (Lei Complementar nº 233/2000). \n\nO efeito prático é a supressão integral de uma unidade de conservação de mais de 425 mil hectares. Não houve alteração significativa entre o projeto e a lei promulgada, mantendo-se a descrição técnica da área que está sendo desprotegida. A justificativa do autor utiliza o argumento de 'modernização' do zoneamento para legitimar a desconstituição da área protegida, configurando um retrocesso direto e explícito.",
+  "lacunas": [
+   "Ausência de estudos técnicos detalhados que fundamentaram a exclusão da unidade de conservação no dossiê.",
+   "Falta de informações sobre a destinação final das terras após a revogação do decreto de criação."
+  ],
+  "confianca": 1.0
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 25317,
+  "quando": "2026-07-30T15:41:44+00:00",
+  "uso": {
+   "prompt_tokens": 10158,
+   "completion_tokens": 678,
+   "total_tokens": 10836,
+   "cost": 0.003520935,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0035565,
+    "upstream_inference_prompt_cost": 0.0025395,
+    "upstream_inference_completions_cost": 0.001017
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

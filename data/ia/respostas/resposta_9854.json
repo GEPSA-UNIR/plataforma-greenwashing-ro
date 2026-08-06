@@ -1,0 +1,77 @@
+{
+ "sapl_id": 9854,
+ "analise": {
+  "sapl_id": 9854,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "A medida revogatória torna-se necessária porque a população local não foi ouvida, tampouco fora feito qualquer espécie de estudo econômico-social a fim de verificar a viabilidade social da criação do mencionado Parque.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "Eu participei de uma reunião com o Deputado Jean Oliveira lá em Alta Floresta, em que centenas de famílias estavam protestando em relação à criação dessa Reserva Ilha das Flores sem um estudo correto das famílias que moram ali",
+     "secao": "## Transcrição da sessão plenária"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Revoga os artigos 3º e 4º da Lei Complementar nº 1.089/2021, extinguindo a criação do Parque Estadual Ilha das Flores.",
+     "citacao": "Ficam revogados os artigos 3º e 4º da Lei Complementar nº 1.089, de 20 de maio de 2021.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma opera um retrocesso ambiental direto ao revogar a criação de uma unidade de conservação (Parque Estadual Ilha das Flores) instituída apenas dois meses antes pela Lei Complementar nº 1.089/2021. O efeito prático é a supressão total da proteção ambiental que seria conferida àquela área, configurando uma desconstituição de patrimônio público ambiental.\n\nA retórica utilizada pelos parlamentares e na justificativa do projeto enquadra a medida como uma 'correção de distorção' e uma defesa de famílias locais, utilizando o mecanismo de 'reframing de regressão' (M2). Não se trata de greenwashing, pois a norma não se apresenta como protetora do meio ambiente, mas sim como uma medida de reparação social que, na prática, elimina a proteção ambiental anteriormente estabelecida. A análise é complementada pelo fato de que a norma foi aprovada em um conjunto de alterações legislativas (LC 1095/2021 e 1096/2021) que, em conjunto, desmantelam a estrutura de proteção criada pela LC 1.089/2021.",
+  "lacunas": [
+   "Faltam informações sobre o conteúdo específico dos artigos 3º e 4º da LC 1.089/2021, embora a ementa indique que tratavam da criação do Parque Estadual Ilha das Flores.",
+   "Não há acesso aos estudos técnicos que embasaram a criação original da unidade de conservação para verificar a veracidade da alegação de ausência de estudos."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9018,
+  "quando": "2026-07-30T15:47:54+00:00",
+  "uso": {
+   "prompt_tokens": 5067,
+   "completion_tokens": 785,
+   "total_tokens": 5852,
+   "cost": 0.0024198075,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00244425,
+    "upstream_inference_prompt_cost": 0.00126675,
+    "upstream_inference_completions_cost": 0.0011775
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

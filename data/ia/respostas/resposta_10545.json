@@ -1,0 +1,74 @@
+{
+ "sapl_id": 10545,
+ "analise": {
+  "sapl_id": 10545,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Remaneja e Renomeia Cargos de Direção Superior da Secretaria de Estado do Desenvolvimento Ambiental - SEDAM para a Procuradoria-Geral do Estado - PGE e dá outras providências.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "O presente Projeto de Lei Complementar visa transformar e remanejar Cargos de Direção Superior da Secretaria de Estado do Desenvolvimento Ambiental – SEDAM para a Procuradoria-Geral do Estado - PGE, constantes no Anexo II da Lei Complementar nº 965, de 20 de dezembro de 2017.",
+     "secao": "## Transcrição da sessão plenária"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 2º",
+     "efeito": "Retirada direta de cargos de estrutura de apoio da SEDAM, especificamente ligados à Diretoria de Autos de Infração, enfraquecendo a capacidade operacional de fiscalização ambiental.",
+     "citacao": "Ficam remanejados da Secretaria de Estado do Desenvolvimento Ambiental -SEDAM para a Procuradoria-Geral do Estado -PGE os seguintes Cargos de Direção Superior: I-1 (um) Assessor Especial da Diretoria de Autos de Infração -CDS-08; e Il -1 (um) Assessor IX -CDS-09.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma utiliza a retórica de 'equalização da estrutura administrativa' e 'normatização da realidade fática' para justificar o remanejamento de cargos estratégicos da SEDAM para a PGE. O discurso parlamentar e a justificativa do Executivo enquadram a medida como um ajuste técnico, ocultando o impacto negativo na capacidade de fiscalização ambiental. Ao retirar cargos especificamente vinculados à 'Diretoria de Autos de Infração' da pasta ambiental, a norma enfraquece a estrutura de controle e sanção, configurando um retrocesso disfarçado de modernização administrativa.\n\nNão houve alterações significativas entre o projeto e a lei promulgada que mitigassem o impacto negativo, mantendo-se a transferência dos cargos de fiscalização. A norma atua sob o mecanismo de reframing, onde a redução da capacidade operacional da SEDAM é apresentada como um ganho de eficiência para o Estado, sem considerar o prejuízo direto à proteção ambiental.",
+  "lacunas": [],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 32083,
+  "quando": "2026-07-30T15:48:27+00:00",
+  "uso": {
+   "prompt_tokens": 12897,
+   "completion_tokens": 690,
+   "total_tokens": 13587,
+   "cost": 0.0042166575,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00425925,
+    "upstream_inference_prompt_cost": 0.00322425,
+    "upstream_inference_completions_cost": 0.001035
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

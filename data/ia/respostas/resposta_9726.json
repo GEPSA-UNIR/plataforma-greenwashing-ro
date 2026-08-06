@@ -1,0 +1,83 @@
+{
+ "sapl_id": 9726,
+ "analise": {
+  "sapl_id": 9726,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "o Projeto de Lei Complementar tem por escopo precípuo a criação das referidas Unidades de Conservação e terá como objetivo proteger e regular o uso dos recursos hídricos e promover o uso múltiplo sustentável dos recursos naturais",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "as alterações ora propostas são necessárias, pois a desafetação parcial da Reserva Extrativista Jaci-Paraná e do Parque Estadual de Guajará-Mirim teria como contrapartida um grande ganho na proteção da biodiversidade",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º, § 1º",
+     "efeito": "Redução drástica da área da Resex Jaci-Paraná, desafetando áreas antropizadas e mantendo apenas um corredor ecológico.",
+     "citacao": "Reserva extrativista Jaci-Paraná [...] terá a área disposta no art. 1º, acrescida de desafetação do restante já antropizada, restando apenas o corredor ecológico às margens do Rio Jaci e Rio Branco, e passará a ter a área remascente de 22.487,818 hectares",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 15, parágrafo único",
+     "efeito": "Criação de anistia de fato ao permitir que ocupantes de áreas desafetadas do Parque Estadual de Guajará-Mirim tenham 5 anos para regularização ambiental.",
+     "citacao": "O proprietário ou possuidor de imóvel rural localizado nas áreas desafetadas do Parque Estadual de Guajará-Mirim [...] poderá promover a regularização ambiental de sua propriedade ou mesmo posse, assegurado aos requerentes o prazo de 5 (cinco) anos para se adequarem às exigências do licenciamento",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.9,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M3_revogacao_tacita"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'criação de novas unidades de conservação' para dissimular a desafetação (redução) de áreas protegidas consolidadas, como a Resex Jaci-Paraná e o Parque Estadual de Guajará-Mirim. O projeto original justificava a medida como uma forma de 'solucionar conflitos', mas o efeito prático é a legitimação de ocupações ilegais preexistentes, conforme evidenciado pelo Art. 15, parágrafo único da Lei, que concede um prazo de 5 anos para regularização de posses em áreas anteriormente protegidas. \n\nAlém disso, houve uma alteração significativa entre o projeto e a lei: o projeto original (Art. 15) proibia a titulação de terras a particulares, enquanto a lei promulgada (Art. 13) manteve a proibição, mas o conjunto da obra (desafetação + prazo de regularização) esvazia a proteção das áreas remanescentes. A norma enquadra a perda de território como 'regularização' e 'gestão eficiente', configurando um claro caso de greenwashing legislativo.",
+  "lacunas": [
+   "Faltam estudos técnicos detalhados que comprovem a eficácia das novas unidades de conservação criadas em comparação com a perda de área das unidades desafetadas."
+  ],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 122195,
+  "quando": "2026-07-30T15:47:50+00:00",
+  "uso": {
+   "prompt_tokens": 56353,
+   "completion_tokens": 937,
+   "total_tokens": 57290,
+   "cost": 0.0153388125,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.01549375,
+    "upstream_inference_prompt_cost": 0.01408825,
+    "upstream_inference_completions_cost": 0.0014055
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

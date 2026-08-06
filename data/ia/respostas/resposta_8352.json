@@ -1,0 +1,80 @@
+{
+ "sapl_id": 8352,
+ "analise": {
+  "sapl_id": 8352,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "a proposta do presente projeto tem por objeto da efetividade a Lei 3935, que disciplina sobre os requisitos para aprovação dos planos de manejo florestais em áreas de posse buscando o desenvolvimento sustentável",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º e Art. 2º",
+     "efeito": "Substitui a exigência de documentação técnica rigorosa por uma autodeclaração ou validação simplificada via SIGEF para áreas de posse, facilitando a aprovação de planos de manejo em áreas sem titulação definitiva.",
+     "citacao": "III -georeferenciamento aprovado por fiscalização parcela validada pelo SIGEF, pendente de titulação",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "dispositivo": "Art. 3º",
+     "efeito": "Revoga inciso que possivelmente continha exigência documental adicional, reduzindo o rigor para a aprovação de planos de manejo em áreas de posse.",
+     "citacao": "Fica revogado o inciso VI do Parágrafo único do art. 3º da Lei nº 3.935, de 2016.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'dar efetividade' e 'desenvolvimento sustentável' para justificar a flexibilização de requisitos documentais para planos de manejo florestal em áreas de posse. O autor alega que a exigência anterior era impossível de cumprir, enquadrando a redução da exigência técnica como uma 'modernização' ou 'adequação' (M2). Na prática, ao substituir exigências de titulação ou documentos formais por validações via SIGEF (sistema de autodeclaração/gestão fundiária), a norma transfere o controle para um sistema menos rigoroso (M5), facilitando a exploração florestal em áreas de posse que ainda não possuem regularidade fundiária plena. A justificativa do projeto admite que o objetivo é permitir que áreas sem título possam obter aprovação para manejo, o que, sob o pretexto de eficiência, enfraquece o controle ambiental sobre a exploração de recursos em áreas de posse.",
+  "lacunas": [
+   "Não há transcrição de plenário para verificar se houve debate sobre os riscos ambientais da flexibilização.",
+   "O dossiê não detalha o conteúdo do inciso VI revogado, dificultando a mensuração exata da perda de proteção documental."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 6392,
+  "quando": "2026-07-30T15:46:34+00:00",
+  "uso": {
+   "prompt_tokens": 4172,
+   "completion_tokens": 751,
+   "total_tokens": 4923,
+   "cost": 0.002147805,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0021695,
+    "upstream_inference_prompt_cost": 0.001043,
+    "upstream_inference_completions_cost": 0.0011265
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

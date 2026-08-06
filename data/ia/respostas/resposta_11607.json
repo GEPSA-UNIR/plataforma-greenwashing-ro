@@ -1,0 +1,84 @@
+{
+ "sapl_id": 11607,
+ "analise": {
+  "sapl_id": 11607,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "O acréscimo dos dispositivos do presente Projeto de Lei em comento diz respeito a regulamentar, por norma geral, as isenções, sendo que se está a tratar da não exigência do licenciamento ambiental para tipologias de empreendimentos.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "Muitas vezes essas iniciativas surgem a pretexto de estimular determinados segmentos econômicos, sob a alegação de desburocratização ou de incentivo a empreendedores.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º, inciso IV",
+     "efeito": "Dispensa licenciamento ambiental para pavimentação asfáltica em vias públicas rurais e urbanas, retirando o controle prévio do órgão ambiental.",
+     "citacao": "O Poder Executivo Estadual dispensará a necessidade de licenciamento ambiental para a atividade de pavimentação asfáltica \"construção e/ou pavimentação\" em vias ou rodovias públicas rurais e urbanas",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 1º, inciso VI",
+     "efeito": "Permite a extração de cascalho sem licenciamento prévio, baseando-se apenas em autodeclaração de critérios técnicos.",
+     "citacao": "Fica dispensado de licenciamento ambiental a atividade de extração de cascalho, sem finalidade comercial para atender às obras de manutenção de estradas de interesse público",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.9,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza a retórica da 'desburocratização' e 'modernização' para justificar a dispensa de licenciamento ambiental em atividades de impacto, como pavimentação e extração de cascalho. Embora o texto tente mitigar riscos exigindo relatórios posteriores (Art. 1º, inciso VII) e responsabilidade técnica (Art. 1º, inciso VIII), ele efetivamente transfere o controle do órgão ambiental para a autodeclaração do responsável técnico (M5). O projeto original e a lei mantêm a mesma estrutura de desregulamentação, enquadrando a supressão de licenciamento como um avanço administrativo, o que caracteriza o greenwashing legislativo ao apresentar a retirada de salvaguardas como um ganho de eficiência.",
+  "lacunas": [
+   "Falta de clareza sobre a capacidade técnica do órgão ambiental para fiscalizar a posteriori os relatórios de dispensa apresentados.",
+   "Ausência de definição sobre o que constitui 'padrão técnico modesto' para as estradas abrangidas, o que pode permitir interpretações extensivas."
+  ],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 14375,
+  "quando": "2026-07-30T15:49:03+00:00",
+  "uso": {
+   "prompt_tokens": 5985,
+   "completion_tokens": 726,
+   "total_tokens": 6711,
+   "cost": 0.0025593975,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00258525,
+    "upstream_inference_prompt_cost": 0.00149625,
+    "upstream_inference_completions_cost": 0.001089
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

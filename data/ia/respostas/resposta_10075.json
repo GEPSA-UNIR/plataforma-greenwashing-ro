@@ -1,0 +1,68 @@
+{
+ "sapl_id": 10075,
+ "analise": {
+  "sapl_id": 10075,
+  "eixo_retorica": {
+   "nivel": "nenhuma",
+   "citacoes": [
+    {
+     "citacao": "Suspende a execução da Lei nº 2.027, de 19 de janeiro de 2009, que \"Regulamenta o regime de compensação da reserva florestal no âmbito do Estado de Rondônia, nos termos do que permite o Código Florestal - Lei Federal nº 4.771, de 15 de setembro de 1965\".",
+     "secao": "## Ementa"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "O dispositivo cumpre uma obrigação constitucional de dar publicidade e eficácia à decisão judicial definitiva que já havia declarado a inconstitucionalidade da norma anterior.",
+     "citacao": "Fica suspensa, nos termos do inciso XX do artigo 29 da Constituição Estadual, a execução da Lei nº 2.027, de 19 de janeiro de 2009 [...] declarada inconstitucional, com efeitos ex tunc, por decisão judicial definitiva.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "nao_ambiental",
+  "score_greenwashing": 0.0,
+  "mecanismos": [],
+  "justificativa": "O Decreto Legislativo nº 1422/2021 possui natureza estritamente administrativa e de cumprimento de dever constitucional. A norma não cria política pública nem altera o regime de proteção ambiental por vontade própria do legislador, mas apenas formaliza a suspensão de uma lei estadual (Lei nº 2.027/2009) que já havia sido declarada inconstitucional pelo Tribunal de Justiça do Estado de Rondônia (ADI nº 0803243-37.2017.8.22.0000).",
+  "lacunas": [],
+  "confianca": 1.0
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 7648,
+  "quando": "2026-07-30T15:48:05+00:00",
+  "uso": {
+   "prompt_tokens": 4510,
+   "completion_tokens": 470,
+   "total_tokens": 4980,
+   "cost": 0.001814175,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0018325,
+    "upstream_inference_prompt_cost": 0.0011275,
+    "upstream_inference_completions_cost": 0.000705
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

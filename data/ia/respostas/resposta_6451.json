@@ -1,0 +1,78 @@
+{
+ "sapl_id": 6451,
+ "analise": {
+  "sapl_id": 6451,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Institui o Cadastro Técnico Estadual de Atividades Potencialmente Poluidoras ou Utilizadoras de Recursos Naturais, integrante do Sistema Nacional do Meio Ambiente -SISNAMA, a Taxa de Fiscalização Ambiental e demais taxas referentes à receita da SEDAM e estabelece outras providências.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Faz-se necessário instituir uma taxa ambiental para custear a fiscalização e controle de empresas que exercem atividades poluidoras ou que utilizam recursos naturais.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "fortalece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 4º",
+     "efeito": "Institui a Taxa de Controle e Fiscalização Ambiental (TCFA) estadual, conferindo poder de polícia e receita para a fiscalização ambiental.",
+     "citacao": "Fica instituída a Taxa de Controle e Fiscalização Ambiental do Estado de Rondônia -Taxa Ambiental Estadual, cujo fato gerador é o exercício regular do poder de polícia conferido ao Estado para o controle e fiscalização das atividades potencialmente poluidoras",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 13 e 15",
+     "efeito": "Vincula a receita da taxa ao Fundo Especial de Proteção Ambiental, garantindo recursos para a atividade de fiscalização.",
+     "citacao": "Os recursos financeiros provenientes da cobrança da Taxa Ambiental Estadual serão recolhidos diretamente ao Fundo Especial de Proteção Ambiental da Secretaria de Estado do Desenvolvimento Ambiental",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "protecao_genuina",
+  "score_greenwashing": 0.1,
+  "mecanismos": [],
+  "justificativa": "A norma institui um mecanismo de controle e fiscalização ambiental (Cadastro Técnico e Taxa de Fiscalização) que se alinha ao Sistema Nacional do Meio Ambiente (SISNAMA). A retórica de proteção é acompanhada por dispositivos concretos de arrecadação e vinculação de receita ao Fundo Especial de Proteção Ambiental (Art. 13 e 15), o que confere efetividade ao poder de polícia da Secretaria de Estado do Desenvolvimento Ambiental (SEDAM).\n\nNão foram identificados indícios de dissimulação ou esvaziamento de proteção. A comparação entre o projeto original e a lei promulgada não revela a supressão de dispositivos protetivos ou a inserção de 'jabutis' que enfraqueçam o regime ambiental. Pelo contrário, a norma estabelece critérios claros para a cobrança da taxa, isenções justificadas (como agricultura de subsistência e populações tradicionais) e um sistema de penalidades para o descumprimento das obrigações, configurando uma medida de fortalecimento da gestão ambiental estadual.",
+  "lacunas": [],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 61503,
+  "quando": "2026-07-30T15:43:17+00:00",
+  "uso": {
+   "prompt_tokens": 16991,
+   "completion_tokens": 733,
+   "total_tokens": 17724,
+   "cost": 0.0052937775,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00534725,
+    "upstream_inference_prompt_cost": 0.00424775,
+    "upstream_inference_completions_cost": 0.0010995
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

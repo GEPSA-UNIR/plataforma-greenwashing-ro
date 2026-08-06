@@ -1,0 +1,84 @@
+{
+ "sapl_id": 5479,
+ "analise": {
+  "sapl_id": 5479,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Dispõe sobre a exclusão de áreas da Estação Ecológica Estadual Serra Três Irmãos, da Área de Proteção Ambiental Rio Madeira, da Floresta Estadual de Rendimento Sustentado do Rio Vermelho -C e da Reserva Extrativista Jacy-Paraná e destina tais áreas para formação do lago artificial da barragem da Usina Hidrelétrica de Santo Antônio.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "o presente Projeto de Lei Complementar visa a excluir as áreas públicas das quatro unidades de conservação estaduais que serão inundadas pelo reservatório da Usina Hidrelétrica de Santo Antônio [...] de forma a garantir a viabilidade do empreendimento e a preservação das Unidades de Conservação.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 10",
+     "efeito": "Revogação direta de decretos e leis que criavam ou delimitavam quatro unidades de conservação estaduais, reduzindo drasticamente a proteção territorial.",
+     "citacao": "Art. 10. Ficam revogados os seguintes diplomas legais: I Decreto n. 4.584, de 28 de março de 1990, que criou a Estação Ecológica Três Irmãos; II — Decreto n. 5.124, de 6 de junho de 1991, que criou a Área de Proteção Ambiental Rio Madeira; III — Decreto n. 4.567, de 23 de março de 1990, que criou Floresta Estadual de Rendimento Sustentado do Rio Vermelho -C; IV — Decreto n. 7.335, de 17 de janeiro de 1996, que criou a Reserva Jacy-Paraná; e V — Lei n. 692, de 27 de dezembro de 1996, que define os limites da Reserva Jacy-Paraná.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 10 (Lei)",
+     "efeito": "Inclusão de dispositivo na lei que não constava no projeto original, garantindo indenização a ocupantes das áreas, o que pode incentivar a ocupação irregular em áreas de conservação.",
+     "citacao": "Art. 10. Fica garantido direito de indenização aos ocupantes das áreas que trata esta Lei Complementar.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M3_revogacao_tacita",
+   "M4_insercao_heterogenea"
+  ],
+  "justificativa": "A norma é um exemplo claro de retrocesso ambiental transparente, pois não dissimula seu objetivo: a supressão de áreas de quatro unidades de conservação estaduais para viabilizar a inundação pelo reservatório da UHE Santo Antônio. A retórica do Executivo, presente na justificativa do projeto, tenta enquadrar a medida como necessária para a 'viabilidade do empreendimento', mas o efeito prático é a desconstituição de proteção legal de vastas áreas ambientais.\n\nDurante a tramitação, houve a inserção de um dispositivo (Art. 10 da Lei) que não constava no projeto original, garantindo indenização a ocupantes das áreas. Essa inclusão (M4) potencializa o impacto negativo, ao conferir legitimidade econômica a ocupações em áreas que deveriam ser protegidas. A revogação dos decretos e leis de criação das unidades (M3) consolida o esvaziamento da proteção ambiental, tornando o retrocesso explícito e direto, sem o uso de eufemismos que caracterizariam o greenwashing.",
+  "lacunas": [
+   "Ausência de transcrição de plenário para verificar se houve debate sobre o impacto ambiental da supressão das áreas.",
+   "Falta de estudos técnicos anexos ao processo legislativo que justificassem a exclusão das áreas específicas."
+  ],
+  "confianca": 1.0
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 102865,
+  "quando": "2026-07-30T15:42:30+00:00",
+  "uso": {
+   "prompt_tokens": 40456,
+   "completion_tokens": 993,
+   "total_tokens": 41449,
+   "cost": 0.011487465,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0116035,
+    "upstream_inference_prompt_cost": 0.010114,
+    "upstream_inference_completions_cost": 0.0014895
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

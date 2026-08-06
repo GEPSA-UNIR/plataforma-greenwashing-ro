@@ -1,0 +1,83 @@
+{
+ "sapl_id": 5387,
+ "analise": {
+  "sapl_id": 5387,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "O objetivo maior da nossa propositura, norteia-se na máxima diminuição dos danos causados ao meio ambiente por estes produtos que são utilizados em larga escala por diversos seguimentos empresariais e pela população em geral, freando esta prática nociva a natureza",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "DISPÕE SOBRE A UTILIZAÇÃO DE SACOS E SACOLAS PLÁSTICAS BIODEGRADÁVEIS.",
+     "secao": "## Ementa"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "neutro",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 6º (Lei 2531/2011)",
+     "efeito": "Introduz dispositivo de caráter educativo e facultativo, que não estava no projeto original, deslocando o foco da obrigatoriedade para a conscientização.",
+     "citacao": "Fica o Poder Executivo autorizado a realizar campanhas educativas e de conscientização de cidadão e instituições a respeito da substituição de que trata esta Lei.",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 5º (Prazo de adequação)",
+     "efeito": "Mantém um prazo longo de 24 meses para a transição, o que retarda o efeito prático da norma.",
+     "citacao": "A adequação que se refere esta Lei terá prazo máximo de 24 (vinte e quatro) meses, a contar da data de sua publicação, para totalização de sacose sacolas substituídaspor biodegradáveis.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.6,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma apresenta uma retórica ambiental forte, justificando a necessidade de substituição de sacolas plásticas convencionais por biodegradáveis para mitigar danos ambientais, como a obstrução de redes de esgoto e a degradação em aterros. Contudo, a eficácia da lei é limitada pelo longo prazo de adequação (24 meses) e pela natureza da obrigação, que se insere no contexto de normas que dependem de fiscalização estatal complexa para serem efetivas.\n\nA comparação entre o projeto e a lei revela a inclusão do Art. 6º na versão final, que autoriza o Poder Executivo a realizar campanhas educativas. Este dispositivo, embora positivo, reforça o caráter programático da norma, desviando o foco da obrigatoriedade coercitiva para ações de conscientização, o que é um traço típico de normas simbólicas que buscam o ganho político da pauta ambiental sem necessariamente garantir a mudança imediata de comportamento do mercado.",
+  "lacunas": [
+   "Ausência de dados sobre a efetiva fiscalização ou aplicação de multas durante a vigência da lei (2011-2014).",
+   "Falta de informações sobre a existência de regulamentação técnica específica para os aditivos biodegradáveis mencionados no Art. 3º."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9023,
+  "quando": "2026-07-30T15:42:17+00:00",
+  "uso": {
+   "prompt_tokens": 4563,
+   "completion_tokens": 732,
+   "total_tokens": 5295,
+   "cost": 0.0022163625,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00223875,
+    "upstream_inference_prompt_cost": 0.00114075,
+    "upstream_inference_completions_cost": 0.001098
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

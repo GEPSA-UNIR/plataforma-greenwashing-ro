@@ -1,0 +1,77 @@
+{
+ "sapl_id": 5229,
+ "analise": {
+  "sapl_id": 5229,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "DISPÕE SOBRE A OBRIGATORIEDADE DE INSTALAÇÃO DO SISTEMA DE CAPTAÇÃO E USO DA ÁGUA DE CHUVA EM PRÉDIOS PÚBLICOS NOVOS.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "A presente propositura tem como objetivo maior a preservação ambiental do nosso Planeta, bem como prima por um desenvolvimento sustentável de nossa região",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "indeterminado",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 2º",
+     "efeito": "O dispositivo que deveria estabelecer o prazo para regulamentação foi esvaziado, tornando a norma inoperante sem a ação do Executivo.",
+     "citacao": "Art. 2º. O Poder Executivo regulamentará esta Lei, no pzá a contar da sua vigência.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.7,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma apresenta uma retórica ambiental forte, justificando a obrigatoriedade da captação de água de chuva como medida de preservação e desenvolvimento sustentável. Contudo, o efeito prático é esvaziado pela falha na redação do Art. 2º na lei promulgada, que omitiu o prazo de 90 dias presente no projeto original, deixando a norma sem um cronograma de implementação ou sanção pelo descumprimento.\n\nAo comparar o projeto com a lei, nota-se que o texto final tornou-se uma norma programática vazia. O Art. 2º, que no projeto original previa 'no prazo de 90 (noventa) dias', foi truncado na lei para 'no pzá a contar da sua vigência', tornando o comando de regulamentação ineficaz e indeterminado. A ausência de mecanismos de fiscalização ou prazos claros transforma a lei em um instrumento de caráter puramente simbólico.",
+  "lacunas": [
+   "O texto da lei apresenta erro de redação (truncamento) no Art. 2º, o que impede a verificação de um prazo efetivo para a regulamentação.",
+   "Ausência de informações sobre a existência de decretos regulamentadores posteriores que tenham suprido a omissão do texto legal."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 7265,
+  "quando": "2026-07-30T15:42:13+00:00",
+  "uso": {
+   "prompt_tokens": 3996,
+   "completion_tokens": 666,
+   "total_tokens": 4662,
+   "cost": 0.00197802,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001998,
+    "upstream_inference_prompt_cost": 0.000999,
+    "upstream_inference_completions_cost": 0.000999
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

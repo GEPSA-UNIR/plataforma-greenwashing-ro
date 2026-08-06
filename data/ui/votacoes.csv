@@ -1,0 +1,167 @@
+norma_sapl_id,votacao_sapl_id,data,origem_data,votos_sim,votos_nao,abstencoes,resultado,sessao_sapl_id,sessao_tipo,sessao_numero,sessao_hora,presentes
+6451,587,2013-09-24,sessao,18,0,0,Aprovada em 1ª discussão e votação ,222,Sessão Extraordinária,35,16:55,18
+6451,588,2013-09-24,sessao,18,0,0,Aprovada em 1ª discussão e votação ,222,Sessão Extraordinária,35,16:55,18
+6451,629,2013-09-24,sessao,17,0,0,Aprovada,223,Sessão Extraordinária,36,18:45,17
+6481,451,2013-08-06,sessao,22,0,1,Aprovada em 1ª discussão e votação ,200,Sessão Ordinária,31,15:00,23
+6481,463,2013-08-06,sessao,19,0,1,Aprovada,201,Sessão Extraordinária,28,17:40,20
+6639,933,2014-02-26,sessao,13,0,0,Aprovada em 1ª discussão e votação ,271,Sessão Extraordinária,5,17:34,14
+6639,935,2014-02-26,sessao,14,0,0,Aprovada,272,Sessão Extraordinária,6,17:54,14
+6640,934,2014-02-26,sessao,14,0,0,Aprovada em 1ª discussão e votação ,271,Sessão Extraordinária,5,17:34,14
+6640,936,2014-02-26,sessao,14,0,0,Aprovada,272,Sessão Extraordinária,6,17:54,14
+6870,1302,2014-09-02,sessao,16,0,0,Aprovada em 1ª discussão e votação ,333,Sessão Ordinária,39,15:17,16
+6870,1324,2014-09-02,sessao,13,0,0,Aprovada,334,Sessão Extraordinária,32,18:27,13
+7137,1959,2015-07-01,sessao,24,0,0,Aprovada em 1ª discussão e votação ,431,Sessão Ordinária,32,09:29,24
+7137,1974,2015-07-01,sessao,22,0,0,Aprovada,432,Sessão Extraordinária,43,13:02,22
+7173,1971,2015-07-01,sessao,24,0,0,Aprovada em 1ª discussão e votação ,431,Sessão Ordinária,32,09:29,24
+7173,1986,2015-07-01,sessao,22,0,0,Aprovada,432,Sessão Extraordinária,43,13:02,22
+7234,2245,2015-10-20,sessao,19,0,0,Aprovada em 1ª discussão e votação ,473,Sessão Ordinária,55,15:07,19
+7234,2247,2015-10-20,sessao,17,0,0,Aprovada,474,Sessão Extraordinária,62,20:36,17
+7250,2097,2015-09-09,sessao,19,0,0,Aprovada em 1ª discussão e votação ,456,Sessão Extraordinária,55,13:00,19
+7250,2111,2015-09-09,sessao,17,0,0,Aprovada,457,Sessão Extraordinária,56,13:59,17
+7252,2154,2015-09-22,sessao,19,0,0,Aprovada em 1ª discussão e votação ,462,Sessão Ordinária,47,15:03,19
+7252,2159,2015-09-22,sessao,16,0,0,Aprovada,463,Sessão Extraordinária,59,18:28,16
+7291,2129,2015-09-16,sessao,20,0,0,Aprovada em 1ª discussão e votação ,460,Sessão Ordinária,46,09:28,20
+7291,2137,2015-09-16,sessao,15,0,0,Aprovada,461,Sessão Extraordinária,58,11:03,15
+7291,2182,2015-09-29,sessao,22,0,0,Aprovada em 1ª discussão e votação ,465,Sessão Ordinária,49,15:13,22
+7291,2202,2015-09-29,sessao,18,0,0,Aprovada,466,Sessão Extraordinária,60,21:05,18
+7303,2408,2015-12-02,sessao,21,0,0,Aprovada em 1ª discussão e votação ,492,Sessão Ordinária,64,09:16,21
+7303,2423,2015-12-02,sessao,18,0,0,Aprovada,493,Sessão Extraordinária,72,13;33,18
+7422,2578,2016-03-16,sessao,15,0,0,Aprovada em 1ª discussão e votação ,522,Sessão Extraordinária,13,12:59,15
+7422,2579,2016-03-16,sessao,13,0,0,Aprovada,523,Sessão Extraordinária,14,13:11,13
+7442,2560,2016-03-08,sessao,16,0,0,Aprovada em 1ª discussão e votação ,516,Sessão Extraordinária,9,18:56,16
+7442,2561,2016-03-08,sessao,16,0,0,Aprovada,517,Sessão Extraordinária,10,19:03,16
+7568,2944,2016-06-28,sessao,18,0,0,Aprovada em 1ª discussão e votação ,565,Sessão Ordinária,32,15:14,23
+7568,2961,2016-06-28,sessao,17,0,0,Aprovada,566,Sessão Extraordinária,35,20:26,21
+7580,2945,2016-06-28,sessao,21,1,0,Aprovada em 1ª discussão e votação ,565,Sessão Ordinária,32,15:14,23
+7580,2962,2016-06-28,sessao,15,0,0,Aprovada,566,Sessão Extraordinária,35,20:26,21
+7659,3138,2016-09-06,sessao,13,0,0,Aprovada,583,Sessão Extraordinária,45,17:36,14
+7686,3168,2016-09-20,sessao,15,0,0,Aprovada em 1ª discussão e votação ,587,Sessão Extraordinária,47,17:13,
+7686,3180,2016-09-20,sessao,14,0,0,Aprovada,588,Sessão Extraordinária,48,18:00,
+7693,3240,2016-10-11,sessao,18,0,0,Aprovada em 1ª discussão e votação ,594,Sessão Extraordinária,52,17:29,18
+7693,3246,2016-10-11,sessao,17,0,0,Aprovada,595,Sessão Extraordinária,53,18:06,17
+7718,3211,2016-10-04,sessao,14,0,0,Aprovada em 1ª discussão e votação ,589,Sessão Ordinária,42,15:03,22
+7718,3214,2016-10-04,sessao,14,0,0,Aprovada em 1ª discussão e votação ,590,Sessão Extraordinária,49,20:06,15
+7741,3161,2016-09-20,sessao,15,0,0,Aprovada em 1ª discussão e votação ,587,Sessão Extraordinária,47,17:13,
+7741,3172,2016-09-20,sessao,14,0,0,Aprovada,588,Sessão Extraordinária,48,18:00,
+7755,3437,2016-12-06,sessao,24,0,0,Aprovada em 1ª discussão e votação ,616,Sessão Ordinária,52,15:04,24
+7755,3452,2016-12-06,sessao,24,0,0,Aprovada,617,Sessão Extraordinária,65,19:46,24
+7758,3447,2016-12-06,sessao,24,0,0,Aprovada em 1ª discussão e votação ,617,Sessão Extraordinária,65,19:46,24
+7758,3458,2016-12-06,sessao,24,0,0,Aprovada,618,Sessão Extraordinária,66,20:11,24
+7759,3433,2016-12-06,sessao,24,0,0,Aprovada em 1ª discussão e votação ,616,Sessão Ordinária,52,15:04,24
+7759,3448,2016-12-06,sessao,24,0,0,Aprovada,617,Sessão Extraordinária,65,19:46,24
+7761,3235,2016-10-11,sessao,14,0,0,Aprovada em 1ª discussão e votação ,594,Sessão Extraordinária,52,17:29,18
+7761,3241,2016-10-11,sessao,17,0,0,Aprovada,595,Sessão Extraordinária,53,18:06,17
+7914,3583,2017-02-15,sessao,19,0,0,Aprovada em 1ª discussão e votação ,627,Sessão Extraordinária,1,14:43,19
+7914,3589,2017-02-15,sessao,16,0,0,Aprovada,628,Sessão Extraordinária,2,14:52,16
+8092,4367,2017-10-10,sessao,16,0,0,Aprovada em 1ª discussão e votação ,743,Sessão Ordinária,54,15:21,20
+8092,4368,2017-10-10,sessao,16,0,0,Aprovada,744,Sessão Extraordinária,56,18:35,17
+8137,4209,2017-08-30,sessao,17,0,0,Aprovada em 1ª discussão e votação ,718,Sessão Extraordinária,46,11:49,17
+8137,4224,2017-08-30,sessao,16,0,0,Aprovada,719,Sessão Extraordinária,47,12:34,16
+8222,4708,2017-12-13,sessao,19,0,0,Aprovada em 1ª discussão e votação ,778,Sessão Extraordinária,69,16:49,19
+8222,4710,2017-12-13,sessao,17,0,0,Aprovado vai a redação final,779,Sessão Extraordinária,70,17:08,17
+8262,4825,2018-03-27,sessao,17,0,0,Aprovada,805,Sessão Extraordinária,8,17:32,17
+8263,4826,2018-03-27,sessao,17,0,0,Aprovada,805,Sessão Extraordinária,8,17:32,17
+8264,4832,2018-03-27,sessao,17,0,0,Aprovada,805,Sessão Extraordinária,8,17:32,17
+8265,4833,2018-03-27,sessao,17,0,0,Aprovada,805,Sessão Extraordinária,8,17:32,17
+8266,4834,2018-03-27,sessao,17,0,0,Aprovada,805,Sessão Extraordinária,8,17:32,17
+8267,4835,2018-03-27,sessao,17,0,0,Aprovada,805,Sessão Extraordinária,8,17:32,17
+8268,4836,2018-03-27,sessao,17,0,0,Aprovada,805,Sessão Extraordinária,8,17:32,17
+8269,4837,2018-03-27,sessao,17,0,0,Aprovada,805,Sessão Extraordinária,8,17:32,17
+8270,4838,2018-03-27,sessao,17,0,0,Aprovada,805,Sessão Extraordinária,8,17:32,17
+8271,4839,2018-03-27,sessao,17,0,0,Aprovada,805,Sessão Extraordinária,8,17:32,17
+8272,4840,2018-03-27,sessao,17,0,0,Aprovada,805,Sessão Extraordinária,8,17:32,17
+8291,4855,2018-04-05,sessao,14,0,0,Aprovada,811,Sessão Extraordinária,10,17:24,14
+8294,4680,2017-12-13,sessao,24,0,0,Aprovada em 1ª discussão e votação ,776,Sessão Ordinária,70,9:22,24
+8294,4688,2017-12-13,sessao,23,0,0,Aprovada,777,Sessão Extraordinária,68,16:04,23
+8310,4881,2018-04-10,sessao,23,0,0,Aprovada,814,Sessão Ordinária,15,15:09,23
+8320,4896,2018-04-11,sessao,14,9,0,Aprovada em 1ª discussão e votação ,820,Sessão Extraordinária,16,13:45,23
+8320,4897,2018-04-11,sessao,14,9,0,Aprovada,821,Sessão Extraordinária,17,14:02,23
+8352,4768,2018-03-13,sessao,22,0,0,Aprovada em 1ª discussão e votação ,794,Sessão Ordinária,7,15:05,22
+8352,4771,2018-03-13,sessao,15,0,0,Aprovada,795,Sessão Extraordinária,5,17:02,15
+8373,4949,2018-04-24,sessao,24,0,0,Aprovada em 1ª discussão e votação ,829,Sessão Ordinária,19,15:08,24
+8373,4958,2018-04-24,sessao,17,0,0,Aprovada,830,Sessão Extraordinária,20,18:39,17
+8484,5205,2018-06-26,sessao,20,0,0,Aprovada em 1ª discussão e votação ,869,Sessão Extraordinária,33,16:21,20
+8484,5221,2018-06-26,sessao,18,0,0,Aprovada,870,Sessão Extraordinária,34,18:08,18
+8506,5247,2018-07-03,sessao,14,0,0,Aprovada em 1ª discussão e votação ,875,Sessão Ordinária,36,15:28,16
+8506,5252,2018-07-03,sessao,14,0,0,Aprovada,876,Sessão Extraordinária,36,17:57,14
+8567,5367,2018-08-28,sessao,14,0,0,Aprovada em 1ª discussão e votação ,891,Sessão Extraordinária,44,16:00,14
+8567,5369,2018-08-28,sessao,15,0,0,Aprovada,892,Sessão Extraordinária,45,16:12,15
+8586,5433,2018-09-25,sessao,16,0,0,Aprovada em 1ª discussão e votação ,899,Sessão Ordinária,46,15:22,18
+8586,5434,2018-09-25,sessao,15,0,0,Aprovada,901,Sessão Extraordinária,50,18:28,15
+8909,5945,2019-05-15,sessao,20,0,0,Aprovada em 1ª discussão e votação ,1073,Sessão Ordinária,21,09:24,20
+8909,6258,2019-05-15,sessao,13,0,0,Aprovada,1000,Sessão Extraordinária,17,11:14,13
+9000,5898,2019-04-16,sessao,20,0,0,Aprovada em 1ª discussão e votação ,1065,Sessão Ordinária,13,15:16,21
+9000,6203,2019-04-16,sessao,17,0,0,Aprovada,992,Sessão Extraordinária,9,18:41,17
+9073,6418,2019-09-10,sessao,20,0,0,Aprovada em 1ª discussão e votação ,1021,Sessão Extraordinária,38,18:31,20
+9073,6425,2019-09-10,sessao,17,0,0,Aprovada,1022,Sessão Extraordinária,39,19:18,14
+9119,6080,2019-10-08,sessao,23,0,0,Aprovada em 1ª discussão e votação ,1093,Sessão Ordinária,41,15:22,23
+9119,6457,2019-10-08,sessao,20,0,0,Aprovada,1027,Sessão Extraordinária,44,18:29,20
+9120,6079,2019-10-08,sessao,23,0,0,Aprovada em 1ª discussão e votação ,1093,Sessão Ordinária,41,15:22,23
+9120,6456,2019-10-08,sessao,20,0,0,Aprovada,1027,Sessão Extraordinária,44,18:29,20
+9152,6445,2019-10-08,sessao,23,0,0,Aprovada em 1ª discussão e votação ,1093,Sessão Ordinária,41,15:22,23
+9152,6447,2019-10-08,sessao,20,0,0,Aprovada,1027,Sessão Extraordinária,44,18:29,20
+9161,7612,2019-10-22,sessao,16,1,0,Aprovada em 1ª discussão e votação ,1033,Sessão Extraordinária,50,16:59,17
+9161,7620,2019-10-22,sessao,16,1,0,Aprovada,1034,Sessão Extraordinária,51,18:07,17
+9174,6519,2019-11-05,sessao,18,0,0,Aprovada em 1ª discussão e votação ,1038,Sessão Extraordinária,55,17:01,18
+9174,6531,2019-11-05,sessao,18,0,0,Aprovada,1039,Sessão Extraordinária,56,17:43,18
+9209,6517,2019-11-05,sessao,18,0,0,Aprovada em 1ª discussão e votação ,1038,Sessão Extraordinária,55,17:01,18
+9209,6529,2019-11-05,sessao,18,0,0,Aprovada,1039,Sessão Extraordinária,56,17:43,18
+9215,6137,2019-11-12,sessao,21,0,0,Aprovada em 1ª discussão e votação ,1103,Sessão Ordinária,51,15:07,21
+9215,6557,2019-11-12,sessao,19,0,0,Aprovada,1040,Sessão Extraordinária,57,19:00,20
+9215,8266,2019-11-13,sessao,20,0,0,Aprovada,1041,Sessão Extraordinária,58,11:01,20
+9301,6665,2020-03-18,sessao,19,0,0,Aprovada em 1ª discussão e votação ,1114,Sessão Ordinária,7,09:17,19
+9301,6888,2020-03-18,sessao,18,0,0,Aprovada em 1ª discussão e votação ,1147,Sessão Extraordinária,7,10:12,
+9335,6701,2020-04-29,sessao,23,0,0,Aprovada em 1ª discussão e votação ,1119,Sessão Ordinária,12,09:21,23
+9335,6935,2020-04-29,sessao,19,0,0,Aprovada,1154,Sessão Extraordinária,14,13:14,
+9466,6805,2020-07-28,sessao,23,0,0,Aprovada em 1ª discussão e votação ,1130,Sessão Ordinária,23,15:18,23
+9466,7057,2020-07-28,sessao,19,0,0,Aprovada,1174,Sessão Extraordinária,34,17:53,
+9528,7224,2020-11-24,sessao,16,0,0,Aprovada,1191,Sessão Extraordinária,48,17:43,
+9528,8189,2020-11-24,sessao,17,0,0,Aprovada em 1ª discussão e votação ,1189,Sessão Ordinária,35,15:25,23
+9530,6833,2020-08-18,sessao,22,0,0,Aprovada em 1ª discussão e votação ,1132,Sessão Ordinária,25,15:17,22
+9530,7071,2020-08-18,sessao,16,0,0,Aprovada,1176,Sessão Extraordinária,36,18:16,
+9726,8302,2021-04-20,sessao,17,0,0,Aprovada em 1ª discussão e votação ,1242,Sessão Ordinária,8,15:30,24
+9726,8304,2021-04-20,sessao,18,0,0,Aprovada,1244,Sessão Extraordinária,17,21:39,18
+9854,8619,2021-07-06,sessao,18,0,0,Aprovada,1267,Sessão Extraordinária,29,20:49,20
+9854,8701,2021-07-06,sessao,16,0,0,Aprovada em 1ª discussão e votação ,1268,Sessão Ordinária,18,15:22,24
+9855,8621,2021-07-06,sessao,19,0,0,Aprovada,1267,Sessão Extraordinária,29,20:49,20
+9855,8702,2021-07-06,sessao,15,0,0,Aprovada em 1ª discussão e votação ,1268,Sessão Ordinária,18,15:22,24
+9856,8622,2021-07-06,sessao,17,0,0,Aprovada,1267,Sessão Extraordinária,29,20:49,20
+9856,8703,2021-07-06,sessao,18,0,0,Aprovada em 1ª discussão e votação ,1268,Sessão Ordinária,18,15:22,24
+10075,9118,2021-10-26,sessao,20,0,0,Aprovada,1293,Sessão Ordinária,28,15:28,20
+10268,9693,2021-12-15,sessao,17,0,1,Aprovada em 1ª discussão e votação ,1315,Sessão Extraordinária,58,12:38,23
+10268,9742,2021-12-15,sessao,15,0,1,Aprovada,1316,Sessão Extraordinária,59,19:25,19
+10363,9529,2021-12-14,sessao,23,0,0,Aprovada em 1ª discussão e votação ,1311,Sessão Extraordinária,55,10:06,23
+10363,9591,2021-12-14,sessao,19,0,0,Aprovada,1312,Sessão Extraordinária,56,12:21,19
+10377,9515,2021-12-14,sessao,23,0,0,Aprovada em 1ª discussão e votação ,1311,Sessão Extraordinária,55,10:06,23
+10377,9577,2021-12-14,sessao,19,0,0,Aprovada,1312,Sessão Extraordinária,56,12:21,19
+10470,9319,2021-11-22,sessao,22,0,0,Aprovada em 1ª discussão e votação ,1304,Sessão Extraordinária,48,19:14,22
+10470,9349,2021-11-22,sessao,20,0,0,Aprovada,1305,Sessão Extraordinária,49,23:18,20
+10545,9895,2022-03-30,sessao,15,0,1,Aprovada em 1ª discussão e votação ,1325,Sessão Ordinária,8,09:30,24
+10545,10383,2022-03-31,sessao,20,0,1,Aprovada,1339,Sessão Extraordinária,6,14:58,24
+10741,10135,2022-05-17,sessao,15,1,1,Aprovada em 1ª discussão e votação ,1329,Sessão Ordinária,12,15:30,24
+10741,10420,2022-05-17,sessao,16,0,1,Aprovada,1350,Sessão Extraordinária,17,20:00,21
+10919,10221,2022-06-14,sessao,22,0,0,Aprovada em 1ª discussão e votação ,1333,Sessão Ordinária,16,15:30,22
+10919,10553,2022-06-14,sessao,20,0,0,Aprovada,1354,Sessão Extraordinária,19,17:55,19
+10940,10663,2022-08-16,sessao,21,0,0,Aprovada em 1ª discussão e votação ,1366,Sessão Ordinária,19,15:19,21
+10940,10665,2022-08-16,sessao,17,0,0,Aprovada,1367,Sessão Extraordinária,27,16:55,16
+10960,10618,2022-06-28,sessao,21,0,0,Aprovada em 1ª discussão e votação ,1356,Sessão Extraordinária,21,17:29,21
+10960,10633,2022-06-28,sessao,18,0,0,Aprovada,1357,Sessão Extraordinária,22,20:34,18
+11199,10820,2022-11-01,sessao,18,0,1,Aprovada em 1ª discussão e votação ,1383,Sessão Ordinária,27,15:30,20
+11199,10827,2022-11-01,sessao,18,0,1,Aprovada,1382,Sessão Extraordinária,35,18:54,19
+11221,11070,2022-11-29,sessao,16,0,1,Aprovada,1394,Sessão Extraordinária,44,18:51,16
+11607,11534,2023-06-06,sessao,18,0,0,Aprovada em 1ª discussão e votação ,1452,Sessão Extraordinária,22,18:27,18
+11607,11538,2023-06-06,sessao,17,0,0,Aprovada,1453,Sessão Extraordinária,23,18:49,17
+11637,11721,2023-06-27,sessao,22,0,0,Aprovada em 1ª discussão e votação ,1460,Sessão Extraordinária,26,17:15,22
+11637,11727,2023-06-27,sessao,16,0,0,Aprovada,1461,Sessão Extraordinária,27,19:23,16
+11664,11899,2023-08-29,sessao,19,0,0,Aprovada,1477,Sessão Extraordinária,34,21:12,19
+11716,12045,2023-10-10,sessao,18,0,3,Aprovada,1482,Sessão Ordinária,35,15:19,22
+11970,12420,2024-03-19,sessao,13,0,0,Aprovada,1503,Sessão Ordinária,7,15:14,22
+12004,12446,2024-03-26,sessao,23,0,0,Aprovada,1506,Sessão Ordinária,9,15:30,23
+12192,12392,2024-03-12,sessao,22,0,0,Aprovada,1501,Sessão Ordinária,5,15:30,22
+12479,12938,2024-11-05,sessao,14,0,0,Aprovada,1548,Sessão Extraordinária,14,16:22,14
+12580,13578,2025-04-16,sessao,21,0,0,Aprovada,1576,Sessão Extraordinária,4,15:22,21
+12792,13633,2025-05-29,sessao,23,0,0,Aprovada,1581,Itinerante,1,10:52,24
+12891,13626,2025-05-29,sessao,24,0,0,Aprovada,1581,Itinerante,1,10:52,24
+13307,14511,2025-10-28,sessao,21,0,0,Aprovada,1608,Sessão Ordinária,30,15:30,21
+13318,14551,2025-11-05,sessao,20,0,0,Aprovada,1609,Sessão Ordinária,32,09:30,20
+13397,14016,2025-09-09,sessao,23,0,0,Aprovada,1595,Sessão Ordinária,21,15:20,23

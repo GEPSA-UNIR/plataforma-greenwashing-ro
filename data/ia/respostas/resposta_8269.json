@@ -1,0 +1,76 @@
+{
+ "sapl_id": 8269,
+ "analise": {
+  "sapl_id": 8269,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Mais uma vez o Poder Executivo está extrapolando e mais uma vez esta Casa está sendo obrigada através deste Projeto de Decreto Legislativo, a sustar Decretos do Governador do Estado, por exorbitar do Poder Regulamentar.",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "A Lei Federal nº 9.985, de 18 de julho de 2000, que instituiu o Sistema Nacional de Unidades de Conservação da Natureza — SNUC determina, para a criação de uma Unidade de Conservação, a necessidade de estudos técnicos e de consulta pública",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Anula a criação do Parque Estadual Ilha das Flores, extinguindo a proteção ambiental conferida pelo decreto do Executivo.",
+     "citacao": "Fica sustado, nos termos do inciso XIX do artigo 29 da Constituição Estadual, os efeitos do Decreto nº 22.688, de 20 de março de 2018, que \"Dispõe sobre a criação do Parque Estadual Ilha das Flores\"",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "O Decreto Legislativo nº 797/2018 promove o retrocesso ambiental ao sustar os efeitos de um decreto que criava o Parque Estadual Ilha das Flores. Embora a justificativa do projeto utilize uma retórica de defesa da legalidade e do devido processo legislativo (alegando falta de consulta pública e estudos técnicos), o efeito prático é a supressão imediata de uma unidade de conservação recém-criada. \n\nA norma faz parte de um conjunto de 10 decretos legislativos aprovados na mesma sessão extraordinária, todos com o objetivo de sustar decretos de criação de diversas unidades de conservação. O uso do argumento de 'exorbitância do poder regulamentar' serve como mecanismo de reframing (M2), enquadrando a desproteção ambiental como uma medida de correção institucional e defesa das prerrogativas da Assembleia Legislativa, ocultando o impacto direto da perda de áreas protegidas.",
+  "lacunas": [
+   "Não há transcrição da sessão plenária para verificar se houve debate sobre o mérito ambiental das áreas protegidas ou apenas sobre a competência legislativa."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9079,
+  "quando": "2026-07-30T15:45:59+00:00",
+  "uso": {
+   "prompt_tokens": 5120,
+   "completion_tokens": 706,
+   "total_tokens": 5826,
+   "cost": 0.00231561,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.002339,
+    "upstream_inference_prompt_cost": 0.00128,
+    "upstream_inference_completions_cost": 0.001059
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

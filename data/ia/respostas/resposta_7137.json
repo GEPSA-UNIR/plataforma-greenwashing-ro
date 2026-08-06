@@ -1,0 +1,80 @@
+{
+ "sapl_id": 7137,
+ "analise": {
+  "sapl_id": 7137,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "DISPÕE SOBRE O ACOMPANHAMENTO E A FISCALIZAÇÃO,PELO ESTADO DE RONDÔNIA, DAS COMPENSAÇÕES E DAS PARTICIPAÇÕES FINANCEIRAS PREVISTAS NO ARTIGO 20, § 1º, DA CONSTITUIÇÃO FEDERAL, ORIUNDAS DAS CONCESSÕES, PERMISSÕES, CESSÕES E OUTRAS MODALIDADES ADMINISTRATIVAS PARA A EXPLORAÇÃO DE RECURSOS HÍDRICOS E MINERAIS",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Considerando a necessidade de se ajustar ao modelo de Estado Gerencial, buscando qualidade do serviço público, com eficiência e economicidade, o anexo Projeto de Lei trata da ampliação das competências do cargo de Auditor Fiscal de Tributos Estaduais",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "fortalece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º (Lei 3591/2015)",
+     "efeito": "Estabelece competência administrativa clara para a fiscalização de receitas não-tributárias, suprindo lacuna que impedia a atuação do Estado.",
+     "citacao": "Compete ao Estado de Rondônia, por meio da Secretaria de Estado de Finanças -SEFIN, nos termos dos artigos 23, inciso XI e 24, inciso I, da Constituição Federal, regular os procedimentos de fiscalização, de arrecadação e de lançamento das receitas não-tributárias deste Estado",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 15 (Lei 3591/2015)",
+     "efeito": "Institui regime sancionatório específico para o descumprimento de obrigações relacionadas à exploração de recursos naturais, fortalecendo o poder de polícia ambiental/administrativa.",
+     "citacao": "As infrações pertinentes às participações e compensações financeiras de que trata esta Lei sujeitam-se às seguintes penalidades",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "protecao_genuina",
+  "score_greenwashing": 0.1,
+  "mecanismos": [],
+  "justificativa": "A norma possui natureza estritamente administrativa e fiscal, focada na organização da arrecadação de receitas não-tributárias decorrentes da exploração de recursos naturais. Embora a ementa mencione recursos hídricos e minerais, o objetivo central é a estruturação da competência dos Auditores Fiscais para garantir o recebimento de compensações financeiras, conforme justificado pelo Poder Executivo no projeto original: 'atualmente não há, no estado de Rondônia, legislação que regulamente o exercício da referida competência'.\n\nNão se trata de greenwashing, pois a norma não utiliza retórica de proteção ambiental para disfarçar retrocessos; ela é transparente quanto ao seu objetivo de eficiência fiscal. O efeito prático é o fortalecimento da capacidade estatal de fiscalizar a exploração de recursos, o que, indiretamente, pode auxiliar no controle das atividades exploratórias. A comparação entre o projeto e a lei revela apenas ajustes de numeração de artigos e correções formais, sem supressão de dispositivos de controle ou inserção de jabutis que enfraqueçam a proteção ambiental.",
+  "lacunas": [
+   "Não há lacunas significativas; o dossiê contém o projeto original e a lei promulgada, permitindo a comparação direta."
+  ],
+  "confianca": 0.95
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 61343,
+  "quando": "2026-07-30T15:43:48+00:00",
+  "uso": {
+   "prompt_tokens": 17955,
+   "completion_tokens": 824,
+   "total_tokens": 18779,
+   "cost": 0.0056675025,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00572475,
+    "upstream_inference_prompt_cost": 0.00448875,
+    "upstream_inference_completions_cost": 0.001236
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

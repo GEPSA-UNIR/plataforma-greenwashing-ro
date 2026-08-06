@@ -1,0 +1,83 @@
+{
+ "sapl_id": 9215,
+ "analise": {
+  "sapl_id": 9215,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "Dispõe sobre procedimentos ambientais simplificados para implantação e operação de empreendimentos e/ou atividades de porte micro com potencial poluidor degradador baixo.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Trata-se de procedimentos para emissão de licenças ambientais voltadas à construção de empreendimentos ou atividades com pequeno potencial de degradação ambiental.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 2º e Art. 3º",
+     "efeito": "Institui o licenciamento por autodeclaração, transferindo a responsabilidade da análise técnica prévia do órgão ambiental para o próprio interessado, o que fragiliza o controle preventivo.",
+     "citacao": "Os empreendimentos e/ou atividades de porte micro com potencial poluidor degradador baixo que promovam a melhoria de qualidade de vida da população estão sujeitos ao licenciamento simplificado por autodeclaração junto ao órgão ambiental estadual competente",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 4º, incisos VI a XI",
+     "efeito": "Embora o projeto original incluísse atividades como 'atividades de pesca artesanal' e 'implantação de sistema agroflorestais' no rol de licenciamento simplificado, estes incisos foram vetados na lei final, mantendo a incerteza sobre o regime aplicável a tais atividades.",
+     "citacao": "VI -VETADO. VII -VETADO. VIH -VETADO. IX -VETADO. X -VETADO. XI -VETADO.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'procedimentos simplificados' e 'melhoria da qualidade de vida' para instituir o licenciamento por autodeclaração (Art. 2º e 3º). Esse mecanismo (M5) transfere o ônus da fiscalização e a responsabilidade técnica do Estado para o empreendedor, fragilizando o controle ambiental preventivo sob o pretexto de desburocratização. \n\nO contraste entre o projeto original e a lei sancionada revela uma instabilidade normativa, com o veto de diversos incisos do Art. 4º que originalmente buscavam enquadrar atividades como pesca artesanal e sistemas agroflorestais no regime simplificado. A ausência de critérios técnicos claros para a 'autodeclaração' e a delegação da responsabilidade para o interessado configuram um cenário de enfraquecimento da proteção ambiental, dissimulado pela linguagem de eficiência administrativa.",
+  "lacunas": [
+   "Ausência de definição técnica ou regulamentação sobre o que constitui 'potencial poluidor degradador baixo' para fins de autodeclaração.",
+   "Falta de clareza sobre os mecanismos de fiscalização a posteriori para as licenças emitidas por autodeclaração."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 13220,
+  "quando": "2026-07-30T15:47:32+00:00",
+  "uso": {
+   "prompt_tokens": 5992,
+   "completion_tokens": 843,
+   "total_tokens": 6835,
+   "cost": 0.002734875,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0027625,
+    "upstream_inference_prompt_cost": 0.001498,
+    "upstream_inference_completions_cost": 0.0012645
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

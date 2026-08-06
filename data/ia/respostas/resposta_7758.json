@@ -1,0 +1,82 @@
+{
+ "sapl_id": 7758,
+ "analise": {
+  "sapl_id": 7758,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "DISPÕE SOBRE O FUNDO ESPECIAL DE PROTEÇÃO AMBIENTAL - FEPRAM E DÁ OUTRAS PROVIDÊNCIAS.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "o presente Projeto de Lei busca garantir recursos suficientes para o custeio de atividades desenvolvidas pela SEDAM na área ambiental, em cumprimento ao comando constitucional talhado no artigo 225 da Constituição Federal de 1988.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "misto",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 3º, IX e X",
+     "efeito": "Permite o uso de recursos do fundo ambiental para despesas administrativas e de infraestrutura da SEDAM (aquisição de veículos, mobiliário, obras), o que pode desviar recursos de ações finalísticas de proteção ambiental.",
+     "citacao": "IX - aquisição e locação de veículos para atender necessidades da SEDAM; X - realização de obras, contratação de serviços e aquisição de equipamentos, instrumentos, mobiliário e materiais permanentes necessários à manutenção ou melhoria da infraestrutura física e tecnológica da SEDAM",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "dispositivo": "Art. 8º (inserido na Lei)",
+     "efeito": "Fortalece o controle parlamentar sobre a gestão do fundo, obrigando a prestação de contas semestral à Assembleia Legislativa, dispositivo ausente no projeto original.",
+     "citacao": "Art. 8º. Fica obrigado o responsável pelo Fundo Especial de Proteção Ambiental — FEPRAM, a encaminhar a Assembleia Legislativa relatório semestral dos investimentos, das despesas realizadas e os recursos financeiros devidamente aplicados.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "simbolica",
+  "score_greenwashing": 0.4,
+  "mecanismos": [
+   "M1_norma_programatica_vazia"
+  ],
+  "justificativa": "A norma apresenta uma retórica forte de proteção ambiental, justificando a criação do FEPRAM como meio de cumprir o artigo 225 da Constituição Federal. Contudo, o efeito prático é ambíguo. Embora o fundo tenha finalidades ambientais claras, o artigo 3º, incisos IX e X, permite que os recursos sejam utilizados para custear a estrutura administrativa da SEDAM (veículos, mobiliário, obras), o que caracteriza uma fragilidade na destinação exclusiva para a proteção ambiental. \n\nDurante a tramitação, houve uma alteração positiva: a inclusão do artigo 8º na Lei, que não constava no projeto original, estabelecendo a obrigatoriedade de prestação de contas semestral à Assembleia Legislativa. Esse mecanismo de controle parlamentar mitiga o risco de uso discricionário dos recursos, mas não altera a natureza da norma, que permanece como um instrumento de gestão orçamentária que, sob o rótulo de 'proteção ambiental', viabiliza o custeio da máquina pública estadual.",
+  "lacunas": [
+   "Faltam dados sobre a execução orçamentária real do FEPRAM para verificar se os recursos são majoritariamente aplicados em proteção ambiental ou em custeio administrativo."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 18772,
+  "quando": "2026-07-30T15:45:02+00:00",
+  "uso": {
+   "prompt_tokens": 7043,
+   "completion_tokens": 851,
+   "total_tokens": 7894,
+   "cost": 0.0030068775,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00303725,
+    "upstream_inference_prompt_cost": 0.00176075,
+    "upstream_inference_completions_cost": 0.0012765
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

@@ -1,0 +1,20 @@
+# Tema fixo CLARO: a plataforma é embarcada em páginas de fundo branco
+# (iframe no portal), então não pode seguir a preferência de tema do navegador
+# de quem visita — senão abre escura dentro de uma página clara.
+# viz.py escolhe a paleta por st.context.theme.type, que passa a responder "light".
+[theme]
+base = "light"
+# cor de destaque: o mesmo azul dos gráficos (viz._CORES["light"]["vigente"]),
+# para que botão, foco de campo e barra de progresso não briguem com a paleta
+# das figuras. Sem isto o Streamlit usa vermelho, que na plataforma significa
+# "com ADI" — a interface estaria dizendo uma coisa que o dado não diz.
+primaryColor = "#2a78d6"
+textColor = "#111111"
+secondaryBackgroundColor = "#f2f4f7"
+
+[client]
+# sem menu de desenvolvimento para o visitante
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

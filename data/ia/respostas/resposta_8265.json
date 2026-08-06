@@ -1,0 +1,76 @@
+{
+ "sapl_id": 8265,
+ "analise": {
+  "sapl_id": 8265,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "Susta os efeitos do Decreto nº 22.687, de 20 de março de 2018, que \"Dispõe sobre a criação da Reserva de Desenvolvimento Sustentável Serra Grande, no município de Costa Marques, no Estado de Rondônia, e dá outras providências\"",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "o Poder Executivo está extrapolando e mais uma vez esta Casa está sendo obrigada através deste Projeto de Decreto Legislativo, a sustar Decretos do Governador do Estado, por exorbitar do Poder Regulamentar.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Anula a criação de uma Unidade de Conservação (Reserva de Desenvolvimento Sustentável Serra Grande), retirando a proteção ambiental conferida pelo decreto do Executivo.",
+     "citacao": "Fica sustado, nos termos do inciso XIX do artigo 29 da Constituição Estadual, os efeitos do Decreto nº 22.687, de 20 de março de 2018",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "O Decreto Legislativo nº 793/2018 promove o desmantelamento direto de uma Unidade de Conservação recém-criada pelo Poder Executivo. A justificativa apresentada pelos parlamentares utiliza o argumento de 'exorbitância do poder regulamentar' e a necessidade de 'crivo legislativo' (M2_reframing_de_regressao) para mascarar o efeito prático de supressão de proteção ambiental. A norma não é um caso de greenwashing clássico, pois não se apresenta como protetora do meio ambiente, mas sim como um ato de controle administrativo, embora o resultado final seja a eliminação de uma área protegida.\n\nÉ importante notar que este decreto faz parte de um conjunto de 11 normas aprovadas na mesma sessão (Decretos Legislativos 793 a 800 e outros), que, de forma coordenada, sustaram os efeitos de diversos decretos de criação de unidades de conservação no estado de Rondônia. A rapidez da tramitação (um dia entre a apresentação e a promulgação) reforça a natureza de um movimento político deliberado para reverter políticas de conservação ambiental vigentes à época.",
+  "lacunas": [
+   "Não há informações sobre o conteúdo técnico dos estudos que embasaram o decreto original do Executivo, o que permitiria avaliar se a alegação de 'falta de consulta pública' na justificativa possui fundamento fático ou se é apenas retórica política."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9413,
+  "quando": "2026-07-30T15:45:43+00:00",
+  "uso": {
+   "prompt_tokens": 5264,
+   "completion_tokens": 687,
+   "total_tokens": 5951,
+   "cost": 0.002323035,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0023465,
+    "upstream_inference_prompt_cost": 0.001316,
+    "upstream_inference_completions_cost": 0.0010305
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

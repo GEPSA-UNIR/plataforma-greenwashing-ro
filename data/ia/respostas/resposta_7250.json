@@ -1,0 +1,77 @@
+{
+ "sapl_id": 7250,
+ "analise": {
+  "sapl_id": 7250,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "DISPÕE SOBRE A ISENÇÃO DO PAGAMENTO DE LICENCIAMENTO AMBIENTAL PARA PREFEITURAS MUNICIPAIS, ÓRGÃOS PÚBLICOS DO ESTADO E AUTARQUIAS.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Diante do exposto, foi vislumbrada a isenção do pagamento de licenciamento ambiental a implantação de projetos próprios ou conveniados das Prefeituras Municipais, Órgãos Públicos do Estado e Autarquias, que necessitam de suas licenças para executar seus projetos e por não dispor de recursos para o pagamento das mesmas, atrasam a implantação dos projetos",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Retira a contrapartida financeira do licenciamento ambiental para entes públicos, o que pode fragilizar a capacidade operacional e de fiscalização do órgão ambiental estadual ao reduzir a arrecadação destinada à manutenção do sistema de licenciamento.",
+     "citacao": "Fica isenta do pagamento de licenciamento ambiental a implantação de projetos próprios ou conveniados das Prefeituras Municipais, Orgãos Públicos do Estado e Autarquias.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'apoio aos municípios' e 'desburocratização' para justificar a isenção de taxas de licenciamento ambiental. Embora apresentada como uma medida de auxílio financeiro aos entes públicos, o efeito prático é a redução da receita do órgão ambiental estadual, o que compromete a sustentabilidade financeira das atividades de controle e fiscalização ambiental. O autor do projeto utiliza argumentos de 'imunidade recíproca' para enquadrar a isenção como um avanço federativo, dissimulando o impacto negativo na capacidade de gestão ambiental do Estado.\n\nNão houve alterações significativas entre o projeto original e a lei promulgada, mantendo-se a isenção ampla. A justificativa do projeto revela que a motivação é puramente orçamentária, ignorando que o licenciamento ambiental é um instrumento de controle e não apenas um custo administrativo. Ao desonerar entes públicos, a norma enfraquece o rigor do licenciamento, configurando um mecanismo de retrocesso disfarçado de política de auxílio aos municípios.",
+  "lacunas": [
+   "Ausência de dados sobre o impacto orçamentário da isenção na estrutura do órgão ambiental estadual.",
+   "Falta de informações sobre se a isenção se aplica apenas à taxa ou se desobriga também a submissão ao rito de licenciamento."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 12025,
+  "quando": "2026-07-30T15:43:59+00:00",
+  "uso": {
+   "prompt_tokens": 5768,
+   "completion_tokens": 773,
+   "total_tokens": 6541,
+   "cost": 0.002575485,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0026015,
+    "upstream_inference_prompt_cost": 0.001442,
+    "upstream_inference_completions_cost": 0.0011595
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

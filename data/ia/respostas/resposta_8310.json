@@ -1,0 +1,73 @@
+{
+ "sapl_id": 8310,
+ "analise": {
+  "sapl_id": 8310,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "O objetivo da suspensão a que nos propomos com este Projeto de Decreto .egislativo, da execução da Instrução Normativa nº 2, de 09 de agosto de 2017, que \"Estabelece regras para aprovação das áreas de Reserva Legal no âmbito do Estado de Rondônia e dá outras providências\", é exatamente por entendermos que ao editar a referida Instrução, a Secretaria de Estado do Desenvolvimento Ambiental -SEDAM, extrapolou suas atribuições",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º",
+     "efeito": "Susta os efeitos de norma estadual que regulamentava a comprovação de áreas de Reserva Legal, removendo critérios administrativos de controle ambiental.",
+     "citacao": "Fica sustado os efeitos, nos termos do inciso XIX do artigo 29 da Constituição Estadual, da Instrução Normativa nº 2, de 9 de agosto de 2017",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "retrocesso_transparente",
+  "score_greenwashing": 0.2,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "O Decreto Legislativo nº 818/2018 utiliza a retórica de 'abuso de poder regulamentar' por parte da Secretaria de Estado do Desenvolvimento Ambiental (SEDAM) para sustar uma Instrução Normativa que estabelecia critérios para a aprovação de Reserva Legal. A justificativa dos autores alega que a SEDAM extrapolou suas competências ao criar requisitos de prova para situações consolidadas que não estariam previstos na Lei Federal nº 12.651/2012.\n\nNa prática, o efeito da norma é o esvaziamento imediato das regras de controle administrativo sobre a Reserva Legal no estado. Ao sustar a norma técnica, o Legislativo remove o regramento que orientava a fiscalização e a regularização ambiental, configurando um retrocesso na proteção ambiental sob o pretexto de correção de competência legislativa. Não se trata de greenwashing, pois o objetivo de enfraquecer o controle ambiental é declarado abertamente como uma disputa de competência, enquadrando-se como retrocesso transparente.",
+  "lacunas": [
+   "Faltam informações sobre o impacto prático da Instrução Normativa nº 2/2017 na área de Reserva Legal antes de sua suspensão.",
+   "Não há transcrição de plenário para verificar se houve debate sobre o impacto ambiental da medida ou apenas sobre a questão formal de competência."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 6761,
+  "quando": "2026-07-30T15:46:25+00:00",
+  "uso": {
+   "prompt_tokens": 4046,
+   "completion_tokens": 710,
+   "total_tokens": 4756,
+   "cost": 0.002055735,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0020765,
+    "upstream_inference_prompt_cost": 0.0010115,
+    "upstream_inference_completions_cost": 0.001065
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

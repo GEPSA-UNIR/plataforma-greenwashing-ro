@@ -1,0 +1,78 @@
+{
+ "sapl_id": 7741,
+ "analise": {
+  "sapl_id": 7741,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "ESTABELECE DIRETRIZES QUANTO À DOCUMENTAÇÃO A SER APRESENTADA PARA APROVAÇÃO DE PLANO DE MANEJO FLORESTAL EM ÁREAS DE POSSE RURAL, TENDO COMO OBJETIVO O DESENVOLVIMENTO SUSTENTÁVEL.",
+     "secao": "## Ementa"
+    },
+    {
+     "citacao": "Tendo como objetivo o desenvolvimento sustentável, esta Lei atendera aos seguintes princípios: De acordo com o que trata a Constituição federativa do Brasil de 1988, todos tem direito ao meio ambiente ecologicamente equilibrado",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 2º, Parágrafo único e Art. 3º, Parágrafo único",
+     "efeito": "Flexibiliza a comprovação de posse para fins de licenciamento de manejo florestal, permitindo que documentos meramente declaratórios ou fiscais (como ITR, CCIR ou cadastro de produtor) substituam títulos de propriedade ou posse formal.",
+     "citacao": "Em não havendo qualquer dos documentos relacionados no caput deste artigo, será aceito como comprovação da posse, cumulativamente, os seguintes documentos: [...] I - documento lavrado pela Agência de Defesa Sanitária [...] II - documento lavrado por órgãos oficiais de Regularização Fundiária [...] III - certificado de georeferenciamento emitido pelo INCRA, IV - CCIR - Certificado de Cadastro de Imóvel Rural; V - ITR - Imposto Territorial Rural",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.85,
+  "mecanismos": [
+   "M2_reframing_de_regressao",
+   "M5_delegacao_desregulamentadora"
+  ],
+  "justificativa": "A norma utiliza uma retórica de 'desenvolvimento sustentável' e 'proteção ambiental' para, na prática, facilitar a regularização de Planos de Manejo Florestal (PMFS) em áreas de posse precária. Ao permitir que documentos fiscais e cadastrais (como ITR e CCIR) sirvam como prova de posse para fins de licenciamento ambiental, a lei fragiliza o controle sobre a ocupação de terras públicas e privadas, criando um mecanismo de 'regularização' via licenciamento florestal que contorna a necessidade de títulos fundiários formais.\n\nO efeito prático é a desregulamentação do acesso ao manejo florestal, transferindo a responsabilidade de verificação da legitimidade da posse para documentos que não possuem natureza jurídica de título de propriedade. A comparação entre o projeto e a lei mostra que a estrutura de flexibilização foi mantida integralmente, consolidando a estratégia de utilizar o licenciamento ambiental como via de legitimação de posses rurais, o que configura um claro desvio de finalidade ambiental sob o pretexto de simplificação administrativa.",
+  "lacunas": [
+   "Ausência de dados sobre o impacto real na fiscalização ambiental após a vigência da norma.",
+   "Falta de informações sobre a eficácia da vistoria prévia da SEDAM mencionada no Anexo I."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 20411,
+  "quando": "2026-07-30T15:44:53+00:00",
+  "uso": {
+   "prompt_tokens": 8018,
+   "completion_tokens": 703,
+   "total_tokens": 8721,
+   "cost": 0.00302841,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.003059,
+    "upstream_inference_prompt_cost": 0.0020045,
+    "upstream_inference_completions_cost": 0.0010545
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

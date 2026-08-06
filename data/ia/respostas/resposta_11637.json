@@ -1,0 +1,77 @@
+{
+ "sapl_id": 11637,
+ "analise": {
+  "sapl_id": 11637,
+  "eixo_retorica": {
+   "nivel": "forte",
+   "citacoes": [
+    {
+     "citacao": "O Projeto de Lei 106/2023 que faz justiça com a agroindústria familiar rural, que não estava contemplado no texto legal. Merece ser incluída, afinal de contas, precisa do incentivo do nosso Estado.",
+     "secao": "## Transcrição da sessão plenária"
+    },
+    {
+     "citacao": "A isenção não implica na dispensa dessas obrigações, mas busca facilitar o acesso desses produtores às práticas sustentáveis, promovendo a preservação ambiental em suas atividades",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º (alteração do inciso II do art. 37 da Lei 3.686/2015)",
+     "efeito": "Amplia o rol de atividades isentas de taxas de licenciamento ambiental para incluir 'agroindustriais', o que reduz a arrecadação destinada à fiscalização e ao custeio do órgão ambiental, sem contrapartida de controle.",
+     "citacao": "II -atividades agropecuárias, agroindustriais e agrossilvopastoris exercida por agricultor familiar e empreendedor familiar rural",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma utiliza uma retórica de apoio à agricultura familiar e justiça social para ampliar a isenção de taxas de licenciamento ambiental, incluindo atividades 'agroindustriais'. Embora o autor do projeto alegue que a isenção não dispensa as obrigações ambientais, a redução da arrecadação de taxas de licenciamento impacta diretamente a capacidade operacional do órgão ambiental estadual para fiscalizar essas mesmas atividades, que possuem potencial poluidor. O enquadramento como 'incentivo' mascara o esvaziamento financeiro da política de licenciamento, configurando um mecanismo de desoneração que fragiliza a proteção ambiental sob o pretexto de modernização e apoio ao setor produtivo.",
+  "lacunas": [
+   "Não há dados sobre o impacto orçamentário da renúncia fiscal decorrente da isenção das taxas para agroindústrias.",
+   "Não há informações sobre a existência de mecanismos de controle alternativos para as atividades agroindustriais agora isentas."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 10315,
+  "quando": "2026-07-30T15:49:06+00:00",
+  "uso": {
+   "prompt_tokens": 5160,
+   "completion_tokens": 640,
+   "total_tokens": 5800,
+   "cost": 0.0022275,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00225,
+    "upstream_inference_prompt_cost": 0.00129,
+    "upstream_inference_completions_cost": 0.00096
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

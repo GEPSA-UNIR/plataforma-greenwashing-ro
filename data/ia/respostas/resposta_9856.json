@@ -1,0 +1,77 @@
+{
+ "sapl_id": 9856,
+ "analise": {
+  "sapl_id": 9856,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "O presente Projeto de Lei Complementar tem a finalidade de corrigir erro material da redação do 8 1º do artigo 2º da Lei Complementar nº 1.089, de 20 de maio de 2021",
+     "secao": "## Texto do PROJETO original"
+    },
+    {
+     "citacao": "Nosso parecer, é um Projeto de correção de técnica legislativa.",
+     "secao": "## Transcrição da sessão plenária"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 1º (alteração do § 1º do art. 2º da LC 1089/2021)",
+     "efeito": "Formaliza a desafetação de parcela de terra do Parque Estadual de Guajará-Mirim, reduzindo sua área protegida.",
+     "citacao": "terá a área disposta no art. 2º, acrescida desafetação da parcela conhecida como terra roxa, e passará a ter 166.034,71 hectares",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma utiliza a retórica de 'correção de erro material' e 'técnica legislativa' para dissimular o efeito prático de redução da área protegida do Parque Estadual de Guajará-Mirim. Ao enquadrar a desafetação de uma parcela conhecida como 'terra roxa' dentro de um projeto apresentado como mera correção de referência numérica (troca de artigo 1º por artigo 2º), a norma opera um reframing de regressão (M2). \n\nO caráter de dissimulação é reforçado pelo contexto legislativo: a LC 1096/2021 foi aprovada na mesma sessão que outras normas (LC 1094/2021 e LC 1095/2021) que também alteram os limites de unidades de conservação criadas pela LC 1089/2021, sugerindo um esforço coordenado de desmonte ambiental sob a aparência de ajustes técnicos. A justificativa do autor foca exclusivamente na correção da referência, omitindo que o dispositivo consolidado efetiva a perda territorial da unidade de conservação.",
+  "lacunas": [
+   "Não há informações sobre a extensão da área denominada 'terra roxa' ou o impacto ecológico específico da sua desafetação.",
+   "O dossiê não detalha a motivação técnica para a desafetação, apenas a justificativa formal de correção de erro."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 9840,
+  "quando": "2026-07-30T15:48:02+00:00",
+  "uso": {
+   "prompt_tokens": 5327,
+   "completion_tokens": 636,
+   "total_tokens": 5963,
+   "cost": 0.0022628925,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00228575,
+    "upstream_inference_prompt_cost": 0.00133175,
+    "upstream_inference_completions_cost": 0.000954
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google AI Studio",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}

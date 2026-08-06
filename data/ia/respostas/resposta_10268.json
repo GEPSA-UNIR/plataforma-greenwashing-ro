@@ -1,0 +1,77 @@
+{
+ "sapl_id": 10268,
+ "analise": {
+  "sapl_id": 10268,
+  "eixo_retorica": {
+   "nivel": "leve",
+   "citacoes": [
+    {
+     "citacao": "O Fundo Especial de Proteção Ambiental - FEPRAM tem por objetivo custear o desenvolvimento de atividades, programas, planos, projetos e pagamento de pessoal voltados ao controle, fiscalização, proteção, manutenção, melhoria e recuperação do meio ambiente",
+     "secao": "## Texto integral da LEI"
+    },
+    {
+     "citacao": "objetivando assim potencializar análise dos processos ambientais, que são fundamentais para o desenvolvimento econômico do estado de Rondônia.",
+     "secao": "## Texto do PROJETO original"
+    }
+   ]
+  },
+  "eixo_efeito": {
+   "direcao": "enfraquece",
+   "dispositivos": [
+    {
+     "dispositivo": "Art. 2º (acréscimo do inciso XII ao art. 3º da Lei 3.943/2016)",
+     "efeito": "Permite o uso de até 30% da receita do Fundo de Proteção Ambiental para pagamento de pessoal temporário, desviando recursos que deveriam ser aplicados diretamente em ações de fiscalização e recuperação ambiental.",
+     "citacao": "XII - despesas com contratação por tempo determinado para atender a necessidade temporária de excepcional interesse público, nos termos do art. 37, inciso IX da Constituição Federal, limitadas a 30% (trinta por cento) da receita consolidada do FEPRAM no exercício anterior.",
+     "secao": "## Texto integral da LEI"
+    }
+   ]
+  },
+  "veredito": "greenwashing",
+  "score_greenwashing": 0.8,
+  "mecanismos": [
+   "M1_norma_programatica_vazia",
+   "M2_reframing_de_regressao"
+  ],
+  "justificativa": "A norma utiliza uma retórica de fortalecimento da capacidade operacional da SEDAM para justificar a alteração do FEPRAM. No entanto, o efeito prático é a desnaturação do fundo, que passa a ser utilizado como fonte de custeio para despesas de pessoal (contratações temporárias) em vez de ser aplicado exclusivamente em projetos de proteção e recuperação ambiental. Ao permitir que até 30% da receita do fundo seja drenada para o pagamento de salários, a norma enfraquece a capacidade financeira de execução de políticas ambientais diretas, enquadrando-se como uma medida de desvio de finalidade orçamentária sob o pretexto de 'melhoria da infraestrutura'.",
+  "lacunas": [
+   "Não há lacunas significativas, pois o dossiê contém o projeto original e a lei promulgada, permitindo a comparação direta."
+  ],
+  "confianca": 0.9
+ },
+ "bruto": null,
+ "_meta": {
+  "modelo": "google/gemini-3.1-flash-lite",
+  "url": "https://openrouter.ai/api/v1/chat/completions",
+  "prompt_versao": "v2.2",
+  "prompt_hash": "79d59592d7d8",
+  "run_id": "20260730T154135-79d595",
+  "dossie_chars": 13496,
+  "quando": "2026-07-30T15:48:09+00:00",
+  "uso": {
+   "prompt_tokens": 6253,
+   "completion_tokens": 673,
+   "total_tokens": 6926,
+   "cost": 0.0025470225,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00257275,
+    "upstream_inference_prompt_cost": 0.00156325,
+    "upstream_inference_completions_cost": 0.0010095
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "provedor": "Google",
+  "finish_reason": "stop",
+  "tentativas": 1
+ }
+}
