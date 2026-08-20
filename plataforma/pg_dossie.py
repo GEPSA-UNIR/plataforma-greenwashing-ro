@@ -350,8 +350,7 @@ def render() -> None:
         sin = fontes.sinais()
         if sin is None:
             st.info("Os indicadores de processo legislativo ainda não foram calculados "
-                    "para o conjunto. A plataforma não inventa análise: sem o cálculo, "
-                    "não há o que mostrar aqui.")
+                    "para o conjunto — sem o cálculo, não há o que mostrar aqui.")
         else:
             linha = sin[sin["sapl_id"] == sid]
             if linha.empty:

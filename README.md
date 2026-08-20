@@ -4,6 +4,8 @@ Interface de consulta pública sobre a legislação ambiental do estado de Rond�
 construída a partir do registro oficial do processo legislativo da Assembleia
 Legislativa (SAPL/ALE-RO).
 
+**→ [gepsa-greenwashing-legislativo.streamlit.app](https://gepsa-greenwashing-legislativo.streamlit.app/)**
+
 **Greenwashing legislativo** é a distância entre o que uma norma *diz ser* e o que ela
 *faz*. Uma lei que retira proteção ambiental de forma explícita é retrocesso — grave,
 mas transparente. Greenwashing exige que a regressão esteja disfarçada.
@@ -21,6 +23,11 @@ Socioambientais da Amazônia (GEPSA)** · Universidade Federal de Rondônia.
 - **votação nominal** com o partido do parlamentar **à época do voto**, não o atual
 - **leitura por modelo de linguagem** de cada norma, com as citações conferidas contra
   o documento oficial
+
+As cinco páginas são Análise, Explorar, Cadeias, Dossiê e Tabela — respectivamente o
+painel da leitura por modelo, o mapa das normas no tempo, as famílias de normas ligadas
+por vínculos, uma norma por inteiro, e a visão tabular, que também é a *table view* de
+acessibilidade.
 
 ## Como ler o que está na tela
 
@@ -46,7 +53,20 @@ nosso, e não do documento, também.
 substitui análise jurídica, e não mede efeito ambiental no território — o cruzamento
 entre norma e dado de desmatamento não foi executado.
 
-## Rodar localmente
+## Este repositório é gerado
+
+Ele não é editado à mão. É um **recorte derivado** por script a partir do repositório de
+pesquisa, contendo apenas o código da interface e os arquivos que ela lê — nada da
+esteira de coleta, triagem e análise que produz esses arquivos.
+
+Alterações feitas aqui são perdidas na próxima exportação. Correções pertencem ao
+repositório de origem, mantido pelo grupo.
+
+## Rodar a partir do código
+
+Não é necessário para consultar — para isso existe o link no topo. Serve para conferir
+que os dados publicados são os que a interface exibe, para adaptar a plataforma a outro
+corpus, ou para acessá-la caso o serviço esteja fora do ar.
 
 ```bash
 pip install -r requirements.txt
@@ -56,27 +76,11 @@ streamlit run plataforma/app.py
 Sempre a partir da raiz do repositório: o Streamlit lê `.streamlit/config.toml` do
 diretório onde foi executado, e é ele que fixa o tema claro e a cor de destaque.
 
-## As cinco páginas
+## Fonte dos dados e uso
 
-| página | o que mostra |
-|---|---|
-| **Análise** | painel da leitura por modelo: vereditos, os dois eixos (retórica × efeito), citações conferidas |
-| **Explorar** | mapa clicável das normas no tempo, com filtros e busca |
-| **Cadeias** | famílias de normas ligadas por vínculos de ação |
-| **Dossiê** | uma norma por inteiro: origem, processo, votação nominal, linha do tempo, proveniência |
-| **Tabela** | visão tabular, que também é a *table view* de acessibilidade |
+Fonte primária: **SAPL da Assembleia Legislativa de Rondônia**, API pública. Os dados
+normativos são públicos.
 
-## De onde vem o dado
-
-Fonte primária: **SAPL da Assembleia Legislativa de Rondônia**, API pública.
-
-Este repositório é um **artefato derivado**: contém apenas o código da interface e os
-arquivos que ela lê. A esteira de coleta, triagem e análise que produz esses arquivos é
-mantida separadamente.
-
-Nenhuma página grava dado. A plataforma é somente-leitura.
-
-## Licença e uso
-
-Os dados normativos são públicos e provêm do SAPL/ALE-RO. Ao reutilizar material desta
-plataforma, cite o projeto e distinga o que é registro oficial do que é juízo de modelo.
+Ao reutilizar material desta plataforma, cite o projeto e **distinga o que é registro
+oficial do que é juízo de modelo** — a diferença está declarada em cada tela e é o que
+sustenta a confiabilidade do conjunto.

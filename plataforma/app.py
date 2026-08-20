@@ -115,9 +115,9 @@ with st.sidebar.expander("o que é este trabalho"):
         "norma (ementa, tramitação, votação nominal, texto do projeto e da lei) "
         "e submete cada dossiê a uma leitura por IA que precisa **citar "
         "literalmente** o que afirma.\n\n"
-        "**Ela não decide nada.** É somente-leitura: nenhum campo grava, nenhum "
-        "veredito é definitivo. Cada afirmação vem com a citação que a sustenta "
-        "e com o rótulo de qual modelo a produziu.")
+        "**Ela não decide nada.** Nenhum veredito é definitivo: cada afirmação "
+        "vem com a citação que a sustenta e com o rótulo de qual modelo a "
+        "produziu.")
 
 with st.sidebar.expander("glossário"):
     st.markdown(
@@ -153,5 +153,4 @@ with st.sidebar.expander("como ler os números"):
         "mão e falta muito. O que veio do registro e o que foi deduzido da "
         "ementa aparecem **sempre com rótulos separados**.")
 
-st.sidebar.caption("Somente-leitura · nada aqui grava dados")
 PAGINAS[pagina].render()
