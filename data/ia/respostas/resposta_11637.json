@@ -72,6 +72,8 @@
   },
   "provedor": "Google AI Studio",
   "finish_reason": "stop",
-  "tentativas": 1
+  "tentativas": 1,
+  "dossie_hash_retroativo": "e3b3bbd5a6f9",
+  "selado_em": "2026-08-11T22:39:18+00:00"
  }
 }

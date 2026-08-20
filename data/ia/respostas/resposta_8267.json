@@ -69,6 +69,8 @@
   },
   "provedor": "Google",
   "finish_reason": "stop",
-  "tentativas": 1
+  "tentativas": 1,
+  "dossie_hash_retroativo": "1dc4eeaef320",
+  "selado_em": "2026-08-11T22:39:18+00:00"
  }
 }
