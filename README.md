@@ -62,19 +62,17 @@ esteira de coleta, triagem e análise que produz esses arquivos.
 Alterações feitas aqui são perdidas na próxima exportação. Correções pertencem ao
 repositório de origem, mantido pelo grupo.
 
-## Rodar a partir do código
+## Publicar de novo
 
-Não é necessário para consultar — para isso existe o link no topo. Serve para conferir
-que os dados publicados são os que a interface exibe, para adaptar a plataforma a outro
-corpus, ou para acessá-la caso o serviço esteja fora do ar.
+Se a plataforma sair do ar, ou precisar ser republicada por outra pessoa, é um deploy no
+Streamlit Community Cloud apontando para este repositório:
 
-```bash
-pip install -r requirements.txt
-streamlit run plataforma/app.py
-```
-
-Sempre a partir da raiz do repositório: o Streamlit lê `.streamlit/config.toml` do
-diretório onde foi executado, e é ele que fixa o tema claro e a cor de destaque.
+- **Main file path**: `plataforma/app.py`
+- **Dependências**: `requirements.txt` na raiz — o Cloud não lê `pyproject.toml`
+- Roda a partir da **raiz**, e é de lá que o `.streamlit/config.toml` é lido. Ele fixa o
+  tema claro e a cor de destaque; sem isso a interface segue a preferência do navegador e
+  pode abrir escura, e o Streamlit volta ao vermelho padrão — que nesta paleta significa
+  "com ADI"
 
 ## Fonte dos dados e uso
 
