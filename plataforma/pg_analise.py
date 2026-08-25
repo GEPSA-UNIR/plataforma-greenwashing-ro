@@ -13,6 +13,7 @@ from collections import Counter
 import pandas as pd
 import streamlit as st
 
+import componentes
 import fontes
 import viz
 from pg_mapa import _tema
@@ -52,67 +53,6 @@ def _aplicar_filtro(**campos) -> None:
         if campos.get(nome):
             st.session_state[chave] = campos[nome]
     st.rerun()
-
-
-SECOES_CITAVEIS = ("## Ementa", "## Texto integral da LEI", "## Texto integral da norma",
-                   "## Texto do PROJETO original", "## Transcrição da sessão plenária")
-
-
-def _mostrar_evidencia(sapl_id: int) -> None:
-    """As citações literais que sustentam a leitura desta norma.
-
-    É a peça que faltava: o painel contava quantas citações havia e nunca
-    mostrava uma. Contagem pede que se acredite; o trecho deixa conferir. Cada
-    citação vem com a seção de onde o modelo diz tê-la tirado e com a marca de
-    ter sido reencontrada, ou não, no documento oficial.
-    """
-    resp = fontes.resposta_ia(sapl_id)
-    a = (resp or {}).get("analise")
-    if not a:
-        return
-
-    disp = (a.get("eixo_efeito") or {}).get("dispositivos") or []
-    cits = (a.get("eixo_retorica") or {}).get("citacoes") or []
-    if not disp and not cits:
-        return
-
-    def _par(c) -> tuple[str, str]:
-        """(trecho, seção) — aceita a forma antiga (string) e a nova (objeto)."""
-        if isinstance(c, dict):
-            return str(c.get("citacao") or ""), str(c.get("secao") or "")
-        return str(c), ""
-
-    def _selo(secao: str) -> str:
-        return ("documento oficial" if secao.startswith(SECOES_CITAVEIS)
-                else f"seção declarada: {secao}" if secao else "seção não declarada")
-
-    with st.expander(f"a evidência que o modelo usou — {len(disp)} dispositivo(s), "
-                     f"{len(cits)} citação(ões) de retórica", expanded=True):
-        if disp:
-            st.markdown("**O que os dispositivos fazem** — eixo do efeito")
-            for d in disp:
-                trecho, secao = _par(d)
-                nome = str(d.get("dispositivo") or "dispositivo não identificado")
-                st.markdown(f"**{nome}** — {d.get('efeito') or ''}")
-                if trecho:
-                    st.markdown(
-                        f"> {trecho}\n\n"
-                        f"<span style='font-size:.8em;color:#667085'>{_selo(secao)}"
-                        "</span>", unsafe_allow_html=True)
-        if cits:
-            st.markdown("**Como a norma se apresenta** — eixo da retórica")
-            for c in cits:
-                trecho, secao = _par(c)
-                if not trecho:
-                    continue
-                st.markdown(
-                    f"> {trecho}\n\n"
-                    f"<span style='font-size:.8em;color:#667085'>{_selo(secao)}</span>",
-                    unsafe_allow_html=True)
-        st.caption("Os trechos acima foram copiados pelo modelo do dossiê e "
-                   "reconferidos, palavra por palavra, contra o documento oficial. "
-                   "Divergiu? Vira citação não localizada, e aparece na contagem "
-                   "de conferência lá em cima.")
 
 
 def _cartao(titulo: str, corpo: str, cor: str = "#2a78d6") -> None:
@@ -330,6 +270,12 @@ def render() -> None:
                   help="O modelo reescreveu com as próprias palavras em vez de copiar. "
                        "A afirmação continua podendo estar certa, mas deixa de ser "
                        "verificável — e por isso não é aceita como prova.")
+        # Contagem sem amostra pede que se acredite nela. A evidência existe, mas
+        # mora no fim da página e depende de selecionar uma norma — sem este
+        # aviso, quem lê os quatro números aqui não descobre que dá para conferir.
+        st.caption("Para **ler** essas citações: abra o dossiê de qualquer norma, "
+                   "ou selecione uma em "
+                   "[ver as normas por trás dos números](#por-tras-dos-numeros).")
 
     # A confiança é AUTO-DECLARADA e satura no topo — mostrar isso é parte da
     # honestidade da página: um número que quase nunca varia não informa, e
@@ -513,7 +459,7 @@ def render() -> None:
     # uma. Esta seção é a ponte — recebe o clique dos gráficos acima, permite
     # filtrar à mão, e leva ao dossiê onde está a evidência.
     st.divider()
-    st.subheader("Ver as normas por trás dos números")
+    st.subheader("Ver as normas por trás dos números", anchor="por-tras-dos-numeros")
     st.caption("Clique numa célula da matriz, numa barra de veredito ou de "
                "mecanismo para filtrar esta lista — ou use os campos abaixo. "
                "Selecionando uma linha, abre-se o dossiê completo da norma.")
@@ -649,4 +595,4 @@ def render() -> None:
                 st.session_state["ir_para"] = "Dossiê"
                 st.rerun()
 
-    _mostrar_evidencia(int(esc["sapl_id"]))
+    componentes.mostrar_evidencia(int(esc["sapl_id"]))

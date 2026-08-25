@@ -10,6 +10,7 @@ from __future__ import annotations
 import pandas as pd
 import streamlit as st
 
+import componentes
 import fontes
 import viz
 from pg_cadeias import _componentes, dados_cadeia
@@ -468,3 +469,5 @@ def render() -> None:
                         # comparar com a string faria o aviso nunca aparecer
                         + (" (TRUNCADO)"
                            if str(r_ia["texto_truncado"]).lower() == "true" else ""))
+
+                    componentes.mostrar_evidencia(sid)
