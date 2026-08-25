@@ -129,26 +129,27 @@ def render() -> None:
     ind = fontes.indicadores().set_index("sapl_id")
     ev = fontes.eventos()
 
-    modelo = ia["modelo"].dropna().unique()
     quando = str(ia["quando"].dropna().max())[:10] if ia["quando"].notna().any() else "?"
-    prompt_v = ia["prompt_versao"].dropna().unique()
+    # Modelo e versão do roteiro saíram desta linha por decisão do autor: são a
+    # informação menos consultada aqui. A procedência não se perde — o dossiê de
+    # cada norma continua trazendo modelo, roteiro e data ao lado da leitura.
     st.caption(
-        f"**Juízo de modelo, não fato.** Leitura produzida pelo modelo de linguagem "
-        f"`{', '.join(modelo)}` em {quando}, seguindo um roteiro de análise fixo "
-        f"(versão `{', '.join(prompt_v)}`). Cada afirmação do modelo foi "
-        "conferida contra o documento oficial — o painel de honestidade abaixo "
+        f"**Juízo de modelo, não fato.** Leitura produzida por modelo de linguagem "
+        f"em {quando}, seguindo um roteiro de análise fixo. Cada afirmação do modelo "
+        "foi conferida contra o documento oficial — o painel de honestidade abaixo "
         "mostra o resultado dessa conferência.")
 
     # Sete seções num rolo único, sem recolhimento: sem índice, achar uma delas
     # exige rolar a página inteira, e numa segunda visita ninguém sabe voltar ao
     # ponto que interessava. Âncoras explícitas em vez do slug automático do
     # Streamlit, que depende de como ele trata o acento.
-    st.markdown(
-        "**Nesta página:** [a decomposição](#decomposicao) · "
-        "[os mecanismos](#mecanismos) · [o que foi conferido](#conferencia) · "
-        "[o critério externo](#criterio-externo) · "
-        "[o material disponível](#material) · [os limites](#limites) · "
-        "[a lista de normas](#por-tras-dos-numeros)")
+    st.markdown("**Nesta página**")
+    with st.container(key="indice_analise"):
+        st.markdown(
+            "[a decomposição](#decomposicao) [os mecanismos](#mecanismos) "
+            "[o que foi conferido](#conferencia) [o critério externo](#criterio-externo) "
+            "[o material disponível](#material) [os limites](#limites) "
+            "[a lista de normas](#por-tras-dos-numeros)")
 
     # ── 1. o que saiu ────────────────────────────────────────────────────────
     # NADA de `delta=` aqui: o st.metric sempre desenha ↑/↓ nesse campo, mesmo com
@@ -177,9 +178,6 @@ def render() -> None:
         partes.append(f"**{len(ia) - len(ok)}** leitura(s) foram reprovadas pela "
                       "conferência automática e não entram em nenhum número desta "
                       "página")
-    if not ev.empty:
-        partes.append(f"as **{len(ev)}** normas correspondem a **{ev['evento_id'].nunique()}** "
-                      "atos legislativos distintos")
     if partes:
         st.caption(" · ".join(partes).capitalize() + ".")
 
@@ -451,20 +449,21 @@ def render() -> None:
                          "uma não contestada. Em que fração deles a contestada recebeu "
                          "a nota mais alta? 0,50 é o mesmo que sortear no cara-ou-coroa; "
                          "1,00 seria separação perfeita.")})
-            st.caption(
-                "**Como ler a coluna de acerto.** Junte cada norma contestada com cada "
-                "norma não contestada, uma a uma. Em quantos desses pares a contestada "
-                "recebeu nota maior? É essa fração. **0,50 significa nenhum poder de "
-                "distinguir** — o mesmo que sortear.")
             n_pos_ev = len({evd.get(int(s), int(s)) for s in ok["sapl_id"]
                             if anc.get(int(s))})
-            st.warning(
-                f"**O número é frágil, e isso é parte do resultado.** Existem apenas "
-                f"**{n_pos_ev} atos contestados** no conjunto inteiro — Rondônia não "
-                "produziu mais ADIs ambientais que isso. Reclassificar **um único** "
-                f"deles muda o acerto em cerca de **{1/max(1,n_pos_ev):.2f}**, mais do "
-                "que separa várias linhas desta tabela. Serve para descrever o "
-                "conjunto, não para provar uma tese.")
+            # Duas ressalvas seguidas, e elas não são do mesmo tipo. A primeira
+            # qualifica a estatística da tabela ao lado — cabe recolhida, ao
+            # alcance de quem for usar o número. A segunda diz que o critério
+            # mede outra coisa: é a tese, e tese não se esconde atrás de clique.
+            with st.expander(f"por que este número é frágil — só {n_pos_ev} atos "
+                             "contestados no conjunto"):
+                st.markdown(
+                    f"Existem apenas **{n_pos_ev} atos contestados** no conjunto "
+                    "inteiro — Rondônia não produziu mais ADIs ambientais que isso. "
+                    "Reclassificar **um único** deles muda o acerto em cerca de "
+                    f"**{1/max(1,n_pos_ev):.2f}**, mais do que separa várias linhas "
+                    "desta tabela. Serve para descrever o conjunto, não para provar "
+                    "uma tese.")
             st.markdown(
                 "**E há um limite que nenhuma amostra maior resolve.** O critério mede "
                 "*ter sido contestada por ADI*, não *ser greenwashing* — são coisas "
@@ -513,9 +512,9 @@ def render() -> None:
         "13% das palavras saem reconhecíveis — a leitura dela não é confiável, e "
         "isso está dito no dossiê dessa norma.\n\n"
         "**O veredito é de um modelo, não de um juízo.** Não é decisão judicial nem "
-        "perícia técnica. Toda tela mostra qual modelo produziu a leitura e quando, "
-        "e cada afirmação guarda a citação que a sustenta — para que qualquer pessoa "
-        "possa conferir ou discordar com o documento na mão.")
+        "perícia técnica. O dossiê de cada norma mostra qual modelo produziu a "
+        "leitura e quando, e cada afirmação guarda a citação que a sustenta — para "
+        "que qualquer pessoa possa conferir ou discordar com o documento na mão.")
 
     # ── 7. das contagens para as normas ──────────────────────────────────────
     # Um painel que só mostra agregados é uma parede: "40 indícios de

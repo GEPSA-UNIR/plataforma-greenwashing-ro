@@ -52,6 +52,22 @@ st.markdown("""
       font-weight: 600 !important; color: #1a5fb4 !important;
   }
 
+  /* Índice da página Análise: são links de âncora de verdade — botão do
+     Streamlit não navega para fragmento, e link_button abriria fora da página.
+     O CSS só lhes dá aparência de botão; se esta regra sumir numa atualização,
+     continuam links funcionando, só que sublinhados. */
+  .st-key-indice_analise a {
+      display: inline-block; text-decoration: none !important;
+      border: 1px solid rgba(42,120,214,.35); border-radius: 6px;
+      padding: .18rem .6rem; margin: 0 .35rem .4rem 0;
+      font-size: .87rem; line-height: 1.5; color: #1a5fb4 !important;
+      background: rgba(42,120,214,.05); transition: background .12s ease;
+  }
+  .st-key-indice_analise a:hover,
+  .st-key-indice_analise a:focus-visible {
+      background: rgba(42,120,214,.16); border-color: rgba(42,120,214,.6);
+  }
+
   /* Campos de escolha de norma/cadeia aceitam DIGITAÇÃO para filtrar, mas o
      widget não mostra isso: com um chevron à direita e nada mais, ele lê como
      lista fechada e o recurso passa despercebido. A lupa à esquerda é o sinal
