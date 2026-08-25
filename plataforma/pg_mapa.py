@@ -107,5 +107,5 @@ def render() -> None:
         painel_norma(sid)
     else:
         st.caption("Arraste para navegar, roda do mouse para zoom. O cerco tracejado "
-                   "marca normas que **são um evento só** — aprovadas na mesma sessão "
+                   "marca normas que **são um ato só** — aprovadas na mesma sessão "
                    "plenária, contam como um caso, não como vários.")

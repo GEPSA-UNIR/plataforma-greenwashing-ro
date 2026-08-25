@@ -159,7 +159,7 @@ def _bloco_evento(sapl_id: int) -> None:
         return
     r = minha.iloc[0]
     if int(r["tamanho_evento"]) <= 1:
-        st.caption("Evento legislativo: **esta norma sozinha** — nenhuma outra do "
+        st.caption("Ato legislativo: **esta norma sozinha** — nenhuma outra do "
                    "conjunto a altera, é alterada por ela, ou foi votada na mesma sessão.")
         return
 
@@ -173,7 +173,7 @@ def _bloco_evento(sapl_id: int) -> None:
 
     irmas = ev[(ev["evento_id"] == r["evento_id"]) & (ev["sapl_id"] != sapl_id)]
     st.warning(
-        f"**Esta norma é 1 de {int(r['tamanho_evento'])} de um mesmo evento legislativo.** "
+        f"**Esta norma é 1 de {int(r['tamanho_evento'])} de um mesmo ato legislativo.** "
         f"Ler o veredito dela isoladamente pode enganar: o que essas normas fazem, "
         f"fazem juntas.")
     por_sessao = [int(x) for x in str(r["companheiros_sessao"]).split(";") if x]
@@ -183,7 +183,7 @@ def _bloco_evento(sapl_id: int) -> None:
                     + (f", quórum {r['presentes']}" if str(r["presentes"]) else "")
                     + f") junto com **{len(por_sessao)}** outra(s) do conjunto — "
                       "mesma sessão, mesmo ato de votar.")
-    with st.expander(f"as outras {len(irmas)} normas deste evento"):
+    with st.expander(f"as outras {len(irmas)} normas deste ato"):
         st.dataframe(pd.DataFrame([
             {"norma": _rot(int(x["sapl_id"])),
              "ligada por": {"cadeia": "cadeia jurídica", "sessao": "mesma sessão",
@@ -336,7 +336,7 @@ def render() -> None:
     n_avisos = int(r["n_alertas"]) + len(f.get("lacunas_desta_versao") or [])
 
     abas = st.tabs(["Resumo", "Cadeia", "Votação", "Linha do tempo",
-                    f"Proveniência{f' ({n_avisos})' if n_avisos else ''}", "Análise"])
+                    f"Proveniência{f' ({n_avisos})' if n_avisos else ''}", "Indícios e leitura"])
     with abas[0]:
         _aba_resumo(f, r)
     with abas[1]:
@@ -348,6 +348,11 @@ def render() -> None:
     with abas[4]:
         _aba_proveniencia(f)
     with abas[5]:
+        # Duas camadas epistemicamente distintas moravam nesta aba separadas só
+        # por um traço horizontal: fato apurado do registro oficial e juízo de
+        # modelo. A separação é o eixo do projeto — a hierarquia da tela tem de
+        # dizê-la, não só o texto corrido.
+        st.markdown("### Fatos do processo legislativo")
         sin = fontes.sinais()
         if sin is None:
             st.info("Os indicadores de processo legislativo ainda não foram calculados "
@@ -401,6 +406,7 @@ def render() -> None:
                     st.dataframe(tabela, width="stretch")
 
         st.divider()
+        st.markdown("### Leitura por IA — *juízo de modelo, não fato*")
         ia = fontes.analise_ia()
         if ia is None:
             st.caption("A leitura por IA ainda não foi executada para o conjunto.")
@@ -415,7 +421,6 @@ def render() -> None:
                                f"automática e por isso não é exibida. Motivo: "
                                f"{r_ia['problemas']}")
                 else:
-                    st.markdown("### Leitura por IA — *juízo de modelo, não fato*")
                     st.caption(f"Modelo {r_ia['modelo']} · roteiro de análise "
                                f"{r_ia['prompt_versao']} · {str(r_ia['quando'])[:10]}")
                     st.markdown(f"**veredito:** {r_ia['veredito']} · "

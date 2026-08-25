@@ -45,7 +45,7 @@ def _resumo_eventos() -> None:
                    "atos legislativos — é esse número menor que conta.")
     st.caption(
         f"As {len(ev)} normas **não são {len(ev)} observações independentes**: agrupam-se "
-        f"em **{n_eventos} eventos**. O maior tem **{maior} normas** — a família em torno "
+        f"em **{n_eventos} atos**. O maior tem **{maior} normas** — a família em torno "
         f"da {rot_maior}, uma década de leis alterando umas às outras. E "
         f"**{maior_sessao} Decretos Legislativos** de 2018 saíram da MESMA sessão "
         "extraordinária: um ato fatiado em peças por exigência formal, não "

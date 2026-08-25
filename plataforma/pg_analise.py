@@ -55,6 +55,45 @@ def _aplicar_filtro(**campos) -> None:
     st.rerun()
 
 
+def _resumo_filtro(base: pd.DataFrame, onde: str) -> None:
+    """Confirmação do filtro NO PONTO DA AÇÃO.
+
+    Clicar num gráfico aplica um filtro à lista de normas — que fica centenas de
+    linhas abaixo, fora da tela. Sem esta faixa, o gesto não devolve nada onde o
+    olho está: o gráfico não muda, nada aparece, e o clique parece não ter
+    funcionado, logo no recurso mais poderoso da página. `onde` só distingue a
+    chave do botão; o estado mostrado é o mesmo depois de cada grupo de gráficos.
+    """
+    rotulos = {"f_veredito": "veredito", "f_mecanismo": "mecanismo",
+               "f_retorica": "retórica", "f_efeito": "efeito"}
+    ativos = [(rotulos[c], st.session_state.get(c) or [])
+              for c in FILTROS if st.session_state.get(c)]
+    if not ativos:
+        return
+
+    # mesma lógica da lista lá embaixo, para as duas contagens não divergirem
+    vis = base
+    for chave, coluna in (("f_veredito", "veredito"), ("f_retorica", "retorica"),
+                          ("f_efeito", "efeito")):
+        if st.session_state.get(chave):
+            vis = vis[vis[coluna].isin(st.session_state[chave])]
+    if st.session_state.get("f_mecanismo"):
+        alvo = set(st.session_state["f_mecanismo"])
+        vis = vis[vis["mecanismos"].map(
+            lambda s: bool(alvo & {m for m in str(s).split(";") if m}))]
+
+    texto = " · ".join(
+        f"**{rot}** " + ", ".join(str(v).replace("_", " ") for v in vals)
+        for rot, vals in ativos)
+    c1, c2 = st.columns([5, 1])
+    c1.info(f"Filtrando por {texto} — **{len(vis)} de {len(base)} normas**. "
+            "A lista está em [ver as normas por trás dos números]"
+            "(#por-tras-dos-numeros).")
+    if c2.button("limpar", key=f"limpar_{onde}", width="stretch"):
+        st.session_state["_limpar_filtros"] = True
+        st.rerun()
+
+
 def _cartao(titulo: str, corpo: str, cor: str = "#2a78d6") -> None:
     """Bloco de explicação com barra colorida — separa 'o que é' de 'o que achamos'."""
     st.markdown(
@@ -76,6 +115,16 @@ def render() -> None:
                 "prontos em `data/ia/dossies/`; rode `scripts/analisar_ia.py`.")
         return
 
+    # O pedido de limpar é consumido AQUI, antes de qualquer gráfico: a faixa de
+    # confirmação lê as mesmas chaves logo abaixo, e se a limpeza só acontecesse
+    # na seção da lista, um mesmo ciclo desenharia a faixa dizendo que há filtro
+    # e a lista mostrando tudo.
+    if st.session_state.pop("_limpar_filtros", False):
+        for chave in FILTROS:
+            st.session_state[chave] = []
+    for chave in FILTROS:
+        st.session_state.setdefault(chave, [])
+
     ok = ia[ia["status"] != "descartada"]
     ind = fontes.indicadores().set_index("sapl_id")
     ev = fontes.eventos()
@@ -89,6 +138,17 @@ def render() -> None:
         f"(versão `{', '.join(prompt_v)}`). Cada afirmação do modelo foi "
         "conferida contra o documento oficial — o painel de honestidade abaixo "
         "mostra o resultado dessa conferência.")
+
+    # Sete seções num rolo único, sem recolhimento: sem índice, achar uma delas
+    # exige rolar a página inteira, e numa segunda visita ninguém sabe voltar ao
+    # ponto que interessava. Âncoras explícitas em vez do slug automático do
+    # Streamlit, que depende de como ele trata o acento.
+    st.markdown(
+        "**Nesta página:** [a decomposição](#decomposicao) · "
+        "[os mecanismos](#mecanismos) · [o que foi conferido](#conferencia) · "
+        "[o critério externo](#criterio-externo) · "
+        "[o material disponível](#material) · [os limites](#limites) · "
+        "[a lista de normas](#por-tras-dos-numeros)")
 
     # ── 1. o que saiu ────────────────────────────────────────────────────────
     # NADA de `delta=` aqui: o st.metric sempre desenha ↑/↓ nesse campo, mesmo com
@@ -126,7 +186,7 @@ def render() -> None:
     st.divider()
 
     # ── 2. a decomposição de dois eixos ──────────────────────────────────────
-    st.subheader("A decomposição: retórica × efeito")
+    st.subheader("A decomposição: retórica × efeito", anchor="decomposicao")
     _cartao("Por que dois eixos, e não uma nota",
             "Greenwashing não é <i>fazer mal ao meio ambiente</i> — é a <b>distância</b> "
             "entre o que a norma diz ser e o que ela faz. O que o define é o "
@@ -164,6 +224,8 @@ def render() -> None:
         if cd:
             _aplicar_filtro(veredito=[str(cd)])
 
+    _resumo_filtro(ok, "eixos")
+
     st.markdown(
         f"**Como ler os vereditos.** As duas primeiras barras são espécies do mesmo "
         f"gênero — juntas, **{n_regressao + n_esvazia} normas com disfarce ambiental**.\n\n"
@@ -180,7 +242,7 @@ def render() -> None:
     st.divider()
 
     # ── 3. mecanismos ────────────────────────────────────────────────────────
-    st.subheader("Como a dissimulação aparece")
+    st.subheader("Como a dissimulação aparece", anchor="mecanismos")
     mec = Counter(m for s in ok["mecanismos"] for m in str(s).split(";") if m)
     if mec:
         e2, d2 = st.columns([3, 2])
@@ -241,10 +303,12 @@ def render() -> None:
                 + "Os dois se apoiam: o reenquadramento dá a justificativa pública, e a "
                   "delegação move a decisão para onde há menos controle.")
 
+    _resumo_filtro(ok, "mecanismos")
+
     st.divider()
 
     # ── 4. honestidade: o que a plataforma faz contra si mesma ───────────────
-    st.subheader("O que foi conferido")
+    st.subheader("O que foi conferido", anchor="conferencia")
     _cartao("O modelo tem de mostrar de onde tirou",
             "Toda afirmação relevante exige <b>citação literal</b>, e a máquina confere "
             "cada uma contra o texto oficial dentro do próprio dossiê. Citação que não "
@@ -324,7 +388,7 @@ def render() -> None:
     st.divider()
 
     # ── 5. o teste contra as ADIs, com a correção de independência ───────────
-    st.subheader("Conferindo a leitura contra um critério externo")
+    st.subheader("Conferindo a leitura contra um critério externo", anchor="criterio-externo")
     _cartao("Como se testa uma leitura destas",
             "Se o modelo lê bem, as normas que ele aponta como dissimuladas deveriam "
             "coincidir com normas que a Justiça já contestou. Usamos como <b>critério "
@@ -412,7 +476,7 @@ def render() -> None:
     st.divider()
 
     # ── 6. com o que o modelo trabalhou, e o que ficou de fora ───────────────
-    st.subheader("Com que material o modelo trabalhou")
+    st.subheader("Com que material o modelo trabalhou", anchor="material")
     idx_col = ia["fonte_texto"].value_counts().to_dict()
     trunc = int((ia["texto_truncado"].astype(str).str.lower() == "true").sum())
     n_ambos = idx_col.get("ambos", 0)
@@ -435,7 +499,7 @@ def render() -> None:
     ])
     st.dataframe(cob[cob["normas"] > 0], width="stretch", hide_index=True)
 
-    st.subheader("O que esta análise não alcança")
+    st.subheader("O que esta análise não alcança", anchor="limites")
     st.markdown(
         f"**Anexos de tabela em {trunc} leis extensas.** Três leis do licenciamento "
         "ambiental passam de 80 páginas, quase todas de tabelas que classificam "
@@ -467,12 +531,6 @@ def render() -> None:
     # o pedido de limpar chega como BANDEIRA, consumida aqui — antes de os
     # multiselects nascerem. Escrever direto na chave de um widget já
     # instanciado no mesmo ciclo é erro no Streamlit, e era o que o botão fazia.
-    if st.session_state.pop("_limpar_filtros", False):
-        for chave in FILTROS:
-            st.session_state[chave] = []
-    for chave in FILTROS:
-        st.session_state.setdefault(chave, [])
-
     ROTULO_MEC = {"M1_norma_programatica_vazia": "M1 · programática vazia",
                   "M2_reframing_de_regressao": "M2 · reframing de regressão",
                   "M3_revogacao_tacita": "M3 · revogação tácita",

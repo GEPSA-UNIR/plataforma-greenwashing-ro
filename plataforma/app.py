@@ -104,7 +104,10 @@ if destino in PAGINAS:
 pagina = st.sidebar.radio("página", list(PAGINAS), key="pagina",
                           label_visibility="collapsed")
 
-with st.sidebar.expander("o que é este trabalho"):
+# Aberto por padrão: é aqui que está a definição sem a qual a plataforma
+# inteira é ilegível — que greenwashing é a DISTÂNCIA entre o que a norma diz
+# e o que faz. Fechado, o conceito central dependia de curiosidade.
+with st.sidebar.expander("o que é este trabalho", expanded=True):
     st.markdown(
         "**Greenwashing legislativo** é a distância entre o que uma norma "
         "*diz ser* e o que ela *faz*. Uma lei que retira proteção ambiental de "
@@ -128,7 +131,7 @@ with st.sidebar.expander("glossário"):
         "na ementa, na justificativa e na fala dos parlamentares.\n\n"
         "**Efeito (eixo)** — o que os dispositivos *fazem* com o nível de "
         "proteção: fortalecem, mantêm ou enfraquecem.\n\n"
-        "**Ato (ou evento)** — normas que alteram umas às outras, ou aprovadas "
+        "**Ato** — normas que alteram umas às outras, ou aprovadas "
         "na mesma sessão plenária, contam como **um caso só**.\n\n"
         "**Citação conferida** — trecho que a IA afirmou ter copiado e que a "
         "máquina reencontrou, palavra por palavra, no documento oficial.\n\n"
