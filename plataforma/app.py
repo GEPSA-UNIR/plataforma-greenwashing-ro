@@ -8,6 +8,9 @@ a esteira produziu (fontes.py). Rodar de dentro de plataforma/:
 
 from __future__ import annotations
 
+from base64 import b64encode
+from pathlib import Path
+
 import streamlit as st
 
 st.set_page_config(page_title="Greenwashing Legislativo", page_icon="🌳",
@@ -43,13 +46,13 @@ st.markdown("""
       font-size: .95rem !important; line-height: 1.35;
   }
   section[data-testid="stSidebar"] div[role="radiogroup"] > label:hover {
-      background: rgba(42,120,214,.07);
+      background: rgba(120,216,84,.10);
   }
   section[data-testid="stSidebar"] div[role="radiogroup"] > label:has(input:checked) {
-      background: rgba(42,120,214,.13);
+      background: rgba(120,216,84,.20);
   }
   section[data-testid="stSidebar"] div[role="radiogroup"] > label:has(input:checked) p {
-      font-weight: 600 !important; color: #1a5fb4 !important;
+      font-weight: 600 !important; color: #A8E68A !important;
   }
 
   /* Índice da página Análise: são links de âncora de verdade — botão do
@@ -58,14 +61,14 @@ st.markdown("""
      continuam links funcionando, só que sublinhados. */
   .st-key-indice_analise a {
       display: inline-block; text-decoration: none !important;
-      border: 1px solid rgba(42,120,214,.35); border-radius: 6px;
+      border: 1px solid rgba(47,125,50,.35); border-radius: 6px;
       padding: .18rem .6rem; margin: 0 .35rem .4rem 0;
-      font-size: .87rem; line-height: 1.5; color: #1a5fb4 !important;
-      background: rgba(42,120,214,.05); transition: background .12s ease;
+      font-size: .87rem; line-height: 1.5; color: #2F7D32 !important;
+      background: rgba(47,125,50,.05); transition: background .12s ease;
   }
   .st-key-indice_analise a:hover,
   .st-key-indice_analise a:focus-visible {
-      background: rgba(42,120,214,.16); border-color: rgba(42,120,214,.6);
+      background: rgba(47,125,50,.16); border-color: rgba(47,125,50,.6);
   }
 
   /* Campos de escolha de norma/cadeia aceitam DIGITAÇÃO para filtrar, mas o
@@ -108,6 +111,10 @@ PAGINAS = {
     "Tabela": pg_normas,
 }
 
+# Embutido em base64: independe do servidor de mídia do Streamlit.
+_logo = b64encode((Path(__file__).parent / "assets" / "logo-gepsa-branco.png").read_bytes())
+st.sidebar.markdown(f"<img src='data:image/png;base64,{_logo.decode()}' alt='GEPSA' "
+                    "style='width:100%;margin-bottom:.6rem'>", unsafe_allow_html=True)
 st.sidebar.markdown("#### Detecção de Greenwashing Legislativo Ambiental")
 st.sidebar.caption("Rondônia · PVC1813-2025 · UNIR · dados: SAPL/ALE-RO")
 

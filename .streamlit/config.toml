@@ -4,13 +4,24 @@
 # viz.py escolhe a paleta por st.context.theme.type, que passa a responder "light".
 [theme]
 base = "light"
-# cor de destaque: o mesmo azul dos gráficos (viz._CORES["light"]["vigente"]),
-# para que botão, foco de campo e barra de progresso não briguem com a paleta
-# das figuras. Sem isto o Streamlit usa vermelho, que na plataforma significa
-# "com ADI" — a interface estaria dizendo uma coisa que o dado não diz.
-primaryColor = "#2a78d6"
-textColor = "#111111"
-secondaryBackgroundColor = "#f2f4f7"
+# Identidade do GEPSA. O verde do logo (#78D854) não tem contraste como texto
+# sobre branco, então a cor de ação é um verde escuro derivado dele, e o verde
+# do logo fica para acentos. Vermelho continua fora da interface: na plataforma
+# ele significa "com ADI". As cores dos gráficos ficam em viz._CORES.
+primaryColor = "#2F7D32"
+textColor = "#1E261E"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EDF5E6"
+borderColor = "#CFE0C4"
+linkColor = "#2F7D32"
+
+[theme.sidebar]
+backgroundColor = "#243226"
+secondaryBackgroundColor = "#2F4032"
+textColor = "#F1F6EC"
+primaryColor = "#78D854"
+borderColor = "#3F5442"
+linkColor = "#A8E68A"
 
 [client]
 # sem menu de desenvolvimento para o visitante
